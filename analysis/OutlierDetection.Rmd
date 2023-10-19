@@ -1,0 +1,250 @@
+---
+title: "Testing Outliers"
+author: "Alexander Margetts"
+date: "`r Sys.Date()`"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+  code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(gprofiler2)
+library(DESeq2)
+library(ggplot2)
+library(clusterProfiler)
+library(biomaRt)
+library(ReactomePA)
+library(DOSE)
+options(connectionObserver = NULL)
+library(org.Mm.eg.db)
+library(tximport)
+library(ggsci)
+library(pheatmap)
+library(genefilter)
+library(RColorBrewer)
+library(GO.db)
+library(topGO)
+library(dplyr)
+library(gage)
+library(pathview)
+library(WGCNA)
+library(tidyr)
+library(enrichplot)
+library(ggnewscale)
+library(SPIA)
+library(ggpubr)
+library(apeglm)
+library(GOSemSim)
+library(edgeR)
+library(tweeDEseqCountData)
+library(statmod)
+library(org.Mm.eg.db)
+library(tidyverse)
+library(pheatmap)
+library(gplots)
+library(Mus.musculus)
+library(Glimma)
+library(RColorBrewer)
+library(clusterProfiler)
+library(ReactomePA)
+library(enrichplot)
+library(ggnewscale)
+library(knitr)
+library(tables)
+library(vidger)
+library(kableExtra)
+library(regionReport)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(ggpubr)
+library(dplyr)
+library(conflicted)
+library(ggplot2)
+library(ggrepel)
+library(ggplot2)
+library(ggrepel)
+library(RColorBrewer)
+library(pheatmap)
+library(DEGreport)
+library(data.table)
+library(readr)
+library(PoiClaClu)
+library(ggbeeswarm)
+library(viridis)
+conflicts_prefer(dplyr::setdiff)
+library("BiocParallel")
+register(MulticoreParam())
+
+```
+
+# Description
+
+Outlier samples consisted of mice that were “high” responders from METH (or saline) IVSA. We could not 
+stratify our data by infusion number, since we did not have a sufficient sample size to do so. Therefore, these 
+samples were removed to not confound the findings in this analysis.
+
+# Setup (Part 1 -- Analyzing Outliers)
+
+Building DESeq2 input files from gene count matrices output by StringTie.
+
+```{r DESeq2 Build, message=FALSE, warning=FALSE, include=FALSE}
+## Run DEeq2 from Matrix output using Stringtie to compare all groups
+
+setwd("/home/avm27/Documents/Raw_Sequencing_Data/MIVSA/MIVSA_R/MethamphetamineIVSA_RNASequencing")
+
+colData <- read.csv("data/sample_info_outliers.csv", sep = ",", row.names = 1)
+colData
+#countData <-as.matrix(read.csv("/home/avm27/Documents/Raw_Sequencing_Data/MIVSA/MIVSA_R/gene_count_matrix_MIVSA.csv", row.names = "gene_id"))
+OGcountData <-as.data.frame(read.csv("data/gene_count_matrix_MIVSA.csv", row.names = "gene_id"))
+colnames(OGcountData)
+countData <- OGcountData %>% 
+        dplyr::rename("ABS01" = "CRV01",
+               "ABS02" = "CRV02",
+               "ABS03" = "CRV03",
+               "ABS04" = "CRV04",
+               "ABS05" = "CRV05",
+               "ABS06" = "CRV06",
+               "ABS07" = "CRV07") %>% as.matrix
+
+colnames(countData)
+rownames(colData)
+all(rownames(colData) %in% colnames(countData))
+countData <- countData[, rownames(colData)]
+all(rownames(colData) == colnames(countData))
+
+dds <- DESeqDataSetFromMatrix(countData = countData, colData = colData, design = ~condition)
+
+## Relevel Condition to Analyze Each group against Saline
+dds$condition <- relevel(dds$condition, ref = "Saline")
+dds <- DESeq(dds)
+```
+
+# Checking on Poisson distances to check for obvious outliers
+
+
+```{r Testing Outlier Detection, echo=TRUE, message=FALSE, warning=FALSE}
+
+# Heatmap, Poisson
+poisd <- PoissonDistance(t(counts(dds)))
+samplePoisDistMatrix <- as.matrix( poisd$dd )
+colnames(samplePoisDistMatrix) <- c("ABS01","ABS02","ABS03","ABS04","ABS05","ABS06","ABS07",
+                                    "MN01","MN02","MN03","MN04","MN05","MN06","MN07", "MN08",
+                                    "SAL01","SAL02","SAL03","SAL04","SAL05","SAL06","SAL07","SAL08")
+
+rownames(samplePoisDistMatrix) <- c("ABS01","ABS02","ABS03","ABS04","ABS05","ABS06","ABS07",
+                                    "MN01","MN02","MN03","MN04","MN05","MN06","MN07", "MN08",
+                                    "SAL01","SAL02","SAL03","SAL04","SAL05","SAL06","SAL07","SAL08")
+
+colors <- colorRampPalette(rev(brewer.pal(11, "RdYlBu")) )(255)
+
+conflicts_prefer(pheatmap::pheatmap)
+
+pheatmap(samplePoisDistMatrix,
+         clustering_distance_rows = poisd$dd,
+         clustering_distance_cols = poisd$dd,
+         col = colors,
+         main = "Poisson distances -- Pre-Outlier Removal")
+
+```
+
+# Checking cooks distances
+
+We can begin to identify some outliers based on these cooks distances, as it is a measure of varaibility by gene.
+
+```{r}
+
+par(mar=c(8,5,2,2))
+boxplot(log10(assays(dds)[["cooks"]]), range=0, las=2)
+
+
+```
+
+
+# Visualize some of these outliers and replacement effect
+
+```{r message=FALSE, warning=FALSE}
+
+# 6) Visual and manual inspection of outlier (SAL06).
+dds.rep <- DESeq(dds)
+res.A <- results(dds.rep, contrast = c("condition", "Maintenance", "Abstinence"))
+summary(res.A)
+
+# Running DESeq, turning off outlier detection and replacement
+dds.norep <- DESeq(dds, minReplicatesForReplace = Inf)
+res.A.norep <- results(dds.norep, contrast = c("condition", "Maintenance", "Abstinence"), cooksCutoff = FALSE)
+summary(res.A.norep)
+
+```
+
+The majority of issues here stem from low counts as defined by DESeq2.
+
+
+```{r message=FALSE, warning=FALSE}
+# Comparing original counts vs replaced counts
+
+# What genes changed p.value when turning off replacement? 
+Dif.no.rep <- (res.A$pvalue - res.A.norep$pvalue)
+# indexes for the genes with replacement
+g.rep.indx <- which(Dif.no.rep != 0)
+
+# order outlier genes according to their pvalue (when using filtering and replacement)
+subset.res <- res.A[g.rep.indx,]
+subset.res.sorted <- subset.res[order(subset.res$pvalue, decreasing = FALSE), ]
+
+# Plot the (normalised) original counts vs the (normalised) replaced counts
+#   Top 4 genes with smallest p.value when using replacement
+
+# Original gene counts
+topGene <- rownames(subset.res.sorted)[49]
+normCounts <- plotCounts(dds.rep, gene = topGene, intgroup = c("condition"), returnData = TRUE)
+plot1 <- ggplot(normCounts, aes(x = condition, y = count, color = condition, label = colnames(dds))) +
+  scale_y_log10() +  geom_beeswarm(cex = 3) +
+  ggrepel::geom_label_repel(box.padding = 0.5, max.overlaps = 6) +
+  ggtitle(topGene, "without replacement")
+
+# counts with replacement
+normCounts <- plotCounts(dds.rep, gene = topGene, intgroup = c("condition"), replaced = TRUE, returnData = TRUE)
+plot2 <- ggplot(normCounts, aes(x = condition, y = count, color = condition, label = colnames(dds))) +
+  scale_y_log10() +  geom_beeswarm(cex = 3) +
+  ggrepel::geom_label_repel(box.padding = 0.5, max.overlaps = 6) +
+  ggtitle(paste0(topGene, " with replacement"))
+
+plot1
+plot2
+
+# [...] similar code goes for the top 3 genes
+```
+
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+ # Input is a matrix of log transformed values
+ rld <- rlog(dds, blind=T)
+ rld_mat <- assay(rld)
+ pca <- prcomp(t(rld_mat))
+ 
+```
+ 
+```{r message=FALSE, warning=FALSE}
+ 
+
+ # Create data frame with metadata and PC1 and PC2 values for input to ggplot
+ df <- cbind(colData, pca$x)
+ ggplot(df) + geom_point(aes(x=PC1, y=PC2, color = condition))
+
+ ggplot(df, (aes(x=PC1, y=PC2, color = condition, label = colnames(dds)))) +
+  theme_bw() + # remove default ggplot2 theme
+  geom_point(size = 1) + # Increase point size
+  #scale_y_continuous(limits = c(-20, 20)) +# change limits to fix figure dimensions
+  #scale_x_continuous(limits = c(-40, 40)) +# change limits to fix figure dimensions
+  xlab(paste0("PC1: ",pca$sdev[1],"% variance")) +
+  ylab(paste0("PC2: ",pca$sdev[2],"% variance")) + 
+  ggrepel::geom_label_repel(box.padding = 0.5, max.overlaps = 6) +
+  coord_fixed() +
+  ggtitle(label = "Principal Component Analysis (PCA)", 
+          subtitle = "All Genes (variance stabilized)")
+
+```

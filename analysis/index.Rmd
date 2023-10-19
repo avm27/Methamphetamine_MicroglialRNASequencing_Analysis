@@ -9,3 +9,7 @@ editor_options:
 ---
 
 Welcome to my research website.
+
+
+* [MIVSA_RAnalysis_WorkFlowR](MIVSA_RAnalysis_WorkFlowR.html)
+* [OutlierDetection](OutlierDetection.html)
