@@ -18,7 +18,7 @@
 <script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -35,8 +35,7 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/navigation-1.1/codefolding.js"></script>
 <link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 
@@ -59,18 +58,118 @@ div.section {
   ul.task-list{list-style: none;}
     </style>
 
-<style type="text/css">code{white-space: pre;}</style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+
+
+<style type="text/css">
+  code {
+    white-space: pre;
   }
+  .sourceCode {
+    overflow: visible;
+  }
+</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
 }
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  background-color: #f8f8f8; }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ef2929; } /* Alert */
+code span.an { color: #8f5902; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #c4a000; } /* Attribute */
+code span.bn { color: #0000cf; } /* BaseN */
+code span.cf { color: #204a87; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4e9a06; } /* Char */
+code span.cn { color: #000000; } /* Constant */
+code span.co { color: #8f5902; font-style: italic; } /* Comment */
+code span.cv { color: #8f5902; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #8f5902; font-weight: bold; font-style: italic; } /* Documentation */
+code span.dt { color: #204a87; } /* DataType */
+code span.dv { color: #0000cf; } /* DecVal */
+code span.er { color: #a40000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #0000cf; } /* Float */
+code span.fu { color: #000000; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #8f5902; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #204a87; font-weight: bold; } /* Keyword */
+code span.op { color: #ce5c00; font-weight: bold; } /* Operator */
+code span.ot { color: #8f5902; } /* Other */
+code span.pp { color: #8f5902; font-style: italic; } /* Preprocessor */
+code span.sc { color: #000000; } /* SpecialChar */
+code span.ss { color: #4e9a06; } /* SpecialString */
+code span.st { color: #4e9a06; } /* String */
+code span.va { color: #000000; } /* Variable */
+code span.vs { color: #4e9a06; } /* VerbatimString */
+code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warning */
+
+.sourceCode .row {
+  width: 100%;
+}
+.sourceCode {
+  overflow-x: auto;
+}
+.code-folding-btn {
+  margin-right: -30px;
+}
+</style>
+<script>
+// apply pandoc div.sourceCode style to pre.sourceCode instead
+(function() {
+  var sheets = document.styleSheets;
+  for (var i = 0; i < sheets.length; i++) {
+    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
+    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
+    var j = 0;
+    while (j < rules.length) {
+      var rule = rules[j];
+      // check if there is a div.sourceCode rule
+      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") {
+        j++;
+        continue;
+      }
+      var style = rule.style.cssText;
+      // check if color or background-color is set
+      if (rule.style.color === '' && rule.style.backgroundColor === '') {
+        j++;
+        continue;
+      }
+      // replace div.sourceCode by a pre.sourceCode rule
+      sheets[i].deleteRule(j);
+      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
+    }
+  }
+})();
 </script>
-
-
 
 
 
@@ -233,6 +332,9 @@ $(document).ready(function () {
 </style>
 
 <!-- code folding -->
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+</style>
 
 
 
@@ -328,15 +430,15 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Methamphetamine_MicroglialRNASequencing_Analysis</a>
+      <a class="navbar-brand" href="index.html">Methamphetamine IVSA Microglial RNASequencing Analysis</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">Home</a>
+  <a href="OutlierDetection.html">Outliers</a>
 </li>
 <li>
-  <a href="about.html">About</a>
+  <a href="about.html">About Our Lab</a>
 </li>
 <li>
   <a href="license.html">License</a>
@@ -356,6 +458,14 @@ div.tocify {
 </div><!--/.navbar -->
 
 <div id="header">
+
+<div class="btn-group pull-right float-right">
+<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
+<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+</ul>
+</div>
 
 
 
@@ -522,15 +632,15 @@ project makes it easier to run your code on other machines.</p>
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomavm27MethamphetamineMicroglialRNASequencingAnalysistreee92ae3ee9535578dff07df5fd59852c6c0241b87targetblanke92ae3ea">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomavm27MethamphetamineMicroglialRNASequencingAnalysistree7acd23626b3bedfde2ee93a678d4923d413fbe1etargetblank7acd236a">
 <span class="glyphicon glyphicon-ok text-success"
 aria-hidden="true"></span> <strong>Repository version:</strong>
-<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/tree/e92ae3ee9535578dff07df5fd59852c6c0241b87" target="_blank">e92ae3e</a>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/tree/7acd23626b3bedfde2ee93a678d4923d413fbe1e" target="_blank">7acd236</a>
 </a>
 </p>
 </div>
 <div
-id="strongRepositoryversionstrongahrefhttpsgithubcomavm27MethamphetamineMicroglialRNASequencingAnalysistreee92ae3ee9535578dff07df5fd59852c6c0241b87targetblanke92ae3ea"
+id="strongRepositoryversionstrongahrefhttpsgithubcomavm27MethamphetamineMicroglialRNASequencingAnalysistree7acd23626b3bedfde2ee93a678d4923d413fbe1etargetblank7acd236a"
 class="panel-collapse collapse">
 <div class="panel-body">
 <p>
@@ -540,7 +650,7 @@ reproducibility.
 </p>
 <p>
 The results in this page were generated with repository version
-<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/tree/e92ae3ee9535578dff07df5fd59852c6c0241b87" target="_blank">e92ae3e</a>.
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/tree/7acd23626b3bedfde2ee93a678d4923d413fbe1e" target="_blank">7acd236</a>.
 See the <em>Past versions</em> tab to see a history of the changes made
 to the R Markdown and HTML files.
 </p>
@@ -554,7 +664,29 @@ depends on. Below is the status of the Git repository when the results
 were generated:
 </p>
 <pre><code>
-working directory clean
+Untracked files:
+    Untracked:  data/Comparison_GO_GeneID_barplots.csv
+    Untracked:  data/Comparison_GO_GeneID_barplots_labeled.csv
+    Untracked:  data/Filtered_GO_Combined_Final.csv
+    Untracked:  data/GO_MIVSA_Abstinence_vs_Maintenance_circle.txt
+    Untracked:  data/GO_MIVSA_Abstinence_vs_Saline_circle.txt
+    Untracked:  data/GO_MIVSA_Maintenance_vs_Saline_circle.txt
+    Untracked:  data/MIVSA_gene_count_matrix.csv
+    Untracked:  data/MIVSA_normalized_counts_DESeq2.txt
+    Untracked:  data/gene_count_matrix_MIVSA.csv
+    Untracked:  data/sample_info_final.csv
+    Untracked:  data/sample_info_outliers.csv
+    Untracked:  output/GOBarplots_MIVSA.pdf
+    Untracked:  output/GO_all_Combined_Comparisons.txt
+    Untracked:  output/Gene_Matrix_EntrezIDs_ABSvsMN.txt
+    Untracked:  output/Gene_Matrix_EntrezIDs_ABSvsSAL.txt
+    Untracked:  output/Gene_Matrix_EntrezIDs_BACKGROUND.txt
+    Untracked:  output/Gene_Matrix_EntrezIDs_MNvsSAL.txt
+
+Unstaged changes:
+    Deleted:    analysis/MIVSA_RAnalysis_WorkFlowR.Rmd
+    Modified:   analysis/_site.yml
+
 </code></pre>
 <p>
 Note that any generated files, e.g. HTML, png, CSS, etc., are not
@@ -601,6 +733,23 @@ Message
 <tbody>
 <tr>
 <td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/cbdd8d583ddd3025fc21e70b501e9a70daea9a81/docs/OutlierDetection.html" target="_blank">cbdd8d5</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+<td>
+Build site.
+</td>
+</tr>
+<tr>
+<td>
 Rmd
 </td>
 <td>
@@ -623,59 +772,138 @@ Quickstart commit from wflow_quickstart()
 </div>
 </div>
 </div>
-<div id="description" class="section level1">
-<h1>Description</h1>
+<div id="description" class="section level1" number="1">
+<h1><span class="header-section-number">1</span> Description</h1>
 <p>Outlier samples consisted of mice that were “high” responders from
 METH (or saline) IVSA. We could not stratify our data by infusion
 number, since we did not have a sufficient sample size to do so.
 Therefore, these samples were removed to not confound the findings in
 this analysis.</p>
 </div>
-<div id="setup-part-1-analyzing-outliers" class="section level1">
-<h1>Setup (Part 1 – Analyzing Outliers)</h1>
+<div id="setup-part-1-analyzing-outliers" class="section level1"
+number="2">
+<h1><span class="header-section-number">2</span> Setup (Part 1 –
+Analyzing Outliers)</h1>
 <p>Building DESeq2 input files from gene count matrices output by
 StringTie.</p>
 </div>
 <div id="checking-on-poisson-distances-to-check-for-obvious-outliers"
-class="section level1">
-<h1>Checking on Poisson distances to check for obvious outliers</h1>
-<pre class="r"><code># Heatmap, Poisson
-poisd &lt;- PoissonDistance(t(counts(dds)))
-samplePoisDistMatrix &lt;- as.matrix( poisd$dd )
-colnames(samplePoisDistMatrix) &lt;- c(&quot;ABS01&quot;,&quot;ABS02&quot;,&quot;ABS03&quot;,&quot;ABS04&quot;,&quot;ABS05&quot;,&quot;ABS06&quot;,&quot;ABS07&quot;,
-                                    &quot;MN01&quot;,&quot;MN02&quot;,&quot;MN03&quot;,&quot;MN04&quot;,&quot;MN05&quot;,&quot;MN06&quot;,&quot;MN07&quot;, &quot;MN08&quot;,
-                                    &quot;SAL01&quot;,&quot;SAL02&quot;,&quot;SAL03&quot;,&quot;SAL04&quot;,&quot;SAL05&quot;,&quot;SAL06&quot;,&quot;SAL07&quot;,&quot;SAL08&quot;)
-
-rownames(samplePoisDistMatrix) &lt;- c(&quot;ABS01&quot;,&quot;ABS02&quot;,&quot;ABS03&quot;,&quot;ABS04&quot;,&quot;ABS05&quot;,&quot;ABS06&quot;,&quot;ABS07&quot;,
-                                    &quot;MN01&quot;,&quot;MN02&quot;,&quot;MN03&quot;,&quot;MN04&quot;,&quot;MN05&quot;,&quot;MN06&quot;,&quot;MN07&quot;, &quot;MN08&quot;,
-                                    &quot;SAL01&quot;,&quot;SAL02&quot;,&quot;SAL03&quot;,&quot;SAL04&quot;,&quot;SAL05&quot;,&quot;SAL06&quot;,&quot;SAL07&quot;,&quot;SAL08&quot;)
-
-colors &lt;- colorRampPalette(rev(brewer.pal(11, &quot;RdYlBu&quot;)) )(255)
-
-conflicts_prefer(pheatmap::pheatmap)
-
-pheatmap(samplePoisDistMatrix,
-         clustering_distance_rows = poisd$dd,
-         clustering_distance_cols = poisd$dd,
-         col = colors,
-         main = &quot;Poisson distances -- Pre-Outlier Removal&quot;)</code></pre>
+class="section level1" number="3">
+<h1><span class="header-section-number">3</span> Checking on Poisson
+distances to check for obvious outliers</h1>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Heatmap, Poisson</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>poisd <span class="ot">&lt;-</span> <span class="fu">PoissonDistance</span>(<span class="fu">t</span>(<span class="fu">counts</span>(dds)))</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>samplePoisDistMatrix <span class="ot">&lt;-</span> <span class="fu">as.matrix</span>( poisd<span class="sc">$</span>dd )</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(samplePoisDistMatrix) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;ABS01&quot;</span>,<span class="st">&quot;ABS02&quot;</span>,<span class="st">&quot;ABS03&quot;</span>,<span class="st">&quot;ABS04&quot;</span>,<span class="st">&quot;ABS05&quot;</span>,<span class="st">&quot;ABS06&quot;</span>,<span class="st">&quot;ABS07&quot;</span>,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;MN01&quot;</span>,<span class="st">&quot;MN02&quot;</span>,<span class="st">&quot;MN03&quot;</span>,<span class="st">&quot;MN04&quot;</span>,<span class="st">&quot;MN05&quot;</span>,<span class="st">&quot;MN06&quot;</span>,<span class="st">&quot;MN07&quot;</span>, <span class="st">&quot;MN08&quot;</span>,</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;SAL01&quot;</span>,<span class="st">&quot;SAL02&quot;</span>,<span class="st">&quot;SAL03&quot;</span>,<span class="st">&quot;SAL04&quot;</span>,<span class="st">&quot;SAL05&quot;</span>,<span class="st">&quot;SAL06&quot;</span>,<span class="st">&quot;SAL07&quot;</span>,<span class="st">&quot;SAL08&quot;</span>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">rownames</span>(samplePoisDistMatrix) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;ABS01&quot;</span>,<span class="st">&quot;ABS02&quot;</span>,<span class="st">&quot;ABS03&quot;</span>,<span class="st">&quot;ABS04&quot;</span>,<span class="st">&quot;ABS05&quot;</span>,<span class="st">&quot;ABS06&quot;</span>,<span class="st">&quot;ABS07&quot;</span>,</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;MN01&quot;</span>,<span class="st">&quot;MN02&quot;</span>,<span class="st">&quot;MN03&quot;</span>,<span class="st">&quot;MN04&quot;</span>,<span class="st">&quot;MN05&quot;</span>,<span class="st">&quot;MN06&quot;</span>,<span class="st">&quot;MN07&quot;</span>, <span class="st">&quot;MN08&quot;</span>,</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>                                    <span class="st">&quot;SAL01&quot;</span>,<span class="st">&quot;SAL02&quot;</span>,<span class="st">&quot;SAL03&quot;</span>,<span class="st">&quot;SAL04&quot;</span>,<span class="st">&quot;SAL05&quot;</span>,<span class="st">&quot;SAL06&quot;</span>,<span class="st">&quot;SAL07&quot;</span>,<span class="st">&quot;SAL08&quot;</span>)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>colors <span class="ot">&lt;-</span> <span class="fu">colorRampPalette</span>(<span class="fu">rev</span>(<span class="fu">brewer.pal</span>(<span class="dv">11</span>, <span class="st">&quot;RdYlBu&quot;</span>)) )(<span class="dv">255</span>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">conflicts_prefer</span>(pheatmap<span class="sc">::</span>pheatmap)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="fu">pheatmap</span>(samplePoisDistMatrix,</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>         <span class="at">clustering_distance_rows =</span> poisd<span class="sc">$</span>dd,</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>         <span class="at">clustering_distance_cols =</span> poisd<span class="sc">$</span>dd,</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>         <span class="at">col =</span> colors,</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>         <span class="at">main =</span> <span class="st">&quot;Poisson distances -- Pre-Outlier Removal&quot;</span>)</span></code></pre></div>
 <p><img src="figure/OutlierDetection.Rmd/Testing%20Outlier%20Detection-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Testing-Outlier-Detection-1">
+Past versions of "Testing Outlier Detection-1.png"
+</button>
+</p>
+<div id="fig-no-spaces-Testing-Outlier-Detection-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/cbdd8d583ddd3025fc21e70b501e9a70daea9a81/docs/figure/OutlierDetection.Rmd/Testing Outlier Detection-1.png" target="_blank">cbdd8d5</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
 </div>
-<div id="checking-cooks-distances" class="section level1">
-<h1>Checking cooks distances</h1>
+</div>
+</div>
+<div id="checking-cooks-distances" class="section level1" number="4">
+<h1><span class="header-section-number">4</span> Checking cooks
+distances</h1>
 <p>We can begin to identify some outliers based on these cooks
 distances, as it is a measure of varaibility by gene.</p>
-<pre class="r"><code>par(mar=c(8,5,2,2))
-boxplot(log10(assays(dds)[[&quot;cooks&quot;]]), range=0, las=2)</code></pre>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">par</span>(<span class="at">mar=</span><span class="fu">c</span>(<span class="dv">8</span>,<span class="dv">5</span>,<span class="dv">2</span>,<span class="dv">2</span>))</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">boxplot</span>(<span class="fu">log10</span>(<span class="fu">assays</span>(dds)[[<span class="st">&quot;cooks&quot;</span>]]), <span class="at">range=</span><span class="dv">0</span>, <span class="at">las=</span><span class="dv">2</span>)</span></code></pre></div>
 <p><img src="figure/OutlierDetection.Rmd/unnamed-chunk-1-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-unnamed-chunk-1-1">
+Past versions of unnamed-chunk-1-1.png
+</button>
+</p>
+<div id="fig-unnamed-chunk-1-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/cbdd8d583ddd3025fc21e70b501e9a70daea9a81/docs/figure/OutlierDetection.Rmd/unnamed-chunk-1-1.png" target="_blank">cbdd8d5</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div id="visualize-some-of-these-outliers-and-replacement-effect"
-class="section level1">
-<h1>Visualize some of these outliers and replacement effect</h1>
-<pre class="r"><code># 6) Visual and manual inspection of outlier (SAL06).
-dds.rep &lt;- DESeq(dds)
-res.A &lt;- results(dds.rep, contrast = c(&quot;condition&quot;, &quot;Maintenance&quot;, &quot;Abstinence&quot;))
-summary(res.A)</code></pre>
+class="section level1" number="5">
+<h1><span class="header-section-number">5</span> Visualize some of these
+outliers and replacement effect</h1>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 6) Visual and manual inspection of outlier (SAL06).</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>dds.rep <span class="ot">&lt;-</span> <span class="fu">DESeq</span>(dds)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>res.A <span class="ot">&lt;-</span> <span class="fu">results</span>(dds.rep, <span class="at">contrast =</span> <span class="fu">c</span>(<span class="st">&quot;condition&quot;</span>, <span class="st">&quot;Maintenance&quot;</span>, <span class="st">&quot;Abstinence&quot;</span>))</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(res.A)</span></code></pre></div>
 <pre><code>
 out of 21779 with nonzero total read count
 adjusted p-value &lt; 0.1
@@ -686,10 +914,10 @@ low counts [2]     : 12093, 56%
 (mean count &lt; 184)
 [1] see &#39;cooksCutoff&#39; argument of ?results
 [2] see &#39;independentFiltering&#39; argument of ?results</code></pre>
-<pre class="r"><code># Running DESeq, turning off outlier detection and replacement
-dds.norep &lt;- DESeq(dds, minReplicatesForReplace = Inf)
-res.A.norep &lt;- results(dds.norep, contrast = c(&quot;condition&quot;, &quot;Maintenance&quot;, &quot;Abstinence&quot;), cooksCutoff = FALSE)
-summary(res.A.norep)</code></pre>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Running DESeq, turning off outlier detection and replacement</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>dds.norep <span class="ot">&lt;-</span> <span class="fu">DESeq</span>(dds, <span class="at">minReplicatesForReplace =</span> <span class="cn">Inf</span>)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>res.A.norep <span class="ot">&lt;-</span> <span class="fu">results</span>(dds.norep, <span class="at">contrast =</span> <span class="fu">c</span>(<span class="st">&quot;condition&quot;</span>, <span class="st">&quot;Maintenance&quot;</span>, <span class="st">&quot;Abstinence&quot;</span>), <span class="at">cooksCutoff =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(res.A.norep)</span></code></pre></div>
 <pre><code>
 out of 22863 with nonzero total read count
 adjusted p-value &lt; 0.1
@@ -702,56 +930,204 @@ low counts [2]     : 3439, 15%
 [2] see &#39;independentFiltering&#39; argument of ?results</code></pre>
 <p>The majority of issues here stem from low counts as defined by
 DESeq2.</p>
-<pre class="r"><code># Comparing original counts vs replaced counts
-
-# What genes changed p.value when turning off replacement? 
-Dif.no.rep &lt;- (res.A$pvalue - res.A.norep$pvalue)
-# indexes for the genes with replacement
-g.rep.indx &lt;- which(Dif.no.rep != 0)
-
-# order outlier genes according to their pvalue (when using filtering and replacement)
-subset.res &lt;- res.A[g.rep.indx,]
-subset.res.sorted &lt;- subset.res[order(subset.res$pvalue, decreasing = FALSE), ]
-
-# Plot the (normalised) original counts vs the (normalised) replaced counts
-#   Top 4 genes with smallest p.value when using replacement
-
-# Original gene counts
-topGene &lt;- rownames(subset.res.sorted)[49]
-normCounts &lt;- plotCounts(dds.rep, gene = topGene, intgroup = c(&quot;condition&quot;), returnData = TRUE)
-plot1 &lt;- ggplot(normCounts, aes(x = condition, y = count, color = condition, label = colnames(dds))) +
-  scale_y_log10() +  geom_beeswarm(cex = 3) +
-  ggrepel::geom_label_repel(box.padding = 0.5, max.overlaps = 6) +
-  ggtitle(topGene, &quot;without replacement&quot;)
-
-# counts with replacement
-normCounts &lt;- plotCounts(dds.rep, gene = topGene, intgroup = c(&quot;condition&quot;), replaced = TRUE, returnData = TRUE)
-plot2 &lt;- ggplot(normCounts, aes(x = condition, y = count, color = condition, label = colnames(dds))) +
-  scale_y_log10() +  geom_beeswarm(cex = 3) +
-  ggrepel::geom_label_repel(box.padding = 0.5, max.overlaps = 6) +
-  ggtitle(paste0(topGene, &quot; with replacement&quot;))
-
-plot1</code></pre>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Comparing original counts vs replaced counts</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co"># What genes changed p.value when turning off replacement? </span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>Dif.no.rep <span class="ot">&lt;-</span> (res.A<span class="sc">$</span>pvalue <span class="sc">-</span> res.A.norep<span class="sc">$</span>pvalue)</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="co"># indexes for the genes with replacement</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>g.rep.indx <span class="ot">&lt;-</span> <span class="fu">which</span>(Dif.no.rep <span class="sc">!=</span> <span class="dv">0</span>)</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="co"># order outlier genes according to their pvalue (when using filtering and replacement)</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>subset.res <span class="ot">&lt;-</span> res.A[g.rep.indx,]</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>subset.res.sorted <span class="ot">&lt;-</span> subset.res[<span class="fu">order</span>(subset.res<span class="sc">$</span>pvalue, <span class="at">decreasing =</span> <span class="cn">FALSE</span>), ]</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the (normalised) original counts vs the (normalised) replaced counts</span></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a><span class="co">#   Top 4 genes with smallest p.value when using replacement</span></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Original gene counts</span></span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>topGene <span class="ot">&lt;-</span> <span class="fu">rownames</span>(subset.res.sorted)[<span class="dv">49</span>]</span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>normCounts <span class="ot">&lt;-</span> <span class="fu">plotCounts</span>(dds.rep, <span class="at">gene =</span> topGene, <span class="at">intgroup =</span> <span class="fu">c</span>(<span class="st">&quot;condition&quot;</span>), <span class="at">returnData =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>plot1 <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(normCounts, <span class="fu">aes</span>(<span class="at">x =</span> condition, <span class="at">y =</span> count, <span class="at">color =</span> condition, <span class="at">label =</span> <span class="fu">colnames</span>(dds))) <span class="sc">+</span></span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_log10</span>() <span class="sc">+</span>  <span class="fu">geom_beeswarm</span>(<span class="at">cex =</span> <span class="dv">3</span>) <span class="sc">+</span></span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>  ggrepel<span class="sc">::</span><span class="fu">geom_label_repel</span>(<span class="at">box.padding =</span> <span class="fl">0.5</span>, <span class="at">max.overlaps =</span> <span class="dv">6</span>) <span class="sc">+</span></span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggtitle</span>(topGene, <span class="st">&quot;without replacement&quot;</span>)</span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a><span class="co"># counts with replacement</span></span>
+<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a>normCounts <span class="ot">&lt;-</span> <span class="fu">plotCounts</span>(dds.rep, <span class="at">gene =</span> topGene, <span class="at">intgroup =</span> <span class="fu">c</span>(<span class="st">&quot;condition&quot;</span>), <span class="at">replaced =</span> <span class="cn">TRUE</span>, <span class="at">returnData =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a>plot2 <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(normCounts, <span class="fu">aes</span>(<span class="at">x =</span> condition, <span class="at">y =</span> count, <span class="at">color =</span> condition, <span class="at">label =</span> <span class="fu">colnames</span>(dds))) <span class="sc">+</span></span>
+<span id="cb7-26"><a href="#cb7-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_log10</span>() <span class="sc">+</span>  <span class="fu">geom_beeswarm</span>(<span class="at">cex =</span> <span class="dv">3</span>) <span class="sc">+</span></span>
+<span id="cb7-27"><a href="#cb7-27" aria-hidden="true" tabindex="-1"></a>  ggrepel<span class="sc">::</span><span class="fu">geom_label_repel</span>(<span class="at">box.padding =</span> <span class="fl">0.5</span>, <span class="at">max.overlaps =</span> <span class="dv">6</span>) <span class="sc">+</span></span>
+<span id="cb7-28"><a href="#cb7-28" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggtitle</span>(<span class="fu">paste0</span>(topGene, <span class="st">&quot; with replacement&quot;</span>))</span>
+<span id="cb7-29"><a href="#cb7-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-30"><a href="#cb7-30" aria-hidden="true" tabindex="-1"></a>plot1</span></code></pre></div>
 <p><img src="figure/OutlierDetection.Rmd/unnamed-chunk-3-1.png" width="672" style="display: block; margin: auto;" /></p>
-<pre class="r"><code>plot2</code></pre>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-unnamed-chunk-3-1">
+Past versions of unnamed-chunk-3-1.png
+</button>
+</p>
+<div id="fig-unnamed-chunk-3-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/cbdd8d583ddd3025fc21e70b501e9a70daea9a81/docs/figure/OutlierDetection.Rmd/unnamed-chunk-3-1.png" target="_blank">cbdd8d5</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>plot2</span></code></pre></div>
 <p><img src="figure/OutlierDetection.Rmd/unnamed-chunk-3-2.png" width="672" style="display: block; margin: auto;" /></p>
-<pre class="r"><code># [...] similar code goes for the top 3 genes</code></pre>
-<pre class="r"><code> # Create data frame with metadata and PC1 and PC2 values for input to ggplot
- df &lt;- cbind(colData, pca$x)
- ggplot(df) + geom_point(aes(x=PC1, y=PC2, color = condition))</code></pre>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-unnamed-chunk-3-2">
+Past versions of unnamed-chunk-3-2.png
+</button>
+</p>
+<div id="fig-unnamed-chunk-3-2" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/cbdd8d583ddd3025fc21e70b501e9a70daea9a81/docs/figure/OutlierDetection.Rmd/unnamed-chunk-3-2.png" target="_blank">cbdd8d5</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># [...] similar code goes for the top 3 genes</span></span></code></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a> <span class="co"># Create data frame with metadata and PC1 and PC2 values for input to ggplot</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a> df <span class="ot">&lt;-</span> <span class="fu">cbind</span>(colData, pca<span class="sc">$</span>x)</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a> <span class="fu">ggplot</span>(df) <span class="sc">+</span> <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">x=</span>PC1, <span class="at">y=</span>PC2, <span class="at">color =</span> condition))</span></code></pre></div>
 <p><img src="figure/OutlierDetection.Rmd/unnamed-chunk-5-1.png" width="672" style="display: block; margin: auto;" /></p>
-<pre class="r"><code> ggplot(df, (aes(x=PC1, y=PC2, color = condition, label = colnames(dds)))) +
-  theme_bw() + # remove default ggplot2 theme
-  geom_point(size = 1) + # Increase point size
-  #scale_y_continuous(limits = c(-20, 20)) +# change limits to fix figure dimensions
-  #scale_x_continuous(limits = c(-40, 40)) +# change limits to fix figure dimensions
-  xlab(paste0(&quot;PC1: &quot;,pca$sdev[1],&quot;% variance&quot;)) +
-  ylab(paste0(&quot;PC2: &quot;,pca$sdev[2],&quot;% variance&quot;)) + 
-  ggrepel::geom_label_repel(box.padding = 0.5, max.overlaps = 6) +
-  coord_fixed() +
-  ggtitle(label = &quot;Principal Component Analysis (PCA)&quot;, 
-          subtitle = &quot;All Genes (variance stabilized)&quot;)</code></pre>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-unnamed-chunk-5-1">
+Past versions of unnamed-chunk-5-1.png
+</button>
+</p>
+<div id="fig-unnamed-chunk-5-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/cbdd8d583ddd3025fc21e70b501e9a70daea9a81/docs/figure/OutlierDetection.Rmd/unnamed-chunk-5-1.png" target="_blank">cbdd8d5</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a> <span class="fu">ggplot</span>(df, (<span class="fu">aes</span>(<span class="at">x=</span>PC1, <span class="at">y=</span>PC2, <span class="at">color =</span> condition, <span class="at">label =</span> <span class="fu">colnames</span>(dds)))) <span class="sc">+</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_bw</span>() <span class="sc">+</span> <span class="co"># remove default ggplot2 theme</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">1</span>) <span class="sc">+</span> <span class="co"># Increase point size</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="co">#scale_y_continuous(limits = c(-20, 20)) +# change limits to fix figure dimensions</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="co">#scale_x_continuous(limits = c(-40, 40)) +# change limits to fix figure dimensions</span></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">xlab</span>(<span class="fu">paste0</span>(<span class="st">&quot;PC1: &quot;</span>,pca<span class="sc">$</span>sdev[<span class="dv">1</span>],<span class="st">&quot;% variance&quot;</span>)) <span class="sc">+</span></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylab</span>(<span class="fu">paste0</span>(<span class="st">&quot;PC2: &quot;</span>,pca<span class="sc">$</span>sdev[<span class="dv">2</span>],<span class="st">&quot;% variance&quot;</span>)) <span class="sc">+</span> </span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>  ggrepel<span class="sc">::</span><span class="fu">geom_label_repel</span>(<span class="at">box.padding =</span> <span class="fl">0.5</span>, <span class="at">max.overlaps =</span> <span class="dv">6</span>) <span class="sc">+</span></span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_fixed</span>() <span class="sc">+</span></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggtitle</span>(<span class="at">label =</span> <span class="st">&quot;Principal Component Analysis (PCA)&quot;</span>, </span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>          <span class="at">subtitle =</span> <span class="st">&quot;All Genes (variance stabilized)&quot;</span>)</span></code></pre></div>
 <p><img src="figure/OutlierDetection.Rmd/unnamed-chunk-5-2.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-unnamed-chunk-5-2">
+Past versions of unnamed-chunk-5-2.png
+</button>
+</p>
+<div id="fig-unnamed-chunk-5-2" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/cbdd8d583ddd3025fc21e70b501e9a70daea9a81/docs/figure/OutlierDetection.Rmd/unnamed-chunk-5-2.png" target="_blank">cbdd8d5</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <br>
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-sessioninfo" data-toggle="collapse" data-target="#workflowr-sessioninfo" style="display: block;">
@@ -760,7 +1136,7 @@ Session information
 </button>
 </p>
 <div id="workflowr-sessioninfo" class="collapse">
-<pre class="r"><code>sessionInfo()</code></pre>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sessionInfo</span>()</span></code></pre></div>
 <pre><code>R version 4.2.1 (2022-06-23)
 Platform: x86_64-pc-linux-gnu (64-bit)
 Running under: Ubuntu 22.04.3 LTS
@@ -1008,6 +1384,11 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("hide" === "show");
+});
+</script>
 
 <script>
 $(document).ready(function ()  {

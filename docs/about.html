@@ -16,7 +16,7 @@
 <script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -30,8 +30,7 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/navigation-1.1/codefolding.js"></script>
 <link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 
@@ -54,16 +53,6 @@ div.section {
   ul.task-list{list-style: none;}
     </style>
 
-<style type="text/css">code{white-space: pre;}</style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
-}
-</script>
 
 
 
@@ -228,6 +217,9 @@ $(document).ready(function () {
 </style>
 
 <!-- code folding -->
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+</style>
 
 
 
@@ -255,10 +247,10 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">Home</a>
+  <a href="OutlierDetection.html">Outliers</a>
 </li>
 <li>
-  <a href="about.html">About</a>
+  <a href="about.html">About Our Lab</a>
 </li>
 <li>
   <a href="license.html">License</a>
@@ -266,7 +258,7 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis">
+  <a href="https://github.com/avm27/MethamphetamineIVSA_RNASequencing">
     <span class="fab fa-github"></span>
      
     Source code
@@ -278,6 +270,14 @@ $(document).ready(function () {
 </div><!--/.navbar -->
 
 <div id="header">
+
+<div class="btn-group pull-right float-right">
+<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
+<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+</ul>
+</div>
 
 
 
@@ -358,15 +358,15 @@ results.</p>
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomavm27MethamphetamineMicroglialRNASequencingAnalysistreee92ae3ee9535578dff07df5fd59852c6c0241b87targetblanke92ae3ea">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomavm27MethamphetamineMicroglialRNASequencingAnalysistree7acd23626b3bedfde2ee93a678d4923d413fbe1etargetblank7acd236a">
 <span class="glyphicon glyphicon-ok text-success"
 aria-hidden="true"></span> <strong>Repository version:</strong>
-<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/tree/e92ae3ee9535578dff07df5fd59852c6c0241b87" target="_blank">e92ae3e</a>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/tree/7acd23626b3bedfde2ee93a678d4923d413fbe1e" target="_blank">7acd236</a>
 </a>
 </p>
 </div>
 <div
-id="strongRepositoryversionstrongahrefhttpsgithubcomavm27MethamphetamineMicroglialRNASequencingAnalysistreee92ae3ee9535578dff07df5fd59852c6c0241b87targetblanke92ae3ea"
+id="strongRepositoryversionstrongahrefhttpsgithubcomavm27MethamphetamineMicroglialRNASequencingAnalysistree7acd23626b3bedfde2ee93a678d4923d413fbe1etargetblank7acd236a"
 class="panel-collapse collapse">
 <div class="panel-body">
 <p>
@@ -376,7 +376,7 @@ reproducibility.
 </p>
 <p>
 The results in this page were generated with repository version
-<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/tree/e92ae3ee9535578dff07df5fd59852c6c0241b87" target="_blank">e92ae3e</a>.
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/tree/7acd23626b3bedfde2ee93a678d4923d413fbe1e" target="_blank">7acd236</a>.
 See the <em>Past versions</em> tab to see a history of the changes made
 to the R Markdown and HTML files.
 </p>
@@ -390,7 +390,28 @@ depends on. Below is the status of the Git repository when the results
 were generated:
 </p>
 <pre><code>
-working directory clean
+Untracked files:
+    Untracked:  data/Comparison_GO_GeneID_barplots.csv
+    Untracked:  data/Comparison_GO_GeneID_barplots_labeled.csv
+    Untracked:  data/Filtered_GO_Combined_Final.csv
+    Untracked:  data/GO_MIVSA_Abstinence_vs_Maintenance_circle.txt
+    Untracked:  data/GO_MIVSA_Abstinence_vs_Saline_circle.txt
+    Untracked:  data/GO_MIVSA_Maintenance_vs_Saline_circle.txt
+    Untracked:  data/MIVSA_gene_count_matrix.csv
+    Untracked:  data/MIVSA_normalized_counts_DESeq2.txt
+    Untracked:  data/gene_count_matrix_MIVSA.csv
+    Untracked:  data/sample_info_final.csv
+    Untracked:  data/sample_info_outliers.csv
+    Untracked:  output/GOBarplots_MIVSA.pdf
+    Untracked:  output/GO_all_Combined_Comparisons.txt
+    Untracked:  output/Gene_Matrix_EntrezIDs_ABSvsMN.txt
+    Untracked:  output/Gene_Matrix_EntrezIDs_ABSvsSAL.txt
+    Untracked:  output/Gene_Matrix_EntrezIDs_BACKGROUND.txt
+    Untracked:  output/Gene_Matrix_EntrezIDs_MNvsSAL.txt
+
+Unstaged changes:
+    Deleted:    analysis/MIVSA_RAnalysis_WorkFlowR.Rmd
+
 </code></pre>
 <p>
 Note that any generated files, e.g. HTML, png, CSS, etc., are not
@@ -439,6 +460,40 @@ Message
 Rmd
 </td>
 <td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/7acd23626b3bedfde2ee93a678d4923d413fbe1e/analysis/about.Rmd" target="_blank">7acd236</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+<td>
+Publish Analysis Files
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/cbdd8d583ddd3025fc21e70b501e9a70daea9a81/docs/about.html" target="_blank">cbdd8d5</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+<td>
+Build site.
+</td>
+</tr>
+<tr>
+<td>
+Rmd
+</td>
+<td>
 <a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/967e4526c29e4b9ff0d382f2a5fb56b48424f0f5/analysis/about.Rmd" target="_blank">967e452</a>
 </td>
 <td>
@@ -458,7 +513,106 @@ Start workflowr project.
 </div>
 </div>
 </div>
-<p>Describe your project.</p>
+<center>
+<p><font size="24"> <strong>Luis Tuesta Lab</strong> </font></p>
+<center>
+<p><a href="https://www.tuestalab.org"
+class="uri">https://www.tuestalab.org</a></p>
+<p>University of Miami Miller School of Medicine<br />
+<a
+href="https://maps.google.com/maps?z=16&amp;q=rosenstiel%2Bmedical%2Bscience%2Bbuilding%2B1600%2Bnw%2B10th%2Bave.%2Brooms%3A%2B7014%2C%2B7019%2Bmiami%2C%2Bfl%2B33136">Rosenstiel
+Medical Science Building<br />
+1600 NW 10th Ave.<br />
+Rooms: 7014, 7019<br />
+Miami, FL 33136</a></p>
+<center>
+<p><font size="24"> <strong>Our Research</strong> </font></p>
+<center>
+<p>Addiction is a chronic, relapsing disease characterized by compulsive
+drug-taking and the inability to stop despite negative consequences.
+Underlying the behavioral progression of the disease are changes in gene
+expression that are regulated in a cell-type specific fashion. Owing to
+the rich cell heterogeneity in the brain, understanding how gene
+expression is regulated throughout the course of addiction in specific
+cell populations remains both a technical and conceptual challenge for
+our field.</p>
+<p>To this end, our team focuses on understanding the addicted brain by
+tailoring molecular profiling methods and bioinformatics approaches to
+ask how transcription is regulated within genetically-defined cell
+populations in the brain reward system, with special emphasis on
+dopamine neurons and microglia. Combined with mouse models of drug
+addiction (IV self-administration), we work to identify genetic targets
+that can regulate different stages of the disease, and ultimately curb
+drug-taking and prevent relapse in addicted individuals.</p>
+<p><font size="24"> <strong>Our Team</strong> </font></p>
+<center>
+<p><font size="10"> <strong>Alexander Margetts, B.S.</strong></font></p>
+<center>
+<center>
+<p><img src="assets/alex-fixed-2.png" /></p>
+<center>
+<center>
+<p>Ph.D. Candidate<br />
+Cancer Graduate Program<br />
+University of Miami Miller School of Medicine<br />
+Undergrad: University of Miami<br />
+Email: avm27@miami.edu</p>
+<center>
+<center>
+<p><font size="10"> <strong>Samara J. Vilca, B.A.</strong></font></p>
+<center>
+<center>
+<p><img src="assets/samara-fixed-2.png" /></p>
+<center>
+<p>Ph.D. Candidate<br />
+Neuroscience Graduate Program<br />
+University of Miami Miller School of Medicine<br />
+Undergrad: Florida Atlantic University<br />
+Email: svilca@miami.edu</p>
+<center>
+<p><font size="10"> <strong>Tate A. Pollock, B.S.</strong></font></p>
+<center>
+<center>
+<p><img src="assets/tate-fixed.png" /></p>
+<center>
+<p>Ph.D. Candidate<br />
+Neuroscience Graduate Program<br />
+University of Miami Miller School of Medicine<br />
+Undergrad: University of Alabama Birmingham<br />
+Email: tap125@miami.edu</p>
+<center>
+<p><font size="10"> <strong>Lauren Bystrom, B.S.</strong></font></p>
+<center>
+<center>
+<p><img src="assets/lauren-fixed.png" /></p>
+<center>
+<p>Ph.D. Candidate<br />
+Neuroscience Graduate Program<br />
+University of Miami Miller School of Medicine<br />
+Undergrad: University of Minnesota<br />
+Email: llb81@miami.edu</p>
+<center>
+<center>
+<p><font size="10"> <strong>Luis M. Tuesta, Ph.D.</strong></font></p>
+<center>
+<center>
+<p><img src="assets/luis-fixed.png" /></p>
+<center>
+<p>Assistant Professor<br />
+Department of Psychiatry and Behavioral Sciences<br />
+University of Miami Miller School of Medicine<br />
+Postdoc: Harvard Medical School/HHMI<br />
+Graduate: The Scripps Research Institute<br />
+Undergrad: University of Miami<br />
+Email: ltuesta@miami.edu</p>
+<center>
+<p><img src="assets/CTI.png" /></p>
+<p><img src="assets/Psychiatry.png" /></p>
+<p><font size="24"> <strong>Funding</strong> </font></p>
+<p>Supported By:</p>
+<p><img src="assets/NIDA-logo.png" /></p>
+<p><strong>K01-DA045294</strong><br />
+<strong>DP1-DA051858</strong></p>
 
 
 <!-- Adjust MathJax settings so that all math formulae are shown using
@@ -507,6 +661,11 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("hide" === "show");
+});
+</script>
 
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

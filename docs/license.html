@@ -16,7 +16,7 @@
 <script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -30,8 +30,7 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/navigation-1.1/codefolding.js"></script>
 <link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 
@@ -54,16 +53,6 @@ div.section {
   ul.task-list{list-style: none;}
     </style>
 
-<style type="text/css">code{white-space: pre;}</style>
-<script type="text/javascript">
-if (window.hljs) {
-  hljs.configure({languages: []});
-  hljs.initHighlightingOnLoad();
-  if (document.readyState && document.readyState === "complete") {
-    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
-  }
-}
-</script>
 
 
 
@@ -228,6 +217,9 @@ $(document).ready(function () {
 </style>
 
 <!-- code folding -->
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+</style>
 
 
 
@@ -250,15 +242,15 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Methamphetamine_MicroglialRNASequencing_Analysis</a>
+      <a class="navbar-brand" href="index.html">Methamphetamine IVSA Microglial RNASequencing Analysis</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">Home</a>
+  <a href="OutlierDetection.html">Outliers</a>
 </li>
 <li>
-  <a href="about.html">About</a>
+  <a href="about.html">About Our Lab</a>
 </li>
 <li>
   <a href="license.html">License</a>
@@ -278,6 +270,14 @@ $(document).ready(function () {
 </div><!--/.navbar -->
 
 <div id="header">
+
+<div class="btn-group pull-right float-right">
+<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
+<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+</ul>
+</div>
 
 
 
@@ -358,15 +358,15 @@ results.</p>
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomavm27MethamphetamineMicroglialRNASequencingAnalysistreee92ae3ee9535578dff07df5fd59852c6c0241b87targetblanke92ae3ea">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomavm27MethamphetamineMicroglialRNASequencingAnalysistree7acd23626b3bedfde2ee93a678d4923d413fbe1etargetblank7acd236a">
 <span class="glyphicon glyphicon-ok text-success"
 aria-hidden="true"></span> <strong>Repository version:</strong>
-<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/tree/e92ae3ee9535578dff07df5fd59852c6c0241b87" target="_blank">e92ae3e</a>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/tree/7acd23626b3bedfde2ee93a678d4923d413fbe1e" target="_blank">7acd236</a>
 </a>
 </p>
 </div>
 <div
-id="strongRepositoryversionstrongahrefhttpsgithubcomavm27MethamphetamineMicroglialRNASequencingAnalysistreee92ae3ee9535578dff07df5fd59852c6c0241b87targetblanke92ae3ea"
+id="strongRepositoryversionstrongahrefhttpsgithubcomavm27MethamphetamineMicroglialRNASequencingAnalysistree7acd23626b3bedfde2ee93a678d4923d413fbe1etargetblank7acd236a"
 class="panel-collapse collapse">
 <div class="panel-body">
 <p>
@@ -376,7 +376,7 @@ reproducibility.
 </p>
 <p>
 The results in this page were generated with repository version
-<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/tree/e92ae3ee9535578dff07df5fd59852c6c0241b87" target="_blank">e92ae3e</a>.
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/tree/7acd23626b3bedfde2ee93a678d4923d413fbe1e" target="_blank">7acd236</a>.
 See the <em>Past versions</em> tab to see a history of the changes made
 to the R Markdown and HTML files.
 </p>
@@ -390,7 +390,29 @@ depends on. Below is the status of the Git repository when the results
 were generated:
 </p>
 <pre><code>
-working directory clean
+Untracked files:
+    Untracked:  data/Comparison_GO_GeneID_barplots.csv
+    Untracked:  data/Comparison_GO_GeneID_barplots_labeled.csv
+    Untracked:  data/Filtered_GO_Combined_Final.csv
+    Untracked:  data/GO_MIVSA_Abstinence_vs_Maintenance_circle.txt
+    Untracked:  data/GO_MIVSA_Abstinence_vs_Saline_circle.txt
+    Untracked:  data/GO_MIVSA_Maintenance_vs_Saline_circle.txt
+    Untracked:  data/MIVSA_gene_count_matrix.csv
+    Untracked:  data/MIVSA_normalized_counts_DESeq2.txt
+    Untracked:  data/gene_count_matrix_MIVSA.csv
+    Untracked:  data/sample_info_final.csv
+    Untracked:  data/sample_info_outliers.csv
+    Untracked:  output/GOBarplots_MIVSA.pdf
+    Untracked:  output/GO_all_Combined_Comparisons.txt
+    Untracked:  output/Gene_Matrix_EntrezIDs_ABSvsMN.txt
+    Untracked:  output/Gene_Matrix_EntrezIDs_ABSvsSAL.txt
+    Untracked:  output/Gene_Matrix_EntrezIDs_BACKGROUND.txt
+    Untracked:  output/Gene_Matrix_EntrezIDs_MNvsSAL.txt
+
+Unstaged changes:
+    Deleted:    analysis/MIVSA_RAnalysis_WorkFlowR.Rmd
+    Modified:   analysis/_site.yml
+
 </code></pre>
 <p>
 Note that any generated files, e.g. HTML, png, CSS, etc., are not
@@ -440,6 +462,40 @@ Message
 Rmd
 </td>
 <td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/7acd23626b3bedfde2ee93a678d4923d413fbe1e/analysis/license.Rmd" target="_blank">7acd236</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+<td>
+Publish Analysis Files
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/cbdd8d583ddd3025fc21e70b501e9a70daea9a81/docs/license.html" target="_blank">cbdd8d5</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+<td>
+Build site.
+</td>
+</tr>
+<tr>
+<td>
+Rmd
+</td>
+<td>
 <a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/967e4526c29e4b9ff0d382f2a5fb56b48424f0f5/analysis/license.Rmd" target="_blank">967e452</a>
 </td>
 <td>
@@ -459,17 +515,24 @@ Start workflowr project.
 </div>
 </div>
 </div>
-<p>What license are you using for your code? See <a
-href="https://choosealicense.com/">choosealicense.com</a> for help
-deciding. It’s a convention to save a file <code>LICENSE</code> in the
-root of your Git repo that contains the license text.</p>
-<p>What license are you using for the written content on your site? It
-is traditional to choose a <a
-href="https://creativecommons.org/choose/">Creative Commons</a> license
-for this type of content.</p>
-<p>How should others cite your work? It’s a convention to save a file
-<code>CITATION</code> in the root of your Git repo that contains the
-citation information.</p>
+<p>MIT License</p>
+<p>Copyright (c) [2023] [Alexander Margetts, Luis Tuesta]</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+“Software”), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:</p>
+<p>The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.</p>
+<p>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
 
 
 <!-- Adjust MathJax settings so that all math formulae are shown using
@@ -518,6 +581,11 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("hide" === "show");
+});
+</script>
 
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
