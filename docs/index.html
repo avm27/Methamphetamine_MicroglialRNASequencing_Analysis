@@ -401,7 +401,7 @@ $(document).ready(function () {
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-report" data-toggle="collapse" data-target="#workflowr-report">
 <span class="glyphicon glyphicon-list" aria-hidden="true"></span>
-workflowr <span class="glyphicon glyphicon-ok text-success"
+workflowr <span class="glyphicon glyphicon-exclamation-sign text-danger"
 aria-hidden="true"></span>
 </button>
 </p>
@@ -412,8 +412,8 @@ aria-hidden="true"></span>
 </li>
 <li>
 <a data-toggle="tab" href="#checks"> Checks <span
-class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
-</a>
+class="glyphicon glyphicon-exclamation-sign text-danger"
+aria-hidden="true"></span> </a>
 </li>
 <li>
 <a data-toggle="tab" href="#versions">Past versions</a>
@@ -426,9 +426,9 @@ class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
 </p>
 <p>
 <strong>Checks:</strong> <span
-class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 7
+class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 6
 <span class="glyphicon glyphicon-exclamation-sign text-danger"
-aria-hidden="true"></span> 0
+aria-hidden="true"></span> 1
 </p>
 <p>
 <strong>Knit directory:</strong>
@@ -452,18 +452,21 @@ versions</em> tab lists the development history.
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguptodate">
-<span class="glyphicon glyphicon-ok text-success"
-aria-hidden="true"></span> <strong>R Markdown file:</strong> up-to-date
-</a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguncommittedchanges">
+<span class="glyphicon glyphicon-exclamation-sign text-danger"
+aria-hidden="true"></span> <strong>R Markdown file:</strong> uncommitted
+changes </a>
 </p>
 </div>
-<div id="strongRMarkdownfilestronguptodate"
+<div id="strongRMarkdownfilestronguncommittedchanges"
 class="panel-collapse collapse">
 <div class="panel-body">
-<p>Great! Since the R Markdown file has been committed to the Git
-repository, you know the exact version of the code that produced these
-results.</p>
+<p>The R Markdown file has unstaged changes. To know which version of
+the R Markdown file created these results, you’ll want to first commit
+it to the Git repo. If you’re still working on the analysis, you can
+ignore this warning. When you’re finished, you can run
+<code>wflow_publish</code> to commit the R Markdown file and build the
+HTML.</p>
 </div>
 </div>
 </div>
@@ -554,15 +557,15 @@ project makes it easier to run your code on other machines.</p>
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomavm27MethamphetamineMicroglialRNASequencingAnalysistree7acd23626b3bedfde2ee93a678d4923d413fbe1etargetblank7acd236a">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomavm27MethamphetamineMicroglialRNASequencingAnalysistreec3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7targetblankc3ef4c8a">
 <span class="glyphicon glyphicon-ok text-success"
 aria-hidden="true"></span> <strong>Repository version:</strong>
-<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/tree/7acd23626b3bedfde2ee93a678d4923d413fbe1e" target="_blank">7acd236</a>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/tree/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7" target="_blank">c3ef4c8</a>
 </a>
 </p>
 </div>
 <div
-id="strongRepositoryversionstrongahrefhttpsgithubcomavm27MethamphetamineMicroglialRNASequencingAnalysistree7acd23626b3bedfde2ee93a678d4923d413fbe1etargetblank7acd236a"
+id="strongRepositoryversionstrongahrefhttpsgithubcomavm27MethamphetamineMicroglialRNASequencingAnalysistreec3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7targetblankc3ef4c8a"
 class="panel-collapse collapse">
 <div class="panel-body">
 <p>
@@ -572,7 +575,7 @@ reproducibility.
 </p>
 <p>
 The results in this page were generated with repository version
-<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/tree/7acd23626b3bedfde2ee93a678d4923d413fbe1e" target="_blank">7acd236</a>.
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/tree/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7" target="_blank">c3ef4c8</a>.
 See the <em>Past versions</em> tab to see a history of the changes made
 to the R Markdown and HTML files.
 </p>
@@ -607,6 +610,8 @@ Untracked files:
 
 Unstaged changes:
     Deleted:    analysis/MIVSA_RAnalysis_WorkFlowR.Rmd
+    Modified:   analysis/_site.yml
+    Modified:   analysis/index.Rmd
 
 </code></pre>
 <p>
@@ -651,6 +656,23 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/index.html" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 Rmd
@@ -726,16 +748,51 @@ Start workflowr project.
 </div>
 </div>
 </div>
-<div id="methamphetamine-ivsa" class="section level1" number="1">
-<h1><span class="header-section-number">1</span> Methamphetamine
-IVSA</h1>
-<p>Male C57BL/6J mice underwent methamphetamine intravenous
-self-administration (METH IVSA). The striatum was dissected, and
-microglia were isolated immediately following the last maintenance
-session (Maintenance and Saline) or following 21 days of forced
-home-cage abstinence (Abstinence). The samples were then processed for
-RNA-sequencing. The subsequent analysis is the result of this
-RNA-sequencing experiment.</p>
+<center>
+<p><font size="18"> <strong>Microglia contribute to methamphetamine
+reinforcement and reflect persistent transcriptional and morphological
+adaptations to the drug</strong> </font></p>
+</center>
+<center>
+<p>Samara J. Vilca1,2†, Alexander V. Margetts1-3†, Isabella Fleites1-3,
+Claes R. Wahlestedt1-3 &amp; Luis M. Tuesta1-3*</p>
+</center>
+<center>
+<p>1 Department of Psychiatry &amp; Behavioral Sciences 2 Center for
+Therapeutic Innovation 3 Sylvester Comprehensive Cancer Center
+University of Miami Miller School of Medicine, Miami, FL 33136 † Denotes
+equal contribution * Corresponding author (<a
+href="mailto:ltuesta@miami.edu" class="email">ltuesta@miami.edu</a>)</p>
+</center>
+<div id="abstract" class="section level1" number="1">
+<h1><span class="header-section-number">1</span> Abstract</h1>
+<p>Abstract Methamphetamine use disorder (MUD) is a chronic, relapsing
+disease that is characterized by repeated drug use despite negative
+consequences for which there are currently no FDA approved cessation
+therapeutics. Repeated methamphetamine (METH) use induces long-term gene
+expression changes in brain regions associated with reward processing
+and drug-seeking behavior, and recent evidence suggests that
+methamphetamine-induced neuroinflammation may also shape behavioral and
+molecular responses to the drug. Microglia, the resident immune cells in
+the brain, are principal drivers of neuroinflammatory responses and
+contribute to the pathophysiology of substance use disorders. Here, we
+investigated transcriptional and morphological changes in striatal
+microglia in response to methamphetamine-taking and during
+methamphetamine abstinence, as well as their functional contribution to
+drug-taking behavior. We show that methamphetamine self-administration
+induces transcriptional changes related to protein folding, mRNA
+processing, immune signaling, and neurotransmission in striatal
+microglia. Importantly, many of these transcriptional changes persist
+through abstinence, a finding supported by morphological analysis.
+Functionally, we report that microglial ablation increases
+methamphetamine-taking, possibly involving neuroimmune and
+neurotransmitter regulation. In contrast, microglial depletion did not
+alter methamphetamine-seeking behavior following 21 days of abstinence,
+highlighting the complexity of drug-seeking behaviors. Taken together,
+these results suggest that methamphetamine induces both short and
+long-term changes in striatal microglia that contribute to altered
+drug-taking behavior and may be leveraged for preclinical development of
+methamphetamine cessation therapeutics.</p>
 </div>
 <div id="deseq2-analysis" class="section level1" number="2">
 <h1><span class="header-section-number">2</span> DESeq2 Analysis</h1>
@@ -746,6 +803,43 @@ StringTie following removal of samples that are outliers.</p>
 <p>Running DeSeq2 analysis with factor levels of Saline and
 Maintenance</p>
 <p><img src="figure/index.Rmd/DESeq2%20Analysis-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-DESeq2-Analysis-1">
+Past versions of "DESeq2 Analysis-1.png"
+</button>
+</p>
+<div id="fig-no-spaces-DESeq2-Analysis-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/DESeq2 Analysis-1.png" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 </div>
 <div id="plot-estimates-and-gather-results" class="section level1"
@@ -4550,18 +4644,129 @@ number="3.3.1.1">
 <h4><span class="header-section-number">3.3.1.1</span> Maintenance vs
 Saline</h4>
 <p><img src="figure/index.Rmd/Non-Shrunken%20Estimate%20Plots-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Non-Shrunken-Estimate-Plots-1">
+Past versions of "Non-Shrunken Estimate Plots-1.png"
+</button>
+</p>
+<div id="fig-no-spaces-Non-Shrunken-Estimate-Plots-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Non-Shrunken Estimate Plots-1.png" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div id="abstinence-vs-saline-2" class="section level4"
 number="3.3.1.2">
 <h4><span class="header-section-number">3.3.1.2</span> Abstinence vs
 Saline</h4>
 <p><img src="figure/index.Rmd/Non-Shrunken%20Estimate%20Plots2-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Non-Shrunken-Estimate-Plots2-1">
+Past versions of "Non-Shrunken Estimate Plots2-1.png"
+</button>
+</p>
+<div id="fig-no-spaces-Non-Shrunken-Estimate-Plots2-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Non-Shrunken Estimate Plots2-1.png" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div id="abstinence-vs-maintenance-2" class="section level4"
 number="3.3.1.3">
 <h4><span class="header-section-number">3.3.1.3</span> Abstinence vs
 Maintenance</h4>
 <p><img src="figure/index.Rmd/Non-Shrunken%20Estimate%20Plots3-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Non-Shrunken-Estimate-Plots3-1">
+Past versions of "Non-Shrunken Estimate Plots3-1.png"
+</button>
+</p>
+<div id="fig-no-spaces-Non-Shrunken-Estimate-Plots3-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Non-Shrunken Estimate Plots3-1.png" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 </div>
 <div id="shrunken-l2fc" class="section level3 tabset" number="3.3.2">
@@ -4572,18 +4777,129 @@ number="3.3.2.1">
 <h4><span class="header-section-number">3.3.2.1</span> Maintenance vs
 Saline</h4>
 <p><img src="figure/index.Rmd/Shrunken%20Estimate%20Plots-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Shrunken-Estimate-Plots-1">
+Past versions of "Shrunken Estimate Plots-1.png"
+</button>
+</p>
+<div id="fig-no-spaces-Shrunken-Estimate-Plots-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Shrunken Estimate Plots-1.png" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div id="abstinence-vs-saline-3" class="section level4"
 number="3.3.2.2">
 <h4><span class="header-section-number">3.3.2.2</span> Abstinence vs
 Saline</h4>
 <p><img src="figure/index.Rmd/Shrunken%20Estimate%20Plots2-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Shrunken-Estimate-Plots2-1">
+Past versions of "Shrunken Estimate Plots2-1.png"
+</button>
+</p>
+<div id="fig-no-spaces-Shrunken-Estimate-Plots2-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Shrunken Estimate Plots2-1.png" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div id="abstinence-vs-maintenance-3" class="section level4"
 number="3.3.2.3">
 <h4><span class="header-section-number">3.3.2.3</span> Abstinence vs
 Maintenance</h4>
 <p><img src="figure/index.Rmd/Shrunken%20Estimate%20Plots3-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Shrunken-Estimate-Plots3-1">
+Past versions of "Shrunken Estimate Plots3-1.png"
+</button>
+</p>
+<div id="fig-no-spaces-Shrunken-Estimate-Plots3-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Shrunken Estimate Plots3-1.png" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -4601,6 +4917,46 @@ expressed genes lie between each group based on an alpha value of
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">type =</span> <span class="st">&quot;deseq&quot;</span>, <span class="at">title =</span> <span class="cn">TRUE</span>, <span class="at">legend =</span> <span class="cn">TRUE</span>, <span class="at">grid =</span> <span class="cn">TRUE</span></span>
 <span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
 <p><img src="figure/index.Rmd/Matrix%20of%20Differentially%20Expressed%20genes%20across%20groups-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Matrix-of-Differentially-Expressed-genes-across-groups-1">
+Past versions of "Matrix of Differentially Expressed genes across
+groups-1.png"
+</button>
+</p>
+<div
+id="fig-no-spaces-Matrix-of-Differentially-Expressed-genes-across-groups-1"
+class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Matrix of Differentially Expressed genes across groups-1.png" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div id="data-visualization" class="section level1" number="5">
 <h1><span class="header-section-number">5</span> Data Visualization</h1>
@@ -4630,6 +4986,43 @@ Normalized Counts and Plots of Genes of Interest</h2>
 <span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>a</span></code></pre></div>
 <p><img src="figure/index.Rmd/Selected%20Genes-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Selected-Genes-1">
+Past versions of "Selected Genes-1.png"
+</button>
+</p>
+<div id="fig-no-spaces-Selected-Genes-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Selected Genes-1.png" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div id="cirbp" class="section level3" number="5.1.2">
 <h3><span class="header-section-number">5.1.2</span> Cirbp</h3>
@@ -4651,6 +5044,43 @@ Normalized Counts and Plots of Genes of Interest</h2>
 <span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>a</span></code></pre></div>
 <p><img src="figure/index.Rmd/Selected%20Genes2-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Selected-Genes2-1">
+Past versions of "Selected Genes2-1.png"
+</button>
+</p>
+<div id="fig-no-spaces-Selected-Genes2-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Selected Genes2-1.png" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div id="fus" class="section level3" number="5.1.3">
 <h3><span class="header-section-number">5.1.3</span> Fus</h3>
@@ -4672,6 +5102,43 @@ Normalized Counts and Plots of Genes of Interest</h2>
 <span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>a</span></code></pre></div>
 <p><img src="figure/index.Rmd/Selected%20Genes3-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Selected-Genes3-1">
+Past versions of "Selected Genes3-1.png"
+</button>
+</p>
+<div id="fig-no-spaces-Selected-Genes3-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Selected Genes3-1.png" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div id="cryab" class="section level3" number="5.1.4">
 <h3><span class="header-section-number">5.1.4</span> Cryab</h3>
@@ -4693,6 +5160,43 @@ Normalized Counts and Plots of Genes of Interest</h2>
 <span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>a</span></code></pre></div>
 <p><img src="figure/index.Rmd/Selected%20Genes4-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Selected-Genes4-1">
+Past versions of "Selected Genes4-1.png"
+</button>
+</p>
+<div id="fig-no-spaces-Selected-Genes4-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Selected Genes4-1.png" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div id="nr1d1" class="section level3" number="5.1.5">
 <h3><span class="header-section-number">5.1.5</span> Nr1d1</h3>
@@ -4714,6 +5218,43 @@ Normalized Counts and Plots of Genes of Interest</h2>
 <span id="cb8-16"><a href="#cb8-16" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb8-17"><a href="#cb8-17" aria-hidden="true" tabindex="-1"></a>a</span></code></pre></div>
 <p><img src="figure/index.Rmd/Selected%20Genes5-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Selected-Genes5-1">
+Past versions of "Selected Genes5-1.png"
+</button>
+</p>
+<div id="fig-no-spaces-Selected-Genes5-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Selected Genes5-1.png" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div id="syt11" class="section level3" number="5.1.6">
 <h3><span class="header-section-number">5.1.6</span> Syt11</h3>
@@ -4735,6 +5276,43 @@ Normalized Counts and Plots of Genes of Interest</h2>
 <span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>a</span></code></pre></div>
 <p><img src="figure/index.Rmd/Selected%20Genes6-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Selected-Genes6-1">
+Past versions of "Selected Genes6-1.png"
+</button>
+</p>
+<div id="fig-no-spaces-Selected-Genes6-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Selected Genes6-1.png" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 </div>
 <div id="visualize-results-pca" class="section level2" number="5.2">
@@ -4744,6 +5322,43 @@ PCA</h2>
 Following this I have completed a PCA for each analyses based on all
 genes together.</p>
 <p><img src="figure/index.Rmd/Plot%20PCA-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Plot-PCA-1">
+Past versions of "Plot PCA-1.png"
+</button>
+</p>
+<div id="fig-no-spaces-Plot-PCA-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Plot PCA-1.png" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div id="visualize-results-heatmap-data-generation"
 class="section level2" number="5.3">
@@ -4849,6 +5464,44 @@ Clustering</h3>
 <span id="cb11-29"><a href="#cb11-29" aria-hidden="true" tabindex="-1"></a>  <span class="at">labels_row =</span> matrownames_data_mod<span class="sc">$</span>symbol</span>
 <span id="cb11-30"><a href="#cb11-30" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
 <p><img src="figure/index.Rmd/Filter%20Heatmaps%20by%20DEGs2Unsupervised-1.png" width="768" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Filter-Heatmaps-by-DEGs2Unsupervised-1">
+Past versions of "Filter Heatmaps by DEGs2Unsupervised-1.png"
+</button>
+</p>
+<div id="fig-no-spaces-Filter-Heatmaps-by-DEGs2Unsupervised-1"
+class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Filter Heatmaps by DEGs2Unsupervised-1.png" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div id="supervised-clustering" class="section level3" number="5.4.2">
 <h3><span class="header-section-number">5.4.2</span> Supervised
@@ -4881,6 +5534,43 @@ Clustering</h3>
 <span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a>  <span class="at">legend_labels =</span> <span class="fu">c</span>(<span class="st">&quot;Saline&quot;</span>, <span class="st">&quot;Maintenance&quot;</span>, <span class="st">&quot;Abstinence&quot;</span>)</span>
 <span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
 <p><img src="figure/index.Rmd/Filter%20Heatmaps%20by%20DEGs2-1.png" width="768" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Filter-Heatmaps-by-DEGs2-1">
+Past versions of "Filter Heatmaps by DEGs2-1.png"
+</button>
+</p>
+<div id="fig-no-spaces-Filter-Heatmaps-by-DEGs2-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Filter Heatmaps by DEGs2-1.png" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div id="supervised-clustering-and-condensed" class="section level3"
 number="5.4.3">
@@ -4911,6 +5601,43 @@ Clustering and Condensed</h3>
 <span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a>  <span class="at">treeheight_col =</span> <span class="dv">10</span></span>
 <span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
 <p><img src="figure/index.Rmd/Filter%20Heatmaps%20by%20DEGs3-1.png" width="768" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Filter-Heatmaps-by-DEGs3-1">
+Past versions of "Filter Heatmaps by DEGs3-1.png"
+</button>
+</p>
+<div id="fig-no-spaces-Filter-Heatmaps-by-DEGs3-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Filter Heatmaps by DEGs3-1.png" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 </div>
 <div id="volcano-plots" class="section level2" number="5.5">
@@ -5072,6 +5799,43 @@ Adjusted p-value cutoff is 1.3 following log transformation.(-log10 0.05
 <span id="cb15-75"><a href="#cb15-75" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb15-76"><a href="#cb15-76" aria-hidden="true" tabindex="-1"></a><span class="fu">ggarrange</span>(vol_final, vol2_final, vol3_final, <span class="at">labels =</span> <span class="fu">c</span>(<span class="st">&quot;A&quot;</span>, <span class="st">&quot;B&quot;</span>, <span class="st">&quot;C&quot;</span>))</span></code></pre></div>
 <p><img src="figure/index.Rmd/Volcano%20Plots%20--%20Visualize-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Volcano-Plots----Visualize-1">
+Past versions of "Volcano Plots – Visualize-1.png"
+</button>
+</p>
+<div id="fig-no-spaces-Volcano-Plots----Visualize-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Volcano Plots -- Visualize-1.png" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -6367,8 +7131,47 @@ number="7">
 Pathways Visualization</h1>
 <div id="go-dotplot" class="section level2" number="7.1">
 <h2><span class="header-section-number">7.1</span> GO DotPlot</h2>
-<p><img src="figure/index.Rmd/Combined%20GO%20DotPlots-1.png" width="672" style="display: block; margin: auto;" />
-## Chord Plots</p>
+<p><img src="figure/index.Rmd/Combined%20GO%20DotPlots-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Combined-GO-DotPlots-1">
+Past versions of "Combined GO DotPlots-1.png"
+</button>
+</p>
+<div id="fig-no-spaces-Combined-GO-DotPlots-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Combined GO DotPlots-1.png" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="chord-plots" class="section level2" number="7.2">
+<h2><span class="header-section-number">7.2</span> Chord Plots</h2>
 <div class="sourceCode" id="cb20"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(GOplot)</span>
 <span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(data.table)</span>
 <span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -6557,6 +7360,43 @@ Pathways Visualization</h1>
 <span id="cb21-60"><a href="#cb21-60" aria-hidden="true" tabindex="-1"></a>  <span class="at">label_size =</span> <span class="dv">50</span></span>
 <span id="cb21-61"><a href="#cb21-61" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
 <p><img src="figure/index.Rmd/unnamed-chunk-3-1.png" width="5760" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-unnamed-chunk-3-1">
+Past versions of unnamed-chunk-3-1.png
+</button>
+</p>
+<div id="fig-unnamed-chunk-3-1" class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/unnamed-chunk-3-1.png" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 </div>
 <div id="determining-directionality-of-gopathways"
@@ -6570,6 +7410,44 @@ class="section level2" number="8.1">
 Genes in Maintenance vs Saline Gene Ontologies</h2>
 <div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>p9</span></code></pre></div>
 <p><img src="figure/index.Rmd/Barplots%20Maintenance%20vs%20Saline-1.png" width="1152" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Barplots-Maintenance-vs-Saline-1">
+Past versions of "Barplots Maintenance vs Saline-1.png"
+</button>
+</p>
+<div id="fig-no-spaces-Barplots-Maintenance-vs-Saline-1"
+class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Barplots Maintenance vs Saline-1.png" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div
 id="log2foldchange-of-genes-in-abstinence-vs-saline-gene-ontologies"
@@ -6578,6 +7456,44 @@ class="section level2" number="8.2">
 Genes in Abstinence vs Saline Gene Ontologies</h2>
 <div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>p17</span></code></pre></div>
 <p><img src="figure/index.Rmd/Barplots%20Abstinence%20vs%20Saline-1.png" width="1152" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Barplots-Abstinence-vs-Saline-1">
+Past versions of "Barplots Abstinence vs Saline-1.png"
+</button>
+</p>
+<div id="fig-no-spaces-Barplots-Abstinence-vs-Saline-1"
+class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Barplots Abstinence vs Saline-1.png" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 <div
 id="log2foldchange-of-genes-in-abstinence-vs-maintenance-gene-ontologies"
@@ -6586,6 +7502,44 @@ class="section level2" number="8.3">
 Genes in Abstinence vs Maintenance Gene Ontologies</h2>
 <div class="sourceCode" id="cb24"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>p26</span></code></pre></div>
 <p><img src="figure/index.Rmd/Barplots%20Abstinence%20vs%20Maintenance-1.png" width="1152" style="display: block; margin: auto;" /></p>
+<p>
+<button type="button" class="btn btn-default btn-xs btn-workflowr btn-workflowr-fig" data-toggle="collapse" data-target="#fig-no-spaces-Barplots-Abstinence-vs-Maintenance-1">
+Past versions of "Barplots Abstinence vs Maintenance-1.png"
+</button>
+</p>
+<div id="fig-no-spaces-Barplots-Abstinence-vs-Maintenance-1"
+class="collapse">
+<div class="table-responsive">
+<table class="table table-condensed table-hover">
+<thead>
+<tr>
+<th>
+Version
+</th>
+<th>
+Author
+</th>
+<th>
+Date
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Barplots Abstinence vs Maintenance-1.png" target="_blank">c3ef4c8</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </div>
 </div>
 <div id="session-info" class="section level1" number="9">
