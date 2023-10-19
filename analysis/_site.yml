@@ -3,19 +3,21 @@ output_dir: ../docs
 navbar:
   title: Methamphetamine_MicroglialRNASequencing_Analysis
   left:
-  - text: Home
-    href: index.html
-  - text: About
+  - text: Outliers
+    href: OutlierDetection.html
+  - text: About Our Lab
     href: about.html
   - text: License
     href: license.html
   right:
   - icon: fab fa-github
     text: Source code
-    href: https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis
+    href: https://github.com/avm27/MethamphetamineIVSA_RNASequencing
 output:
   workflowr::wflow_html:
     toc: yes
     toc_float: yes
-    theme: cosmo
-    highlight: textmate
+    theme: united
+    highlight: tango
+    code_folding: hide
+    number_sections: yes
