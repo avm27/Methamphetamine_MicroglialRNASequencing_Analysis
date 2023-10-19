@@ -401,7 +401,7 @@ $(document).ready(function () {
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-report" data-toggle="collapse" data-target="#workflowr-report">
 <span class="glyphicon glyphicon-list" aria-hidden="true"></span>
-workflowr <span class="glyphicon glyphicon-exclamation-sign text-danger"
+workflowr <span class="glyphicon glyphicon-ok text-success"
 aria-hidden="true"></span>
 </button>
 </p>
@@ -412,8 +412,8 @@ aria-hidden="true"></span>
 </li>
 <li>
 <a data-toggle="tab" href="#checks"> Checks <span
-class="glyphicon glyphicon-exclamation-sign text-danger"
-aria-hidden="true"></span> </a>
+class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
+</a>
 </li>
 <li>
 <a data-toggle="tab" href="#versions">Past versions</a>
@@ -426,9 +426,9 @@ aria-hidden="true"></span> </a>
 </p>
 <p>
 <strong>Checks:</strong> <span
-class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 6
+class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> 7
 <span class="glyphicon glyphicon-exclamation-sign text-danger"
-aria-hidden="true"></span> 1
+aria-hidden="true"></span> 0
 </p>
 <p>
 <strong>Knit directory:</strong>
@@ -452,21 +452,18 @@ versions</em> tab lists the development history.
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguncommittedchanges">
-<span class="glyphicon glyphicon-exclamation-sign text-danger"
-aria-hidden="true"></span> <strong>R Markdown file:</strong> uncommitted
-changes </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRMarkdownfilestronguptodate">
+<span class="glyphicon glyphicon-ok text-success"
+aria-hidden="true"></span> <strong>R Markdown file:</strong> up-to-date
+</a>
 </p>
 </div>
-<div id="strongRMarkdownfilestronguncommittedchanges"
+<div id="strongRMarkdownfilestronguptodate"
 class="panel-collapse collapse">
 <div class="panel-body">
-<p>The R Markdown file has unstaged changes. To know which version of
-the R Markdown file created these results, you’ll want to first commit
-it to the Git repo. If you’re still working on the analysis, you can
-ignore this warning. When you’re finished, you can run
-<code>wflow_publish</code> to commit the R Markdown file and build the
-HTML.</p>
+<p>Great! Since the R Markdown file has been committed to the Git
+repository, you know the exact version of the code that produced these
+results.</p>
 </div>
 </div>
 </div>
@@ -557,15 +554,15 @@ project makes it easier to run your code on other machines.</p>
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomavm27MethamphetamineMicroglialRNASequencingAnalysistreec3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7targetblankc3ef4c8a">
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomavm27MethamphetamineMicroglialRNASequencingAnalysistreeee311c7ae7933396c229f4ae4e8e5f2113594e8etargetblankee311c7a">
 <span class="glyphicon glyphicon-ok text-success"
 aria-hidden="true"></span> <strong>Repository version:</strong>
-<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/tree/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7" target="_blank">c3ef4c8</a>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/tree/ee311c7ae7933396c229f4ae4e8e5f2113594e8e" target="_blank">ee311c7</a>
 </a>
 </p>
 </div>
 <div
-id="strongRepositoryversionstrongahrefhttpsgithubcomavm27MethamphetamineMicroglialRNASequencingAnalysistreec3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7targetblankc3ef4c8a"
+id="strongRepositoryversionstrongahrefhttpsgithubcomavm27MethamphetamineMicroglialRNASequencingAnalysistreeee311c7ae7933396c229f4ae4e8e5f2113594e8etargetblankee311c7a"
 class="panel-collapse collapse">
 <div class="panel-body">
 <p>
@@ -575,7 +572,7 @@ reproducibility.
 </p>
 <p>
 The results in this page were generated with repository version
-<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/tree/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7" target="_blank">c3ef4c8</a>.
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/tree/ee311c7ae7933396c229f4ae4e8e5f2113594e8e" target="_blank">ee311c7</a>.
 See the <em>Past versions</em> tab to see a history of the changes made
 to the R Markdown and HTML files.
 </p>
@@ -589,30 +586,7 @@ depends on. Below is the status of the Git repository when the results
 were generated:
 </p>
 <pre><code>
-Untracked files:
-    Untracked:  data/Comparison_GO_GeneID_barplots.csv
-    Untracked:  data/Comparison_GO_GeneID_barplots_labeled.csv
-    Untracked:  data/Filtered_GO_Combined_Final.csv
-    Untracked:  data/GO_MIVSA_Abstinence_vs_Maintenance_circle.txt
-    Untracked:  data/GO_MIVSA_Abstinence_vs_Saline_circle.txt
-    Untracked:  data/GO_MIVSA_Maintenance_vs_Saline_circle.txt
-    Untracked:  data/MIVSA_gene_count_matrix.csv
-    Untracked:  data/MIVSA_normalized_counts_DESeq2.txt
-    Untracked:  data/gene_count_matrix_MIVSA.csv
-    Untracked:  data/sample_info_final.csv
-    Untracked:  data/sample_info_outliers.csv
-    Untracked:  output/GOBarplots_MIVSA.pdf
-    Untracked:  output/GO_all_Combined_Comparisons.txt
-    Untracked:  output/Gene_Matrix_EntrezIDs_ABSvsMN.txt
-    Untracked:  output/Gene_Matrix_EntrezIDs_ABSvsSAL.txt
-    Untracked:  output/Gene_Matrix_EntrezIDs_BACKGROUND.txt
-    Untracked:  output/Gene_Matrix_EntrezIDs_MNvsSAL.txt
-
-Unstaged changes:
-    Deleted:    analysis/MIVSA_RAnalysis_WorkFlowR.Rmd
-    Modified:   analysis/_site.yml
-    Modified:   analysis/index.Rmd
-
+working directory clean
 </code></pre>
 <p>
 Note that any generated files, e.g. HTML, png, CSS, etc., are not
@@ -656,6 +630,40 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/ee311c7ae7933396c229f4ae4e8e5f2113594e8e/analysis/index.Rmd" target="_blank">ee311c7</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+<td>
+wflow_git_commit(all = TRUE)
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/2af363907116962575a75816aee23ab980f4e91f/docs/index.html" target="_blank">2af3639</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+<td>
+Publish Asset Files
+</td>
+</tr>
 <tr>
 <td>
 html
@@ -5010,6 +5018,17 @@ Date
 <tbody>
 <tr>
 <td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/2af363907116962575a75816aee23ab980f4e91f/docs/figure/index.Rmd/Selected Genes-1.png" target="_blank">2af3639</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+<tr>
+<td>
 <a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Selected Genes-1.png" target="_blank">c3ef4c8</a>
 </td>
 <td>
@@ -5066,6 +5085,17 @@ Date
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/2af363907116962575a75816aee23ab980f4e91f/docs/figure/index.Rmd/Selected Genes2-1.png" target="_blank">2af3639</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
 <tr>
 <td>
 <a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Selected Genes2-1.png" target="_blank">c3ef4c8</a>
@@ -5126,6 +5156,17 @@ Date
 <tbody>
 <tr>
 <td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/2af363907116962575a75816aee23ab980f4e91f/docs/figure/index.Rmd/Selected Genes3-1.png" target="_blank">2af3639</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+<tr>
+<td>
 <a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Selected Genes3-1.png" target="_blank">c3ef4c8</a>
 </td>
 <td>
@@ -5182,6 +5223,17 @@ Date
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/2af363907116962575a75816aee23ab980f4e91f/docs/figure/index.Rmd/Selected Genes4-1.png" target="_blank">2af3639</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
 <tr>
 <td>
 <a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Selected Genes4-1.png" target="_blank">c3ef4c8</a>
@@ -5242,6 +5294,17 @@ Date
 <tbody>
 <tr>
 <td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/2af363907116962575a75816aee23ab980f4e91f/docs/figure/index.Rmd/Selected Genes5-1.png" target="_blank">2af3639</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+<tr>
+<td>
 <a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Selected Genes5-1.png" target="_blank">c3ef4c8</a>
 </td>
 <td>
@@ -5300,6 +5363,17 @@ Date
 <tbody>
 <tr>
 <td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/2af363907116962575a75816aee23ab980f4e91f/docs/figure/index.Rmd/Selected Genes6-1.png" target="_blank">2af3639</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
+<tr>
+<td>
 <a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Selected Genes6-1.png" target="_blank">c3ef4c8</a>
 </td>
 <td>
@@ -5344,6 +5418,17 @@ Date
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+<a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/2af363907116962575a75816aee23ab980f4e91f/docs/figure/index.Rmd/Plot PCA-1.png" target="_blank">2af3639</a>
+</td>
+<td>
+avm27
+</td>
+<td>
+2023-10-19
+</td>
+</tr>
 <tr>
 <td>
 <a href="https://github.com/avm27/Methamphetamine_MicroglialRNASequencing_Analysis/blob/c3ef4c821a628f27da5e92fb8f5dbd0da4e61eb7/docs/figure/index.Rmd/Plot PCA-1.png" target="_blank">c3ef4c8</a>
