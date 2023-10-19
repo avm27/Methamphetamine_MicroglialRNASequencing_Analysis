@@ -1,0 +1,442 @@
+Comparison,ID,GeneID,
+MaintenancevsSaline,GO:0048709,Cntn2,Oligodendrocyte differentiation
+MaintenancevsSaline,GO:0048709,Aspa,Oligodendrocyte differentiation
+MaintenancevsSaline,GO:0048709,Omg,Oligodendrocyte differentiation
+MaintenancevsSaline,GO:0048709,Cnp,Oligodendrocyte differentiation
+MaintenancevsSaline,GO:0048709,Tppp,Oligodendrocyte differentiation
+MaintenancevsSaline,GO:0048709,Enpp2,Oligodendrocyte differentiation
+MaintenancevsSaline,GO:0048709,Sox10,Oligodendrocyte differentiation
+MaintenancevsSaline,GO:0048709,Tnfrsf21,Oligodendrocyte differentiation
+MaintenancevsSaline,GO:0048709,Myrf,Oligodendrocyte differentiation
+MaintenancevsSaline,GO:0048709,Il33,Oligodendrocyte differentiation
+MaintenancevsSaline,GO:0048709,Opalin,Oligodendrocyte differentiation
+MaintenancevsSaline,GO:0048709,Abca2,Oligodendrocyte differentiation
+MaintenancevsSaline,GO:0048709,Mal,Oligodendrocyte differentiation
+MaintenancevsSaline,GO:0048709,Tspan2,Oligodendrocyte differentiation
+MaintenancevsSaline,GO:0048709,Hes5,Oligodendrocyte differentiation
+MaintenancevsSaline,GO:0048709,Mag,Oligodendrocyte differentiation
+MaintenancevsSaline,GO:0048709,Fa2h,Oligodendrocyte differentiation
+MaintenancevsSaline,GO:0048709,Plp1,Oligodendrocyte differentiation
+MaintenancevsSaline,GO:0006397,Ptbp1,mRNA Processing
+MaintenancevsSaline,GO:0006397,Cirbp,mRNA Processing
+MaintenancevsSaline,GO:0006397,Fxr2,mRNA Processing
+MaintenancevsSaline,GO:0006397,Prpf39,mRNA Processing
+MaintenancevsSaline,GO:0006397,Zfp36l1,mRNA Processing
+MaintenancevsSaline,GO:0006397,Srsf5,mRNA Processing
+MaintenancevsSaline,GO:0006397,Hnrnpk,mRNA Processing
+MaintenancevsSaline,GO:0006397,Ccnb1,mRNA Processing
+MaintenancevsSaline,GO:0006397,Acin1,mRNA Processing
+MaintenancevsSaline,GO:0006397,Tra2b,mRNA Processing
+MaintenancevsSaline,GO:0006397,Luc7l,mRNA Processing
+MaintenancevsSaline,GO:0006397,Srsf3,mRNA Processing
+MaintenancevsSaline,GO:0006397,U2af1,mRNA Processing
+MaintenancevsSaline,GO:0006397,Akap8l,mRNA Processing
+MaintenancevsSaline,GO:0006397,Hnrnpm,mRNA Processing
+MaintenancevsSaline,GO:0006397,Cdc5l,mRNA Processing
+MaintenancevsSaline,GO:0006397,Srsf7,mRNA Processing
+MaintenancevsSaline,GO:0006397,Thoc1,mRNA Processing
+MaintenancevsSaline,GO:0006397,Cir1,mRNA Processing
+MaintenancevsSaline,GO:0006397,Mfap1a,mRNA Processing
+MaintenancevsSaline,GO:0006397,Rbm39,mRNA Processing
+MaintenancevsSaline,GO:0006397,Fxr1,mRNA Processing
+MaintenancevsSaline,GO:0006397,Prpf38b,mRNA Processing
+MaintenancevsSaline,GO:0006397,Srsf10,mRNA Processing
+MaintenancevsSaline,GO:0006397,Srpk2,mRNA Processing
+MaintenancevsSaline,GO:0006397,Fip1l1,mRNA Processing
+MaintenancevsSaline,GO:0006397,Tra2a,mRNA Processing
+MaintenancevsSaline,GO:0006397,Tia1,mRNA Processing
+MaintenancevsSaline,GO:0006397,Aplp1,mRNA Processing
+MaintenancevsSaline,GO:0006397,Hspa8,mRNA Processing
+MaintenancevsSaline,GO:0006397,Rbm5,mRNA Processing
+MaintenancevsSaline,GO:0006397,Rbm3,mRNA Processing
+MaintenancevsSaline,GO:0006457,Hspd1,Protein folding
+MaintenancevsSaline,GO:0006457,Cct4,Protein folding
+MaintenancevsSaline,GO:0006457,Ahsa2,Protein folding
+MaintenancevsSaline,GO:0006457,Ahsa1,Protein folding
+MaintenancevsSaline,GO:0006457,Cct5,Protein folding
+MaintenancevsSaline,GO:0006457,Cct8,Protein folding
+MaintenancevsSaline,GO:0006457,Tcp1,Protein folding
+MaintenancevsSaline,GO:0006457,Hsp90ab1,Protein folding
+MaintenancevsSaline,GO:0006457,Cdc37l1,Protein folding
+MaintenancevsSaline,GO:0006457,Hspa5,Protein folding
+MaintenancevsSaline,GO:0006457,Ppig,Protein folding
+MaintenancevsSaline,GO:0006457,Ppid,Protein folding
+MaintenancevsSaline,GO:0006457,Dnaja1,Protein folding
+MaintenancevsSaline,GO:0006457,Hsph1,Protein folding
+MaintenancevsSaline,GO:0006457,Cct7,Protein folding
+MaintenancevsSaline,GO:0006457,Fkbp4,Protein folding
+MaintenancevsSaline,GO:0006457,Chordc1,Protein folding
+MaintenancevsSaline,GO:0006457,Hspa8,Protein folding
+MaintenancevsSaline,GO:0006457,Cryab,Protein folding
+MaintenancevsSaline,GO:0010001,Cntn2,Glial cell differentiation
+MaintenancevsSaline,GO:0010001,Aspa,Glial cell differentiation
+MaintenancevsSaline,GO:0010001,Omg,Glial cell differentiation
+MaintenancevsSaline,GO:0010001,Cnp,Glial cell differentiation
+MaintenancevsSaline,GO:0010001,Tppp,Glial cell differentiation
+MaintenancevsSaline,GO:0010001,Enpp2,Glial cell differentiation
+MaintenancevsSaline,GO:0010001,Sox10,Glial cell differentiation
+MaintenancevsSaline,GO:0010001,Tnfrsf21,Glial cell differentiation
+MaintenancevsSaline,GO:0010001,Myrf,Glial cell differentiation
+MaintenancevsSaline,GO:0010001,Il33,Glial cell differentiation
+MaintenancevsSaline,GO:0010001,Opalin,Glial cell differentiation
+MaintenancevsSaline,GO:0010001,Abca2,Glial cell differentiation
+MaintenancevsSaline,GO:0010001,Mal,Glial cell differentiation
+MaintenancevsSaline,GO:0010001,Phgdh,Glial cell differentiation
+MaintenancevsSaline,GO:0010001,Tspan2,Glial cell differentiation
+MaintenancevsSaline,GO:0010001,Hes5,Glial cell differentiation
+MaintenancevsSaline,GO:0010001,Mag,Glial cell differentiation
+MaintenancevsSaline,GO:0010001,Fa2h,Glial cell differentiation
+MaintenancevsSaline,GO:0010001,Cspg5,Glial cell differentiation
+MaintenancevsSaline,GO:0010001,Plp1,Glial cell differentiation
+MaintenancevsSaline,GO:0051276,Rrs1,Chromosome organization
+MaintenancevsSaline,GO:0051276,Tpr,Chromosome organization
+MaintenancevsSaline,GO:0051276,Morc2a,Chromosome organization
+MaintenancevsSaline,GO:0051276,Cct4,Chromosome organization
+MaintenancevsSaline,GO:0051276,Ube2b,Chromosome organization
+MaintenancevsSaline,GO:0051276,Ctc1,Chromosome organization
+MaintenancevsSaline,GO:0051276,Zfp207,Chromosome organization
+MaintenancevsSaline,GO:0051276,Top2a,Chromosome organization
+MaintenancevsSaline,GO:0051276,Pum2,Chromosome organization
+MaintenancevsSaline,GO:0051276,Ccnb1,Chromosome organization
+MaintenancevsSaline,GO:0051276,Acin1,Chromosome organization
+MaintenancevsSaline,GO:0051276,Nipbl,Chromosome organization
+MaintenancevsSaline,GO:0051276,Cct5,Chromosome organization
+MaintenancevsSaline,GO:0051276,Chmp2b,Chromosome organization
+MaintenancevsSaline,GO:0051276,Cct8,Chromosome organization
+MaintenancevsSaline,GO:0051276,Tcp1,Chromosome organization
+MaintenancevsSaline,GO:0051276,Akap8l,Chromosome organization
+MaintenancevsSaline,GO:0051276,Hsp90ab1,Chromosome organization
+MaintenancevsSaline,GO:0051276,Esco1,Chromosome organization
+MaintenancevsSaline,GO:0051276,Eml3,Chromosome organization
+MaintenancevsSaline,GO:0051276,Smc3,Chromosome organization
+MaintenancevsSaline,GO:0051276,Top1,Chromosome organization
+MaintenancevsSaline,GO:0051276,Fbxw7,Chromosome organization
+MaintenancevsSaline,GO:0051276,Cct7,Chromosome organization
+MaintenancevsSaline,GO:0051276,Atf7ip,Chromosome organization
+MaintenancevsSaline,GO:0051276,Naa10,Chromosome organization
+MaintenancevsSaline,GO:0051276,Dkc1,Chromosome organization
+MaintenancevsSaline,GO:0051276,Smc1a,Chromosome organization
+MaintenancevsSaline,GO:1902904,Tmeff2,Negative regulation of supramolecular fiber organization
+MaintenancevsSaline,GO:1902904,Map2,Negative regulation of supramolecular fiber organization
+MaintenancevsSaline,GO:1902904,Ssh2,Negative regulation of supramolecular fiber organization
+MaintenancevsSaline,GO:1902904,Map1b,Negative regulation of supramolecular fiber organization
+MaintenancevsSaline,GO:1902904,Tubb4a,Negative regulation of supramolecular fiber organization
+MaintenancevsSaline,GO:1902904,Gsn,Negative regulation of supramolecular fiber organization
+MaintenancevsSaline,GO:1902904,Stmn1,Negative regulation of supramolecular fiber organization
+MaintenancevsSaline,GO:1902904,Ctnna2,Negative regulation of supramolecular fiber organization
+MaintenancevsSaline,GO:1902904,Fkbp4,Negative regulation of supramolecular fiber organization
+MaintenancevsSaline,GO:1902904,Apoe,Negative regulation of supramolecular fiber organization
+MaintenancevsSaline,GO:1902904,Clip3,Negative regulation of supramolecular fiber organization
+MaintenancevsSaline,GO:1902904,Hspa8,Negative regulation of supramolecular fiber organization
+MaintenancevsSaline,GO:1902904,Cryab,Negative regulation of supramolecular fiber organization
+MaintenancevsSaline,GO:1902904,Tmod2,Negative regulation of supramolecular fiber organization
+MaintenancevsSaline,GO:1902904,Shroom2,Negative regulation of supramolecular fiber organization
+MaintenancevsSaline,GO:0070507,Map2,Regulation of microtubule cytoskeleton organization
+MaintenancevsSaline,GO:0070507,Tpr,Regulation of microtubule cytoskeleton organization
+MaintenancevsSaline,GO:0070507,Tppp,Regulation of microtubule cytoskeleton organization
+MaintenancevsSaline,GO:0070507,Map1b,Regulation of microtubule cytoskeleton organization
+MaintenancevsSaline,GO:0070507,Stmn4,Regulation of microtubule cytoskeleton organization
+MaintenancevsSaline,GO:0070507,Slain1,Regulation of microtubule cytoskeleton organization
+MaintenancevsSaline,GO:0070507,Chmp2b,Regulation of microtubule cytoskeleton organization
+MaintenancevsSaline,GO:0070507,Tubb4a,Regulation of microtubule cytoskeleton organization
+MaintenancevsSaline,GO:0070507,Eml3,Regulation of microtubule cytoskeleton organization
+MaintenancevsSaline,GO:0070507,Gpsm2,Regulation of microtubule cytoskeleton organization
+MaintenancevsSaline,GO:0070507,Stmn1,Regulation of microtubule cytoskeleton organization
+MaintenancevsSaline,GO:0070507,Hsph1,Regulation of microtubule cytoskeleton organization
+MaintenancevsSaline,GO:0070507,Fkbp4,Regulation of microtubule cytoskeleton organization
+MaintenancevsSaline,GO:0070507,Clip3,Regulation of microtubule cytoskeleton organization
+MaintenancevsSaline,GO:0002764,Hspd1,Immune response-regulating signaling pathway
+MaintenancevsSaline,GO:0002764,Irgm1,Immune response-regulating signaling pathway
+MaintenancevsSaline,GO:0002764,Irf1,Immune response-regulating signaling pathway
+MaintenancevsSaline,GO:0002764,Sec14l1,Immune response-regulating signaling pathway
+MaintenancevsSaline,GO:0002764,Pum2,Immune response-regulating signaling pathway
+MaintenancevsSaline,GO:0002764,Cd180,Immune response-regulating signaling pathway
+MaintenancevsSaline,GO:0002764,Mog,Immune response-regulating signaling pathway
+MaintenancevsSaline,GO:0002764,Tnfrsf21,Immune response-regulating signaling pathway
+MaintenancevsSaline,GO:0002764,Treml4,Immune response-regulating signaling pathway
+MaintenancevsSaline,GO:0002764,Cd14,Immune response-regulating signaling pathway
+MaintenancevsSaline,GO:0002764,Slc15a3,Immune response-regulating signaling pathway
+MaintenancevsSaline,GO:0002764,Prnp,Immune response-regulating signaling pathway
+MaintenancevsSaline,GO:0002764,Rbck1,Immune response-regulating signaling pathway
+MaintenancevsSaline,GO:0002764,Tifa,Immune response-regulating signaling pathway
+MaintenancevsSaline,GO:0002764,Sh2b2,Immune response-regulating signaling pathway
+MaintenancevsSaline,GO:0002764,Zc3hav1,Immune response-regulating signaling pathway
+MaintenancevsSaline,GO:0002764,Clec4n,Immune response-regulating signaling pathway
+MaintenancevsSaline,GO:0002764,Ptpn6,Immune response-regulating signaling pathway
+MaintenancevsSaline,GO:0002764,Cd276,Immune response-regulating signaling pathway
+MaintenancevsSaline,GO:0002764,Mapkapk3,Immune response-regulating signaling pathway
+AbstinencevsSaline,GO:0048709,Cntn2,Oligodendrocyte differentiation
+AbstinencevsSaline,GO:0048709,Kcnj10,Oligodendrocyte differentiation
+AbstinencevsSaline,GO:0048709,Aspa,Oligodendrocyte differentiation
+AbstinencevsSaline,GO:0048709,Omg,Oligodendrocyte differentiation
+AbstinencevsSaline,GO:0048709,Cnp,Oligodendrocyte differentiation
+AbstinencevsSaline,GO:0048709,Tppp,Oligodendrocyte differentiation
+AbstinencevsSaline,GO:0048709,Clu,Oligodendrocyte differentiation
+AbstinencevsSaline,GO:0048709,Enpp2,Oligodendrocyte differentiation
+AbstinencevsSaline,GO:0048709,Sox10,Oligodendrocyte differentiation
+AbstinencevsSaline,GO:0048709,Cntn1,Oligodendrocyte differentiation
+AbstinencevsSaline,GO:0048709,Olig1,Oligodendrocyte differentiation
+AbstinencevsSaline,GO:0048709,Sox8,Oligodendrocyte differentiation
+AbstinencevsSaline,GO:0048709,Il33,Oligodendrocyte differentiation
+AbstinencevsSaline,GO:0048709,Opalin,Oligodendrocyte differentiation
+AbstinencevsSaline,GO:0048709,Mal,Oligodendrocyte differentiation
+AbstinencevsSaline,GO:0048709,Tspan2,Oligodendrocyte differentiation
+AbstinencevsSaline,GO:0048709,Hes5,Oligodendrocyte differentiation
+AbstinencevsSaline,GO:0048709,Mag,Oligodendrocyte differentiation
+AbstinencevsSaline,GO:0048709,Fa2h,Oligodendrocyte differentiation
+AbstinencevsSaline,GO:0048709,Plp1,Oligodendrocyte differentiation
+AbstinencevsSaline,GO:0050808,Fzd5,Synapse organization
+AbstinencevsSaline,GO:0050808,Cntn2,Synapse organization
+AbstinencevsSaline,GO:0050808,Ank3,Synapse organization
+AbstinencevsSaline,GO:0050808,Nrxn1,Synapse organization
+AbstinencevsSaline,GO:0050808,Prnp,Synapse organization
+AbstinencevsSaline,GO:0050808,Nlgn1,Synapse organization
+AbstinencevsSaline,GO:0050808,Pfn2,Synapse organization
+AbstinencevsSaline,GO:0050808,Glrb,Synapse organization
+AbstinencevsSaline,GO:0050808,Bcan,Synapse organization
+AbstinencevsSaline,GO:0050808,Ptprd,Synapse organization
+AbstinencevsSaline,GO:0050808,Ptprf,Synapse organization
+AbstinencevsSaline,GO:0050808,Ctnna2,Synapse organization
+AbstinencevsSaline,GO:0050808,Lrrn1,Synapse organization
+AbstinencevsSaline,GO:0050808,Slc6a1,Synapse organization
+AbstinencevsSaline,GO:0050808,Eef2k,Synapse organization
+AbstinencevsSaline,GO:0050808,Sez6l2,Synapse organization
+AbstinencevsSaline,GO:0050808,Fgfr2,Synapse organization
+AbstinencevsSaline,GO:0050808,Gpm6a,Synapse organization
+AbstinencevsSaline,GO:0050808,Rab39b,Synapse organization
+AbstinencevsSaline,GO:0050808,Pak3,Synapse organization
+AbstinencevsSaline,GO:0051962,Nap1l1,
+AbstinencevsSaline,GO:0031644,Adora1,Regulation of nervous system process
+AbstinencevsSaline,GO:0031644,Kcnj10,Regulation of nervous system process
+AbstinencevsSaline,GO:0031644,Tppp,Regulation of nervous system process
+AbstinencevsSaline,GO:0031644,Ednrb,Regulation of nervous system process
+AbstinencevsSaline,GO:0031644,Sox10,Regulation of nervous system process
+AbstinencevsSaline,GO:0031644,Nrxn1,Regulation of nervous system process
+AbstinencevsSaline,GO:0031644,Il33,Regulation of nervous system process
+AbstinencevsSaline,GO:0031644,Nlgn1,Regulation of nervous system process
+AbstinencevsSaline,GO:0031644,Grm3,Regulation of nervous system process
+AbstinencevsSaline,GO:0031644,Mag,Regulation of nervous system process
+AbstinencevsSaline,GO:0031644,Ncam1,Regulation of nervous system process
+AbstinencevsSaline,GO:0006457,Clu,Protein folding
+AbstinencevsSaline,GO:0006457,Ppil2,Protein folding
+AbstinencevsSaline,GO:0006457,Fkbp5,Protein folding
+AbstinencevsSaline,GO:0006457,Hspa1a,Protein folding
+AbstinencevsSaline,GO:0006457,Cdc37l1,Protein folding
+AbstinencevsSaline,GO:0006457,Ppid,Protein folding
+AbstinencevsSaline,GO:0006457,Dnaja1,Protein folding
+AbstinencevsSaline,GO:0006457,Hsph1,Protein folding
+AbstinencevsSaline,GO:0006457,Dnajb1,Protein folding
+AbstinencevsSaline,GO:0006457,Cryab,Protein folding
+AbstinencevsSaline,GO:0031589,Tmeff2,Cell-substrate adhesion
+AbstinencevsSaline,GO:0031589,Cntn2,Cell-substrate adhesion
+AbstinencevsSaline,GO:0031589,Epdr1,Cell-substrate adhesion
+AbstinencevsSaline,GO:0031589,Spock1,Cell-substrate adhesion
+AbstinencevsSaline,GO:0031589,Edil3,Cell-substrate adhesion
+AbstinencevsSaline,GO:0031589,Fermt2,Cell-substrate adhesion
+AbstinencevsSaline,GO:0031589,Enpp2,Cell-substrate adhesion
+AbstinencevsSaline,GO:0031589,Apod,Cell-substrate adhesion
+AbstinencevsSaline,GO:0031589,Ddr1,Cell-substrate adhesion
+AbstinencevsSaline,GO:0031589,Fermt3,Cell-substrate adhesion
+AbstinencevsSaline,GO:0031589,Itga6,Cell-substrate adhesion
+AbstinencevsSaline,GO:0031589,Bcan,Cell-substrate adhesion
+AbstinencevsSaline,GO:0031589,Tmem8b,Cell-substrate adhesion
+AbstinencevsSaline,GO:0031589,Cspg5,Cell-substrate adhesion
+AbstinencevsSaline,GO:0001774,Ifngr1,Microglial cell activation
+AbstinencevsSaline,GO:0001774,Nr1d1,Microglial cell activation
+AbstinencevsSaline,GO:0001774,Clu,Microglial cell activation
+AbstinencevsSaline,GO:0001774,Il33,Microglial cell activation
+AbstinencevsSaline,GO:0001774,Syt11,Microglial cell activation
+AbstinencevsMaintenance,GO:0002764,Hspd1,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Lilrb4a,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Lcp2,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Havcr2,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Gps2,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Sarm1,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Lgals9,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Nr1d1,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Cd300a,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Sec14l1,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Pum2,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Psen1,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Cd180,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Fyb,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Tnfrsf21,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Nfkbil1,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Cd14,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Slc15a3,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Lpxn,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Blnk,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Dgkz,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Rbck1,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Tifa,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Sh2b2,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Zc3hav1,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Clec4n,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,C5ar1,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Cd33,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Bax,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Cd276,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Tlr13,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0002764,Tlr7,Immune response-regulating signaling pathway
+AbstinencevsMaintenance,GO:0006457,Hspd1,Protein folding
+AbstinencevsMaintenance,GO:0006457,Cct4,Protein folding
+AbstinencevsMaintenance,GO:0006457,Ahsa2,Protein folding
+AbstinencevsMaintenance,GO:0006457,Ahsa1,Protein folding
+AbstinencevsMaintenance,GO:0006457,Tbce,Protein folding
+AbstinencevsMaintenance,GO:0006457,Cct5,Protein folding
+AbstinencevsMaintenance,GO:0006457,Ppil2,Protein folding
+AbstinencevsMaintenance,GO:0006457,Cct8,Protein folding
+AbstinencevsMaintenance,GO:0006457,Tcp1,Protein folding
+AbstinencevsMaintenance,GO:0006457,Fkbp5,Protein folding
+AbstinencevsMaintenance,GO:0006457,Hsp90ab1,Protein folding
+AbstinencevsMaintenance,GO:0006457,Hspa5,Protein folding
+AbstinencevsMaintenance,GO:0006457,Ppig,Protein folding
+AbstinencevsMaintenance,GO:0006457,Dnajc10,Protein folding
+AbstinencevsMaintenance,GO:0006457,Cct3,Protein folding
+AbstinencevsMaintenance,GO:0006457,Dnajb6,Protein folding
+AbstinencevsMaintenance,GO:0006457,Cct7,Protein folding
+AbstinencevsMaintenance,GO:0006457,Fkbp4,Protein folding
+AbstinencevsMaintenance,GO:0006457,Chordc1,Protein folding
+AbstinencevsMaintenance,GO:0006457,Hspa8,Protein folding
+AbstinencevsMaintenance,GO:0097193,Bclaf1,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0097193,Pttg1ip,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0097193,Ddit3,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0097193,Xbp1,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0097193,Ubb,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0097193,Hnrnpk,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0097193,Pnp,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0097193,Ccar2,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0097193,Myc,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0097193,Ppm1f,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0097193,Ralbp1,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0097193,Msh2,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0097193,Tmem109,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0097193,Pdk1,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0097193,Dnajc10,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0097193,Fbxw7,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0097193,Nbn,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0097193,Eno1,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0097193,Cycs,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0097193,Arl6ip5,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0097193,Plekhf1,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0097193,Bax,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0097193,Bnip3,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0097193,Herpud1,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0097193,Nono,Intrinsic apoptotic signaling pathway
+AbstinencevsMaintenance,GO:0070997,Hspd1,Neuron death
+AbstinencevsMaintenance,GO:0070997,Ddit3,Neuron death
+AbstinencevsMaintenance,GO:0070997,Ubb,Neuron death
+AbstinencevsMaintenance,GO:0070997,Sarm1,Neuron death
+AbstinencevsMaintenance,GO:0070997,Ccl12,Neuron death
+AbstinencevsMaintenance,GO:0070997,Ccl3,Neuron death
+AbstinencevsMaintenance,GO:0070997,Snx6,Neuron death
+AbstinencevsMaintenance,GO:0070997,Psen1,Neuron death
+AbstinencevsMaintenance,GO:0070997,Kcnma1,Neuron death
+AbstinencevsMaintenance,GO:0070997,Parp2,Neuron death
+AbstinencevsMaintenance,GO:0070997,Hsf1,Neuron death
+AbstinencevsMaintenance,GO:0070997,Abcc1,Neuron death
+AbstinencevsMaintenance,GO:0070997,Tnfrsf21,Neuron death
+AbstinencevsMaintenance,GO:0070997,Hsp90ab1,Neuron death
+AbstinencevsMaintenance,GO:0070997,Ralbp1,Neuron death
+AbstinencevsMaintenance,GO:0070997,Msh2,Neuron death
+AbstinencevsMaintenance,GO:0070997,Kcnip3,Neuron death
+AbstinencevsMaintenance,GO:0070997,Kcnb1,Neuron death
+AbstinencevsMaintenance,GO:0070997,Fbxw7,Neuron death
+AbstinencevsMaintenance,GO:0070997,Srpk2,Neuron death
+AbstinencevsMaintenance,GO:0070997,Arl6ip5,Neuron death
+AbstinencevsMaintenance,GO:0070997,Tigar,Neuron death
+AbstinencevsMaintenance,GO:0070997,C5ar1,Neuron death
+AbstinencevsMaintenance,GO:0070997,Apoe,Neuron death
+AbstinencevsMaintenance,GO:0070997,Bax,Neuron death
+AbstinencevsMaintenance,GO:0070997,Picalm,Neuron death
+AbstinencevsMaintenance,GO:0070997,Bnip3,Neuron death
+AbstinencevsMaintenance,GO:0070997,Ccnd1,Neuron death
+AbstinencevsMaintenance,GO:0070997,Aars,Neuron death
+AbstinencevsMaintenance,GO:0070997,Nono,Neuron death
+AbstinencevsMaintenance,GO:0006397,Ptbp1,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Cirbp,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Zc3h10,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Nsrp1,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Srsf5,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Ddx41,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Hnrnpk,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Acin1,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Pabpn1,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Ccar2,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Hsf1,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Srsf3,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,U2af1,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Akap8l,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Hnrnpm,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Cdc5l,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Usp49,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Rbm17,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Fxr1,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Mbnl1,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Larp7,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Sf3a3,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Thrap3,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Syf2,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Srsf10,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Srpk2,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Hspa8,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Rbm5,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Srpk3,mRNA Processing
+AbstinencevsMaintenance,GO:0006397,Nono,mRNA Processing
+AbstinencevsMaintenance,GO:0009314,Rhbdd1,Response to radiation 
+AbstinencevsMaintenance,GO:0009314,Nucks1,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Cirbp,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Ube2b,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Rpain,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Zzef1,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Pnp,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Ccar2,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Nipbl,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Slc1a3,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Myc,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Hsf1,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Pde1b,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Crebbp,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Guca1a,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Msh2,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Synpo,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Tmem109,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Cat,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Fbxw7,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Per3,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Tigar,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Ercc1,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Bax,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Ccnd1,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Fbxl12,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Usp2,Response to radiation
+AbstinencevsMaintenance,GO:0009314,Kmt2a,Response to radiation
+AbstinencevsMaintenance,GO:0051276,Tpr,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Pkib,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Morc2a,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Cct4,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Ube2b,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Ctc1,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Smarce1,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,H3f3b,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Pum2,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Acin1,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Nipbl,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Cct5,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Myc,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Cct8,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Tcp1,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Akap8l,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Hsp90ab1,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Msh2,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Eml3,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Smc3,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Tcf7l2,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Fbxw7,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Cct3,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Pogz,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Nbn,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Cct7,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Ercc1,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Nup62,Chromosome organization
+AbstinencevsMaintenance,GO:0051276,Brd7,Chromosome organization

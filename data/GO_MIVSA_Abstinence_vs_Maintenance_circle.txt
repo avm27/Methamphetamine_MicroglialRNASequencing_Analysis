@@ -1,0 +1,273 @@
+Category	ID	Term	Genes	adj_pval
+BP	GO:0002764	immune response-regulating signaling pathway	Hspd1,Lilrb4a,Lcp2,Havcr2,Gps2,Sarm1,Lgals9,Nr1d1,Cd300a,Sec14l1,Pum2,Psen1,Cd180,Fyb,Tnfrsf21,Nfkbil1,Cd14,Slc15a3,Lpxn,Blnk,Dgkz,Rbck1,Tifa,Sh2b2,Zc3hav1,Clec4n,C5ar1,Cd33,Bax,Cd276,Tlr13,Tlr7	8.023874107913E-06
+BP	GO:0006457	protein folding	Hspd1,Cct4,Ahsa2,Ahsa1,Tbce,Cct5,Ppil2,Cct8,Tcp1,Fkbp5,Hsp90ab1,Hspa5,Ppig,Dnajc10,Cct3,Dnajb6,Cct7,Fkbp4,Chordc1,Hspa8	9.15628150027935E-06
+BP	GO:0000375	RNA splicing, via transesterification reactions	Ptbp1,Cirbp,Zc3h10,Nsrp1,Srsf5,Ddx41,Hnrnpk,Acin1,Srsf3,U2af1,Hnrnpm,Cdc5l,Usp49,Rbm17,Fxr1,Mbnl1,Larp7,Sf3a3,Thrap3,Syf2,Srsf10,Srpk2,Hspa8,Rbm5,Srpk3	1.39271144070871E-05
+BP	GO:0000377	RNA splicing, via transesterification reactions with bulged adenosine as nucleophile	Ptbp1,Cirbp,Zc3h10,Nsrp1,Srsf5,Ddx41,Hnrnpk,Acin1,Srsf3,U2af1,Hnrnpm,Cdc5l,Usp49,Rbm17,Fxr1,Mbnl1,Larp7,Sf3a3,Thrap3,Syf2,Srsf10,Srpk2,Hspa8,Rbm5,Srpk3	1.39271144070871E-05
+BP	GO:0000398	mRNA splicing, via spliceosome	Ptbp1,Cirbp,Zc3h10,Nsrp1,Srsf5,Ddx41,Hnrnpk,Acin1,Srsf3,U2af1,Hnrnpm,Cdc5l,Usp49,Rbm17,Fxr1,Mbnl1,Larp7,Sf3a3,Thrap3,Syf2,Srsf10,Srpk2,Hspa8,Rbm5,Srpk3	1.39271144070871E-05
+BP	GO:0006986	response to unfolded protein	Hspd1,Rhbdd1,Ubxn4,Ddit3,Xbp1,Dnajb9,Hsf1,Hspa5,Dnajc10,Bax,Ppp1r15a,Ccnd1,Herpud1,Abcb10,Hspa8,Manf	1.41754947548755E-05
+BP	GO:0061077	chaperone-mediated protein folding	Cct4,Cct5,Cct8,Tcp1,Fkbp5,Hspa5,Cct3,Dnajb6,Cct7,Fkbp4,Chordc1,Hspa8	2.05619435769068E-05
+BP	GO:1904851	positive regulation of establishment of protein localization to telomere	Cct4,Cct5,Cct8,Tcp1,Cct3,Cct7	2.05619435769068E-05
+BP	GO:0072594	establishment of protein localization to organelle	Hspd1,Tpr,Pex3,Pttg1ip,Ap3d1,Ddit3,Xbp1,Cct4,Rpain,Akap1,Srp68,Psen1,Ipo4,Nipbl,Cct5,Cct8,Tcp1,Hsp90ab1,Pik3c3,Nolc1,Hspa5,Pkig,Sec62,Fbxw7,Cct3,Cct7,Nup62,Bax,Vps37a,Herpud1,Hspa8	2.56782478292332E-05
+BP	GO:0051054	positive regulation of DNA metabolic process	Cacybp,Eya4,Pkib,Cct4,Ube2b,Ctc1,Smarce1,Pnp,Cct5,Myc,Hsf1,Cct8,Tcp1,Hsp90ab1,Msh2,Cct3,Pogz,Nbn,Anxa3,Trrap,Cct7,Tigar,Ercc1,Bax,Fus,Brd7	3.22082377035944E-05
+BP	GO:0070203	regulation of establishment of protein localization to telomere	Cct4,Cct5,Cct8,Tcp1,Cct3,Cct7	3.22082377035944E-05
+BP	GO:0008380	RNA splicing	Ptbp1,Cirbp,Zc3h10,Nsrp1,Srsf5,Ddx41,Hnrnpk,Acin1,Ccar2,Srsf3,U2af1,Hnrnpm,Cdc5l,Usp49,Rbm17,Fxr1,Mbnl1,Larp7,Sf3a3,Thrap3,Syf2,Srsf10,Srpk2,Trrap,Sgf29,Fus,Hspa8,Rbm5,Srpk3,Nono	3.70086907779866E-05
+BP	GO:0097193	intrinsic apoptotic signaling pathway	Bclaf1,Pttg1ip,Ddit3,Xbp1,Ubb,Hnrnpk,Pnp,Ccar2,Myc,Ppm1f,Ralbp1,Msh2,Tmem109,Pdk1,Dnajc10,Fbxw7,Nbn,Eno1,Cycs,Arl6ip5,Plekhf1,Bax,Bnip3,Herpud1,Nono	3.70086907779866E-05
+BP	GO:0043484	regulation of RNA splicing	Ptbp1,Cirbp,Zc3h10,Nsrp1,Srsf5,Hnrnpk,Acin1,Srsf3,Rbm17,Fxr1,Mbnl1,Larp7,Thrap3,Srsf10,Trrap,Sgf29,Fus,Hspa8,Rbm5	4.31212674093222E-05
+BP	GO:0070202	regulation of establishment of protein localization to chromosome	Cct4,Cct5,Cct8,Tcp1,Cct3,Cct7	4.34958921109726E-05
+BP	GO:0050684	regulation of mRNA processing	Ptbp1,Cirbp,Zc3h10,Nsrp1,Hnrnpk,Acin1,Hsf1,Srsf3,Fxr1,Mbnl1,Larp7,Thrap3,Srsf10,Srpk2,Hspa8,Rbm5,Srpk3	4.34958921109726E-05
+BP	GO:0034620	cellular response to unfolded protein	Hspd1,Rhbdd1,Ddit3,Xbp1,Hsf1,Hspa5,Dnajc10,Bax,Ppp1r15a,Ccnd1,Herpud1,Abcb10,Hspa8	4.93911129385194E-05
+BP	GO:0035966	response to topologically incorrect protein	Hspd1,Rhbdd1,Ubxn4,Ddit3,Xbp1,Dnajb9,Hsf1,Hspa5,Dnajc10,Bax,Ppp1r15a,Ccnd1,Herpud1,Abcb10,Hspa8,Manf	5.23561743733367E-05
+BP	GO:1904816	positive regulation of protein localization to chromosome, telomeric region	Cct4,Cct5,Cct8,Tcp1,Cct3,Cct7	6.63832642919898E-05
+BP	GO:1904814	regulation of protein localization to chromosome, telomeric region	Cct4,Cct5,Cct8,Tcp1,Cct3,Cct7	0.000108047500881317
+BP	GO:0048024	regulation of mRNA splicing, via spliceosome	Ptbp1,Cirbp,Zc3h10,Nsrp1,Hnrnpk,Acin1,Srsf3,Fxr1,Mbnl1,Larp7,Thrap3,Srsf10,Hspa8,Rbm5	0.000131080247703887
+BP	GO:0070997	neuron death	Hspd1,Ddit3,Ubb,Sarm1,Ccl12,Ccl3,Snx6,Psen1,Kcnma1,Parp2,Hsf1,Abcc1,Tnfrsf21,Hsp90ab1,Ralbp1,Msh2,Kcnip3,Kcnb1,Fbxw7,Srpk2,Arl6ip5,Tigar,C5ar1,Apoe,Bax,Picalm,Bnip3,Ccnd1,Aars,Nono	0.000145498955884003
+BP	GO:0006397	mRNA processing	Ptbp1,Cirbp,Zc3h10,Nsrp1,Srsf5,Ddx41,Hnrnpk,Acin1,Pabpn1,Ccar2,Hsf1,Srsf3,U2af1,Akap8l,Hnrnpm,Cdc5l,Usp49,Rbm17,Fxr1,Mbnl1,Larp7,Sf3a3,Thrap3,Syf2,Srsf10,Srpk2,Hspa8,Rbm5,Srpk3,Nono	0.00019218000054015
+BP	GO:0070199	establishment of protein localization to chromosome	Cct4,Nipbl,Cct5,Cct8,Tcp1,Cct3,Cct7	0.000284098120901576
+BP	GO:0002221	pattern recognition receptor signaling pathway	Hspd1,Havcr2,Gps2,Sarm1,Lgals9,Nr1d1,Cd300a,Sec14l1,Pum2,Cd180,Nfkbil1,Cd14,Slc15a3,Tifa,Zc3hav1,Tlr13,Tlr7	0.000294817728687801
+BP	GO:0009314	response to radiation	Rhbdd1,Nucks1,Cirbp,Ube2b,Rpain,Zzef1,Pnp,Ccar2,Nipbl,Slc1a3,Myc,Hsf1,Pde1b,Crebbp,Guca1a,Msh2,Synpo,Tmem109,Cat,Fbxw7,Per3,Tigar,Ercc1,Bax,Ccnd1,Fbxl12,Usp2,Kmt2a	0.000294817728687801
+BP	GO:0035967	cellular response to topologically incorrect protein	Hspd1,Rhbdd1,Ddit3,Xbp1,Hsf1,Hspa5,Dnajc10,Bax,Ppp1r15a,Ccnd1,Herpud1,Abcb10,Hspa8	0.000308691766398159
+BP	GO:1903311	regulation of mRNA metabolic process	Traf5,Ptbp1,Cirbp,Zc3h10,Nsrp1,Pum2,Hnrnpk,Ttc5,Acin1,Hsf1,Srsf3,Hnrnpm,Fxr1,Mbnl1,Larp7,Thrap3,Srsf10,Srpk2,Zc3hav1,Fus,Hspa8,Rbm5,Srpk3	0.000308691766398159
+BP	GO:1901214	regulation of neuron death	Hspd1,Ddit3,Ubb,Sarm1,Ccl12,Ccl3,Snx6,Psen1,Kcnma1,Parp2,Hsf1,Abcc1,Hsp90ab1,Ralbp1,Msh2,Kcnip3,Kcnb1,Fbxw7,Srpk2,Tigar,C5ar1,Apoe,Bax,Picalm,Ccnd1,Aars,Nono	0.000315716455156192
+BP	GO:1903131	mononuclear cell differentiation	Dock10,Slamf9,Itpkb,Lilrb4a,Ap3d1,Xbp1,Ncor1,Gps2,Lgals9,Smarce1,Dnajb9,Psen1,Cd83,Gadd45g,Zmiz1,Pnp,Gmpr2,Myc,Lgals1,Tnfsf9,Msh2,Zeb1,Fzd8,Il6ra,Ifnb1,Relb,Il4i1,Bax,Brd7,Irf2bp2,Sash3	0.000388532964034397
+BP	GO:0070200	establishment of protein localization to telomere	Cct4,Cct5,Cct8,Tcp1,Cct3,Cct7	0.000395928256944384
+BP	GO:0010563	negative regulation of phosphorus metabolic process	Pid1,Mical1,Lilrb4a,Pkib,Dusp6,Xbp1,Ncor1,Akap1,Cd300a,Prpsap1,Psen1,Gadd45g,Sema4d,Ppm1f,Entpd1,Dnajc10,Pkig,Bod1l,Coro1c,Tigar,Apoe,Ceacam1,Nup62,Bax,Ppp1r15a,Slc27a1,Chordc1,Ubash3b	0.000676840597402538
+BP	GO:0045936	negative regulation of phosphate metabolic process	Pid1,Mical1,Lilrb4a,Pkib,Dusp6,Xbp1,Ncor1,Akap1,Cd300a,Prpsap1,Psen1,Gadd45g,Sema4d,Ppm1f,Entpd1,Dnajc10,Pkig,Bod1l,Coro1c,Tigar,Apoe,Ceacam1,Nup62,Bax,Ppp1r15a,Slc27a1,Chordc1,Ubash3b	0.000676840597402538
+BP	GO:0051402	neuron apoptotic process	Hspd1,Ddit3,Sarm1,Ccl12,Ccl3,Snx6,Psen1,Kcnma1,Tnfrsf21,Hsp90ab1,Ralbp1,Msh2,Kcnip3,Kcnb1,Fbxw7,Srpk2,C5ar1,Apoe,Bax,Bnip3,Ccnd1,Aars,Nono	0.000858011740594733
+BP	GO:0045582	positive regulation of T cell differentiation	Itpkb,Lilrb4a,Ap3d1,Xbp1,Lgals9,Smarce1,Cd83,Zmiz1,Pnp,Tnfsf9,Il4i1,Brd7,Sash3	0.00106849624423623
+BP	GO:0007623	circadian rhythm	Ncor1,Nr1d1,Naglu,Nr1d2,Kcnma1,Ccar2,Mycbp2,Nrip1,Fbxw7,Ciart,Thrap3,Per3,Relb,Dbp,Fbxl12,Usp2,Kmt2a,Nono	0.00108567113004932
+BP	GO:1901998	toxin transport	Cct4,Cct5,Cct8,Tcp1,Hspa5,Cct3,Cct7,Bnip3	0.0011171412082367
+BP	GO:0043523	regulation of neuron apoptotic process	Hspd1,Ddit3,Sarm1,Ccl12,Ccl3,Snx6,Psen1,Kcnma1,Hsp90ab1,Ralbp1,Msh2,Kcnip3,Kcnb1,Fbxw7,Srpk2,C5ar1,Apoe,Bax,Ccnd1,Aars,Nono	0.00112968616432201
+BP	GO:0006278	RNA-templated DNA biosynthetic process	Pkib,Cct4,Ctc1,Cct5,Cct8,Tcp1,Hsp90ab1,Cct3,Cct7	0.00112968616432201
+BP	GO:0007004	telomere maintenance via telomerase	Pkib,Cct4,Ctc1,Cct5,Cct8,Tcp1,Hsp90ab1,Cct3,Cct7	0.00112968616432201
+BP	GO:0032212	positive regulation of telomere maintenance via telomerase	Pkib,Cct4,Cct5,Cct8,Tcp1,Cct3,Cct7	0.00124425433617339
+BP	GO:0032640	tumor necrosis factor production	Hspd1,Fcgr3,Slamf9,Ifngr1,Lilrb4a,Havcr2,Lgals9,Ccl3,Psen1,Hsf1,Nfkbil1,Cd14,Clec4a3,Clec4a2,Cd33,Sash3	0.00151492217929089
+BP	GO:0032204	regulation of telomere maintenance	Pkib,Cct4,Ctc1,Cct5,Myc,Cct8,Tcp1,Cct3,Nbn,Cct7,Ercc1	0.00151492217929089
+BP	GO:0032210	regulation of telomere maintenance via telomerase	Pkib,Cct4,Ctc1,Cct5,Cct8,Tcp1,Cct3,Cct7	0.00156142918053508
+BP	GO:0051276	chromosome organization	Tpr,Pkib,Morc2a,Cct4,Ube2b,Ctc1,Smarce1,H3f3b,Pum2,Acin1,Nipbl,Cct5,Myc,Cct8,Tcp1,Akap8l,Hsp90ab1,Msh2,Eml3,Smc3,Tcf7l2,Fbxw7,Cct3,Pogz,Nbn,Cct7,Ercc1,Nup62,Brd7	0.00160425044861096
+BP	GO:0032609	interferon-gamma production	Il1rl1,Hspd1,Lilrb4a,Ddit3,Havcr2,Lgals9,Gadd45g,Tnfsf9,Cd14,Rnf19b,Cd276,Sash3,Tlr7	0.00160425044861096
+BP	GO:0007159	leukocyte cell-cell adhesion	Hspd1,Itpkb,Lilrb4a,Ap3d1,Xbp1,Havcr2,Lgals9,Smarce1,Cd300a,Cd83,Sema4d,Zmiz1,Pnp,Lgals1,Itgb7,Tnfrsf21,Tnfsf9,Ifnb1,Selplg,Slc7a1,Ceacam1,Il4i1,Brd7,Cd276,Sash3	0.00160425044861096
+BP	GO:0031647	regulation of protein stability	Hspd1,Xbp1,Cct4,Ube2b,Ncor1,Nr1d1,Ccar2,Cct5,Crebbp,Cct8,Tcp1,Hsp90ab1,B4galt5,Fbxw7,Cct3,Usp33,Per3,Hps4,Cct7,Hspa8,Usp2	0.00160425044861096
+BP	GO:0071706	tumor necrosis factor superfamily cytokine production	Hspd1,Fcgr3,Slamf9,Ifngr1,Lilrb4a,Havcr2,Lgals9,Ccl3,Psen1,Hsf1,Nfkbil1,Cd14,Clec4a3,Clec4a2,Cd33,Sash3	0.00160981322346115
+BP	GO:2001242	regulation of intrinsic apoptotic signaling pathway	Bclaf1,Pttg1ip,Ddit3,Xbp1,Ubb,Hnrnpk,Ccar2,Myc,Ralbp1,Fbxw7,Eno1,Plekhf1,Bax,Herpud1,Nono	0.00183905001862439
+BP	GO:0048511	rhythmic process	Ncor1,Hlf,Nr1d1,Naglu,Nr1d2,Kcnma1,Ccar2,Mycbp2,Crebbp,Nrip1,Fbxw7,Ciart,Thrap3,Per3,Afp,Relb,Dbp,Fbxl12,Usp2,Kmt2a,Nono	0.00183905001862439
+BP	GO:0050870	positive regulation of T cell activation	Hspd1,Itpkb,Lilrb4a,Ap3d1,Xbp1,Havcr2,Lgals9,Smarce1,Cd83,Zmiz1,Pnp,Lgals1,Tnfsf9,Slc7a1,Il4i1,Brd7,Cd276,Sash3	0.0019407661979431
+BP	GO:0030098	lymphocyte differentiation	Dock10,Itpkb,Lilrb4a,Ap3d1,Xbp1,Ncor1,Gps2,Lgals9,Smarce1,Dnajb9,Cd83,Gadd45g,Zmiz1,Pnp,Lgals1,Tnfsf9,Msh2,Zeb1,Fzd8,Il6ra,Ifnb1,Relb,Il4i1,Bax,Brd7,Irf2bp2,Sash3	0.00204987047255655
+BP	GO:1904358	positive regulation of telomere maintenance via telomere lengthening	Pkib,Cct4,Cct5,Cct8,Tcp1,Cct3,Cct7	0.0020893575753897
+BP	GO:0042326	negative regulation of phosphorylation	Pid1,Mical1,Lilrb4a,Pkib,Dusp6,Xbp1,Ncor1,Cd300a,Prpsap1,Psen1,Gadd45g,Sema4d,Ppm1f,Dnajc10,Pkig,Coro1c,Tigar,Apoe,Ceacam1,Nup62,Bax,Ppp1r15a,Chordc1,Ubash3b	0.00219817957447608
+BP	GO:0045621	positive regulation of lymphocyte differentiation	Itpkb,Lilrb4a,Ap3d1,Xbp1,Lgals9,Smarce1,Cd83,Zmiz1,Pnp,Tnfsf9,Il4i1,Brd7,Sash3	0.00234951173259141
+BP	GO:0022409	positive regulation of cell-cell adhesion	Hspd1,Itpkb,Lilrb4a,Ap3d1,Xbp1,Havcr2,Lgals9,Smarce1,Cd83,Zmiz1,Dennd6a,Pnp,Lgals1,Tnfsf9,Il6ra,Slc7a1,Ceacam1,Il4i1,Brd7,Cd276,Sash3	0.00264910919277939
+BP	GO:0009416	response to light stimulus	Rhbdd1,Cirbp,Ube2b,Rpain,Zzef1,Ccar2,Slc1a3,Pde1b,Crebbp,Guca1a,Msh2,Synpo,Cat,Fbxw7,Per3,Ercc1,Bax,Ccnd1,Fbxl12,Usp2,Kmt2a	0.00267860976074006
+BP	GO:0032680	regulation of tumor necrosis factor production	Hspd1,Fcgr3,Ifngr1,Lilrb4a,Havcr2,Lgals9,Ccl3,Psen1,Hsf1,Nfkbil1,Cd14,Clec4a3,Clec4a2,Cd33,Sash3	0.00267860976074006
+BP	GO:0050863	regulation of T cell activation	Hspd1,Itpkb,Lilrb4a,Ap3d1,Xbp1,Havcr2,Lgals9,Smarce1,Cd300a,Cd83,Zmiz1,Pnp,Lgals1,Tnfrsf21,Tnfsf9,Zeb1,Ifnb1,Slc7a1,Ceacam1,Il4i1,Brd7,Cd276,Sash3	0.00267860976074006
+BP	GO:1902105	regulation of leukocyte differentiation	Itpkb,Lilrb4a,Ap3d1,Xbp1,Lgals9,Ccl3,Smarce1,Cd83,Zmiz1,Pnp,Myc,Hsf1,Tnfsf9,Zeb1,Fbxw7,Ifnb1,Ceacam1,Il4i1,Brd7,Ubash3b,Ccr1,Sash3	0.00269537331519594
+BP	GO:0045580	regulation of T cell differentiation	Itpkb,Lilrb4a,Ap3d1,Xbp1,Lgals9,Smarce1,Cd83,Zmiz1,Pnp,Tnfsf9,Zeb1,Ifnb1,Il4i1,Brd7,Sash3	0.00307135651415216
+BP	GO:1903555	regulation of tumor necrosis factor superfamily cytokine production	Hspd1,Fcgr3,Ifngr1,Lilrb4a,Havcr2,Lgals9,Ccl3,Psen1,Hsf1,Nfkbil1,Cd14,Clec4a3,Clec4a2,Cd33,Sash3	0.00307135651415216
+BP	GO:2001252	positive regulation of chromosome organization	Tpr,Pkib,Morc2a,Cct4,Cct5,Cct8,Tcp1,Cct3,Nbn,Cct7,Ercc1	0.00314667333782643
+BP	GO:0032206	positive regulation of telomere maintenance	Pkib,Cct4,Cct5,Cct8,Tcp1,Cct3,Nbn,Cct7,Ercc1	0.00314667333782643
+BP	GO:1902107	positive regulation of leukocyte differentiation	Itpkb,Lilrb4a,Ap3d1,Xbp1,Lgals9,Ccl3,Smarce1,Cd83,Zmiz1,Pnp,Hsf1,Tnfsf9,Il4i1,Brd7,Ccr1,Sash3	0.00314667333782643
+BP	GO:1903708	positive regulation of hemopoiesis	Itpkb,Lilrb4a,Ap3d1,Xbp1,Lgals9,Ccl3,Smarce1,Cd83,Zmiz1,Pnp,Hsf1,Tnfsf9,Il4i1,Brd7,Ccr1,Sash3	0.00314667333782643
+BP	GO:0002224	toll-like receptor signaling pathway	Hspd1,Havcr2,Gps2,Sarm1,Lgals9,Nr1d1,Cd300a,Cd180,Nfkbil1,Cd14,Tlr13,Tlr7	0.00314667333782643
+BP	GO:0032200	telomere organization	Pkib,Cct4,Ctc1,H3f3b,Cct5,Myc,Cct8,Tcp1,Hsp90ab1,Cct3,Nbn,Cct7,Ercc1	0.00318244055810559
+BP	GO:0016032	viral process	Ccnt2,Nucks1,Ptbp1,Morc2a,Ccl12,Ly6e,Lgals1,Crebbp,Hsp90ab1,Vps18,Larp7,Nbn,Ifnb1,Srpk2,Zc3hav1,Cul1,Apoe,Ceacam1,Bax,Trim5,Trim12a,Hspa8	0.00318244055810559
+BP	GO:0032922	circadian regulation of gene expression	Ncor1,Nr1d1,Mycbp2,Nrip1,Ciart,Per3,Relb,Usp2,Kmt2a	0.00327333897862868
+BP	GO:0002253	activation of immune response	Lilrb4a,Tbk1,Lcp2,Gps2,Cd300a,Psen1,Fyb,Tnfrsf21,Lpxn,Blnk,Dgkz,Rbck1,Sh2b2,Clec4n,C5ar1,Bax,Trim5,Trim12a,Cd276,Nono	0.00327333897862868
+BP	GO:0042113	B cell activation	Hspd1,Dock10,Lilrb4a,Xbp1,Gps2,Cd300a,Dnajb9,Cd180,Pnp,Lgals1,Tnfrsf21,Msh2,Blnk,Nbn,Ifnb1,Ercc1,Il4i1,Bax,Irf2bp2,Sash3	0.00327333897862868
+BP	GO:0050821	protein stabilization	Hspd1,Cct4,Ube2b,Ncor1,Cct5,Cct8,Tcp1,Hsp90ab1,Fbxw7,Cct3,Usp33,Per3,Hps4,Cct7,Usp2	0.00335339206011818
+BP	GO:1904356	regulation of telomere maintenance via telomere lengthening	Pkib,Cct4,Ctc1,Cct5,Cct8,Tcp1,Cct3,Cct7	0.00336229583224704
+BP	GO:0046631	alpha-beta T cell activation	Itpkb,Lilrb4a,Ap3d1,Ncor1,Lgals9,Cd300a,Cd83,Gadd45g,Pnp,Myc,Il6ra,Clec4a3,Clec4a2,Relb,Sash3	0.00336229583224704
+BP	GO:0006914	autophagy	Tbk1,Ddit3,Xbp1,Gfap,Gaa,Psen1,Atg2b,Pacs2,Zkscan3,Pik3c3,Iigp1,Vti1a,Vps18,Fbxw7,Dram2,Usp33,Tigar,Plekhf1,Trim5,Trim12a,Bnip3,Rab8a,Scoc,Map1lc3b,Hspa8,Wdr6	0.00336229583224704
+BP	GO:0061919	process utilizing autophagic mechanism	Tbk1,Ddit3,Xbp1,Gfap,Gaa,Psen1,Atg2b,Pacs2,Zkscan3,Pik3c3,Iigp1,Vti1a,Vps18,Fbxw7,Dram2,Usp33,Tigar,Plekhf1,Trim5,Trim12a,Bnip3,Rab8a,Scoc,Map1lc3b,Hspa8,Wdr6	0.00336229583224704
+BP	GO:0010833	telomere maintenance via telomere lengthening	Pkib,Cct4,Ctc1,Cct5,Cct8,Tcp1,Hsp90ab1,Cct3,Cct7	0.00336229583224704
+BP	GO:0002429	immune response-activating cell surface receptor signaling pathway	Lilrb4a,Lcp2,Gps2,Cd300a,Psen1,Fyb,Tnfrsf21,Lpxn,Blnk,Dgkz,Rbck1,Sh2b2,Clec4n,C5ar1,Bax,Cd276	0.00353407503041562
+BP	GO:0022407	regulation of cell-cell adhesion	Hspd1,Itpkb,Lilrb4a,Ap3d1,Xbp1,Havcr2,Lgals9,Smarce1,Cd300a,Cd83,Zmiz1,Dennd6a,Pnp,Lgals1,Ppm1f,Tnfrsf21,Tnfsf9,Il6ra,Ifnb1,Slc7a1,Ceacam1,Il4i1,Brd7,Ubash3b,Rdx,Cd276,Sash3	0.00358549563147584
+BP	GO:0002312	B cell activation involved in immune response	Hspd1,Dock10,Lilrb4a,Xbp1,Cd180,Lgals1,Msh2,Nbn,Ifnb1,Ercc1	0.00358549563147584
+BP	GO:0002757	immune response-activating signal transduction	Lilrb4a,Lcp2,Gps2,Cd300a,Psen1,Fyb,Tnfrsf21,Lpxn,Blnk,Dgkz,Rbck1,Sh2b2,Clec4n,C5ar1,Bax,Cd276	0.00358549563147584
+BP	GO:0050851	antigen receptor-mediated signaling pathway	Lilrb4a,Lcp2,Gps2,Cd300a,Psen1,Fyb,Tnfrsf21,Lpxn,Blnk,Dgkz,Rbck1,Sh2b2,Bax,Cd276	0.00358549563147584
+BP	GO:0070198	protein localization to chromosome, telomeric region	Cct4,Cct5,Cct8,Tcp1,Cct3,Cct7	0.00358549563147584
+BP	GO:0009615	response to virus	Ifngr1,Tbk1,G3bp1,Lgals9,Akap1,Sec14l1,Pum2,Ddx41,Crebbp,Il10rb,Ifit3,Gbp7,Ifnb1,Zc3hav1,Bax,Trim5,Trim12a,Bnip3,Elmod2,Tlr13,Tlr7	0.00374685994211688
+BP	GO:1904951	positive regulation of establishment of protein localization	Tpr,Glul,Xbp1,Cct4,Psen1,Ang,Cct5,Adcy8,Cct8,Tcp1,Hnrnpm,Hsp90ab1,Cep120,Tcf7l2,Kcnb1,Fbxw7,Cct3,Psmd9,Cct7,Cd33,Pak1	0.00386531702894655
+BP	GO:0002285	lymphocyte activation involved in immune response	Hspd1,Dock10,Lilrb4a,Xbp1,Havcr2,Lgals9,Psen1,Gadd45g,Cd180,Lgals1,Msh2,Il6ra,Nbn,Ifnb1,Ercc1,Relb	0.00401349323121214
+BP	GO:1903037	regulation of leukocyte cell-cell adhesion	Hspd1,Itpkb,Lilrb4a,Ap3d1,Xbp1,Havcr2,Lgals9,Smarce1,Cd300a,Cd83,Zmiz1,Pnp,Lgals1,Tnfrsf21,Tnfsf9,Ifnb1,Slc7a1,Ceacam1,Il4i1,Brd7,Cd276,Sash3	0.00412150201496838
+BP	GO:0002274	myeloid leukocyte activation	Il1rl1,Hspd1,Fcgr3,Ifngr1,Lilrb4a,Lcp2,Havcr2,Lgals9,Nr1d1,Cd300a,Psen1,Tnfsf9,Snap23,Ifnb1,Anxa3,C5ar1,Relb,Cd33	0.00414922664957652
+BP	GO:0002573	myeloid leukocyte differentiation	L3mbtl3,Lilrb4a,Ccl3,Psen1,Gmpr2,Myc,Hsf1,Nrros,Tnfsf9,Fbxw7,Ifnb1,Fam20c,Relb,Ceacam1,Ubash3b,Ccr1,Gab3	0.00414959460713981
+BP	GO:0001933	negative regulation of protein phosphorylation	Pid1,Mical1,Lilrb4a,Pkib,Dusp6,Xbp1,Cd300a,Psen1,Gadd45g,Sema4d,Ppm1f,Dnajc10,Pkig,Coro1c,Apoe,Ceacam1,Nup62,Bax,Ppp1r15a,Chordc1,Ubash3b	0.00414959460713981
+BP	GO:1903039	positive regulation of leukocyte cell-cell adhesion	Hspd1,Itpkb,Lilrb4a,Ap3d1,Xbp1,Havcr2,Lgals9,Smarce1,Cd83,Zmiz1,Pnp,Lgals1,Tnfsf9,Slc7a1,Il4i1,Brd7,Cd276,Sash3	0.00421463446532456
+BP	GO:0045050	protein insertion into ER membrane by stop-transfer membrane-anchor sequence	Emc2,Emc4,Emc1,Mmgt1	0.00430236120321316
+BP	GO:0000380	alternative mRNA splicing, via spliceosome	Ptbp1,Zc3h10,Nsrp1,Hnrnpm,Rbm17,Fxr1,Mbnl1,Thrap3,Rbm5	0.0052445603245336
+BP	GO:0030217	T cell differentiation	Itpkb,Lilrb4a,Ap3d1,Xbp1,Ncor1,Lgals9,Smarce1,Cd83,Gadd45g,Zmiz1,Pnp,Tnfsf9,Zeb1,Fzd8,Il6ra,Ifnb1,Relb,Il4i1,Brd7,Sash3	0.0052445603245336
+BP	GO:0048525	negative regulation of viral process	Morc2a,Ly6e,Crebbp,Larp7,Nbn,Ifnb1,Srpk2,Zc3hav1,Trim5,Trim12a	0.0052445603245336
+BP	GO:0002768	immune response-regulating cell surface receptor signaling pathway	Lilrb4a,Lcp2,Gps2,Cd300a,Psen1,Fyb,Tnfrsf21,Lpxn,Blnk,Dgkz,Rbck1,Sh2b2,Clec4n,C5ar1,Bax,Cd276	0.0052445603245336
+BP	GO:0048512	circadian behavior	Ncor1,Nr1d1,Naglu,Nr1d2,Kcnma1,Ciart,Per3,Usp2	0.00533728085411245
+BP	GO:0032607	interferon-alpha production	Hspd1,Ap3d1,Tbk1,Havcr2,Zc3hav1,Tlr7	0.00533728085411245
+BP	GO:0032649	regulation of interferon-gamma production	Il1rl1,Hspd1,Lilrb4a,Ddit3,Havcr2,Lgals9,Tnfsf9,Cd14,Cd276,Sash3,Tlr7	0.00553118503602032
+BP	GO:1903706	regulation of hemopoiesis	Itpkb,Lilrb4a,Ap3d1,Xbp1,Lgals9,Ccl3,Smarce1,Cd83,Zmiz1,Pnp,Myc,Hsf1,Tnfsf9,Zeb1,Fbxw7,Ifnb1,Csf3r,Ceacam1,Il4i1,Brd7,Abcb10,Ubash3b,Ccr1,Sash3	0.0055850322067688
+BP	GO:2001020	regulation of response to DNA damage stimulus	Bclaf1,Eya4,Pttg1ip,Smarce1,Hnrnpk,Pnp,Ccar2,Myc,Hsf1,Fxr1,Pogz,Trrap,Rad52,Tigar,Ercc1,Rnf169,Sgf29,Fus,Brd7	0.00575090903619511
+BP	GO:2000573	positive regulation of DNA biosynthetic process	Pkib,Cct4,Cct5,Myc,Cct8,Tcp1,Hsp90ab1,Cct3,Cct7	0.00584096222404446
+BP	GO:0030808	regulation of nucleotide biosynthetic process	Pid1,Myc,Guca1a,Entpd1,Pdk1,Eno1	0.00594434559541672
+BP	GO:1900371	regulation of purine nucleotide biosynthetic process	Pid1,Myc,Guca1a,Entpd1,Pdk1,Eno1	0.00594434559541672
+BP	GO:0032516	positive regulation of phosphoprotein phosphatase activity	Ppp1r12a,Cd300a,Hsp90ab1,Cd33,Ppp1r15a	0.00594434559541672
+BP	GO:0045475	locomotor rhythm	Ncor1,Naglu,Kcnma1,Ciart,Usp2	0.00594434559541672
+BP	GO:0000723	telomere maintenance	Pkib,Cct4,Ctc1,Cct5,Myc,Cct8,Tcp1,Hsp90ab1,Cct3,Nbn,Cct7,Ercc1	0.00594434559541672
+BP	GO:0007622	rhythmic behavior	Ncor1,Nr1d1,Naglu,Nr1d2,Kcnma1,Ciart,Per3,Usp2	0.00678400765149503
+BP	GO:0030968	endoplasmic reticulum unfolded protein response	Ddit3,Xbp1,Hspa5,Dnajc10,Bax,Ppp1r15a,Ccnd1,Herpud1	0.00748646239737979
+BP	GO:0051881	regulation of mitochondrial membrane potential	Pid1,Ubb,Myc,Arl6ip5,Bax,Ucp2,Bnip3,Bco2,Slc25a36	0.00781951489464647
+BP	GO:1900542	regulation of purine nucleotide metabolic process	Pid1,Ncor1,Psen1,Myc,Guca1a,Entpd1,Pdk1,Eno1,Tigar	0.00781951489464647
+BP	GO:0033044	regulation of chromosome organization	Tpr,Pkib,Morc2a,Cct4,Ctc1,Smarce1,H3f3b,Cct5,Myc,Cct8,Tcp1,Cct3,Nbn,Cct7,Ercc1,Brd7	0.00824702105550897
+BP	GO:2001244	positive regulation of intrinsic apoptotic signaling pathway	Bclaf1,Ddit3,Ubb,Myc,Ralbp1,Fbxw7,Plekhf1,Bax	0.00886727527466199
+BP	GO:0009411	response to UV	Rhbdd1,Cirbp,Ube2b,Rpain,Ccar2,Crebbp,Msh2,Cat,Fbxw7,Ercc1,Bax,Ccnd1	0.00886727527466199
+BP	GO:0032606	type I interferon production	Hspd1,Ap3d1,Tbk1,Havcr2,G3bp1,Crebbp,Cd14,Zc3hav1,Relb,Tlr7	0.00913942545519369
+BP	GO:0098586	cellular response to virus	Lgals9,Sec14l1,Pum2,Crebbp,Ifnb1,Zc3hav1,Bax,Tlr7	0.00960835124522628
+BP	GO:0032689	negative regulation of interferon-gamma production	Il1rl1,Lilrb4a,Ddit3,Havcr2,Lgals9,Cd276	0.0100656928226837
+BP	GO:0045619	regulation of lymphocyte differentiation	Itpkb,Lilrb4a,Ap3d1,Xbp1,Lgals9,Smarce1,Cd83,Zmiz1,Pnp,Tnfsf9,Zeb1,Ifnb1,Il4i1,Brd7,Sash3	0.0100862181320267
+BP	GO:0006913	nucleocytoplasmic transport	Zc3h11a,Tpr,Ltv1,Pttg1ip,Ppp1r12a,Xbp1,Rpain,Akap1,Psen1,Pabpn1,Ipo4,Srsf3,Akap8l,Hsp90ab1,Nxf1,Nolc1,Tcf7l2,Pkig,Nup62,Hspa8	0.0100862181320267
+BP	GO:0051169	nuclear transport	Zc3h11a,Tpr,Ltv1,Pttg1ip,Ppp1r12a,Xbp1,Rpain,Akap1,Psen1,Pabpn1,Ipo4,Srsf3,Akap8l,Hsp90ab1,Nxf1,Nolc1,Tcf7l2,Pkig,Nup62,Hspa8	0.0100862181320267
+BP	GO:1900180	regulation of protein localization to nucleus	Tpr,Glul,Lilrb4a,Xbp1,Akap1,Psen1,Hnrnpm,Hsp90ab1,Nolc1,Pkig,Larp7,Nup62	0.0100991202774711
+BP	GO:0051251	positive regulation of lymphocyte activation	Hspd1,Itpkb,Lilrb4a,Ap3d1,Xbp1,Havcr2,Lgals9,Smarce1,Cd83,Zmiz1,Pnp,Lgals1,Tnfsf9,Msh2,Slc7a1,Il4i1,Brd7,Cd276,Sash3	0.0101174758391704
+BP	GO:0002366	leukocyte activation involved in immune response	Hspd1,Dock10,Lilrb4a,Xbp1,Havcr2,Lgals9,Cd300a,Psen1,Gadd45g,Cd180,Lgals1,Msh2,Snap23,Il6ra,Nbn,Ifnb1,Anxa3,Ercc1,Relb	0.0103552366075013
+BP	GO:0001818	negative regulation of cytokine production	Il1rl1,Lilrb4a,Ddit3,Havcr2,Lgals9,Cd83,Hsf1,Crebbp,Tnfrsf21,Nfkbil1,Hsp90ab1,Ifnb1,Clec4a3,Clec4a2,Relb,Ceacam1,Cd33,Cd276	0.0103552366075013
+BP	GO:2001233	regulation of apoptotic signaling pathway	Sgk3,Bclaf1,Eya4,Pttg1ip,Ddit3,Xbp1,Ubb,Nle1,Psen1,Hnrnpk,Ccar2,Myc,Ralbp1,Rbck1,Fbxw7,Ifnb1,Eno1,Cdk11b,Plekhf1,Bax,Herpud1,Nono	0.0103552366075013
+BP	GO:0033673	negative regulation of kinase activity	Lilrb4a,Pkib,Cd300a,Prpsap1,Psen1,Gadd45g,Ppm1f,Pkig,Coro1c,Tigar,Apoe,Ceacam1,Nup62,Chordc1,Ubash3b	0.0105869180662067
+BP	GO:0006140	regulation of nucleotide metabolic process	Pid1,Ncor1,Psen1,Myc,Guca1a,Entpd1,Pdk1,Eno1,Tigar	0.0106037198886034
+BP	GO:0002263	cell activation involved in immune response	Hspd1,Dock10,Lilrb4a,Xbp1,Havcr2,Lgals9,Cd300a,Psen1,Gadd45g,Cd180,Lgals1,Msh2,Snap23,Il6ra,Nbn,Ifnb1,Anxa3,Ercc1,Relb	0.0112966643041827
+BP	GO:0060325	face morphogenesis	Nipbl,Crebbp,Tcf7l2,Ski,Ankrd11,Csrnp1	0.0121913393578576
+BP	GO:0046822	regulation of nucleocytoplasmic transport	Tpr,Ppp1r12a,Xbp1,Akap1,Psen1,Akap8l,Hsp90ab1,Nolc1,Tcf7l2,Pkig,Nup62	0.0122511783280512
+BP	GO:0070661	leukocyte proliferation	Hspd1,Lilrb4a,Tbk1,Havcr2,Lgals9,Ccl12,Cd300a,Cd180,Pnp,Myc,Tnfrsf21,Tnfsf9,Csf2ra,Ifnb1,Slc7a1,Ceacam1,Il4i1,Bax,Cd151,Cd276,Sash3	0.0123855653995741
+BP	GO:1903829	positive regulation of protein localization	Tpr,Glul,Xbp1,Cct4,Psen1,Hnrnpk,Ang,Cct5,Adcy8,Cct8,Tcp1,Hnrnpm,Hsp90ab1,Cep120,Tcf7l2,Kcnb1,Fbxw7,Cct3,Larp7,Psmd9,Cct7,Cd33,Nup62,Pak1,Rdx	0.013015036063147
+BP	GO:0051607	defense response to virus	Ifngr1,Tbk1,G3bp1,Akap1,Sec14l1,Pum2,Ddx41,Il10rb,Ifit3,Gbp7,Ifnb1,Zc3hav1,Trim5,Trim12a,Bnip3,Elmod2,Tlr7	0.0146934009129579
+BP	GO:0071816	tail-anchored membrane protein insertion into ER membrane	Emc2,Emc4,Emc1,Mmgt1	0.0148578874277181
+BP	GO:0140546	defense response to symbiont	Ifngr1,Tbk1,G3bp1,Akap1,Sec14l1,Pum2,Ddx41,Il10rb,Ifit3,Gbp7,Ifnb1,Zc3hav1,Trim5,Trim12a,Bnip3,Elmod2,Tlr7	0.0150877072106853
+BP	GO:0002418	immune response to tumor cell	Hspd1,Havcr2,Adam15,Ceacam1,Il4i1	0.0153920676170191
+BP	GO:0062207	regulation of pattern recognition receptor signaling pathway	Gps2,Sarm1,Nr1d1,Cd300a,Sec14l1,Pum2,Nfkbil1,Slc15a3,Zc3hav1	0.0159611681778462
+BP	GO:0010506	regulation of autophagy	Tbk1,Ddit3,Xbp1,Gfap,Pik3c3,Iigp1,Fbxw7,Dram2,Usp33,Tigar,Plekhf1,Trim5,Trim12a,Bnip3,Rab8a,Scoc,Wdr6	0.0160207883996005
+BP	GO:0051348	negative regulation of transferase activity	Lilrb4a,Pkib,Cd300a,Prpsap1,Psen1,Gadd45g,Ppm1f,Eif4a2,Pkig,Coro1c,Tigar,Apoe,Ceacam1,Nup62,Chordc1,Ubash3b	0.0164535060099611
+BP	GO:0007032	endosome organization	Tmem9,Pik3c3,Vti1a,Vps18,Coro1c,Plekhf1,Dnajc13	0.0164535060099611
+BP	GO:0051235	maintenance of location	Soat1,Ap3d1,Ddit3,Lgals9,Gaa,Psen1,Nrros,Nrip1,Gsto1,Hspa5,Rbck1,Casq2,Plin2,Akap9,Apoe,Bax,Ftl1,Ubash3b,Hexa	0.0166720896947347
+BP	GO:0042306	regulation of protein import into nucleus	Tpr,Xbp1,Akap1,Psen1,Hsp90ab1,Nolc1,Pkig,Nup62	0.0166720896947347
+BP	GO:2001022	positive regulation of response to DNA damage stimulus	Bclaf1,Eya4,Smarce1,Pnp,Ccar2,Myc,Fxr1,Pogz,Trrap,Tigar,Fus,Brd7	0.017318333903907
+BP	GO:0000381	regulation of alternative mRNA splicing, via spliceosome	Ptbp1,Zc3h10,Nsrp1,Fxr1,Mbnl1,Thrap3,Rbm5	0.017624907265077
+BP	GO:0048143	astrocyte activation	Ifngr1,Nr1d1,Psen1,C5ar1	0.017624907265077
+BP	GO:0006875	cellular metal ion homeostasis	Abcb6,Ap3d1,Ddit3,Ccl12,Psen1,Pacs2,Kcnma1,Slc1a3,Myc,Adcy8,Nubp1,Gsto1,Casq2,Iscu,Kctd7,Apoe,Bax,Ftl1,Bnip3,Herpud1,Ubash3b,Ccr1	0.0184668940930651
+BP	GO:0070664	negative regulation of leukocyte proliferation	Lilrb4a,Havcr2,Lgals9,Ccl12,Cd300a,Tnfrsf21,Ceacam1,Il4i1,Cd276	0.0186811922129946
+BP	GO:0032647	regulation of interferon-alpha production	Hspd1,Tbk1,Havcr2,Zc3hav1,Tlr7	0.0195811217885704
+BP	GO:0050858	negative regulation of antigen receptor-mediated signaling pathway	Lilrb4a,Gps2,Cd300a,Lpxn,Dgkz	0.0195811217885704
+BP	GO:0034504	protein localization to nucleus	Tpr,Glul,Lilrb4a,Pttg1ip,Xbp1,Rpain,Akap1,Psen1,Ipo4,Hnrnpm,Hsp90ab1,Nolc1,Pkig,Larp7,Dnajb6,Nup62,Banp,Hspa8	0.0196891595887868
+BP	GO:0000245	spliceosomal complex assembly	Mbnl1,Sf3a3,Srsf10,Srpk2,Rbm5,Srpk3	0.0198210492465532
+BP	GO:0060323	head morphogenesis	Nipbl,Crebbp,Tcf7l2,Ski,Ankrd11,Csrnp1	0.0198210492465532
+BP	GO:0021782	glial cell development	Ifngr1,Nr1d1,Gfap,Psen1,Nrros,Tcf7l2,B4galt5,Phgdh,Ski,C5ar1	0.0199636315041045
+BP	GO:0051098	regulation of binding	Nucks1,Ddit3,Lgals9,Psen1,Hnrnpk,Myc,Hsf1,Hsp90ab1,Gtf2f1,Tcf7l2,Fbxw7,Adam15,Larp7,Usp33,Eno1,Ski,Cycs,Apoe,Bax,Map1lc3b,Ubash3b	0.0207146796736179
+BP	GO:0032943	mononuclear cell proliferation	Hspd1,Lilrb4a,Tbk1,Havcr2,Lgals9,Cd300a,Cd180,Pnp,Myc,Tnfrsf21,Tnfsf9,Ifnb1,Slc7a1,Ceacam1,Il4i1,Bax,Cd151,Cd276,Sash3	0.0210588659707534
+BP	GO:0032479	regulation of type I interferon production	Hspd1,Tbk1,Havcr2,G3bp1,Crebbp,Cd14,Zc3hav1,Relb,Tlr7	0.0219016307759285
+BP	GO:1903828	negative regulation of protein localization	Pid1,Lilrb4a,Pfkl,Tax1bp3,Akap1,Ppm1f,Pkig,Kcnb1,Tbc1d1,Psmd9,Apoe,Picalm,Ucp2,Gdi1	0.0227197982420987
+BP	GO:1901215	negative regulation of neuron death	Hspd1,Ccl12,Snx6,Psen1,Parp2,Hsf1,Abcc1,Hsp90ab1,Msh2,Tigar,C5ar1,Apoe,Bax,Ccnd1,Aars,Nono	0.0229417827065508
+BP	GO:0043393	regulation of protein binding	Psen1,Hnrnpk,Myc,Hsf1,Hsp90ab1,Gtf2f1,Tcf7l2,Adam15,Usp33,Cycs,Apoe,Bax,Map1lc3b,Ubash3b	0.0234691480207242
+BP	GO:0010332	response to gamma radiation	Pnp,Myc,Hsf1,Tmem109,Tigar,Bax	0.0236774176872708
+BP	GO:0089718	amino acid import across plasma membrane	Gfap,Psen1,Slc7a8,Slc1a3,Slc7a1,Arl6ip5	0.0236774176872708
+BP	GO:0030183	B cell differentiation	Dock10,Lilrb4a,Xbp1,Gps2,Dnajb9,Pnp,Lgals1,Msh2,Ifnb1,Il4i1,Bax,Irf2bp2	0.0247441768308724
+BP	GO:0030099	myeloid cell differentiation	Tcea1,Itpkb,L3mbtl3,Lilrb4a,Ncor1,Ccl3,Psen1,Gmpr2,Myc,Hsf1,Nrros,Tnfsf9,Fbxw7,Ifnb1,Csf3r,Fam20c,Relb,Ceacam1,Abcb10,Ubash3b,Ccr1,Gab3	0.0261672073734174
+BP	GO:0002696	positive regulation of leukocyte activation	Il1rl1,Hspd1,Itpkb,Lilrb4a,Ap3d1,Xbp1,Havcr2,Lgals9,Smarce1,Cd83,Zmiz1,Pnp,Lgals1,Tnfsf9,Msh2,Slc7a1,Il4i1,Brd7,Cd276,Sash3	0.0261672073734174
+BP	GO:0050890	cognition	Specc1,Zzef1,Psen1,Nipbl,Ctnnd2,Adcy8,Peg13,Pde1b,Crebbp,Comt,Paip2,Synpo,Arl6ip5,C5ar1,Apoe,Picalm,Pak1,Kmt2a,Ptchd1	0.0264902881918529
+BP	GO:0010212	response to ionizing radiation	Nucks1,Pnp,Nipbl,Myc,Hsf1,Msh2,Tmem109,Tigar,Ercc1,Bax	0.0264902881918529
+BP	GO:0046632	alpha-beta T cell differentiation	Itpkb,Lilrb4a,Ap3d1,Ncor1,Cd83,Gadd45g,Pnp,Il6ra,Relb,Sash3	0.0264902881918529
+BP	GO:2000278	regulation of DNA biosynthetic process	Pkib,Cct4,Ctc1,Cct5,Myc,Cct8,Tcp1,Hsp90ab1,Cct3,Cct7	0.0264902881918529
+BP	GO:0006469	negative regulation of protein kinase activity	Lilrb4a,Pkib,Cd300a,Psen1,Gadd45g,Ppm1f,Pkig,Coro1c,Apoe,Ceacam1,Nup62,Chordc1,Ubash3b	0.0267155088326419
+BP	GO:0007098	centrosome cycle	Ppp1r12a,Nubp1,Cep120,Haus1,Odf2,Cep152,Usp33,Cdk11b,Nup62,Chordc1	0.0275476392554524
+BP	GO:0002831	regulation of response to biotic stimulus	Hspd1,Tbk1,Havcr2,Lgals9,Sec14l1,Pum2,Cd180,Nfkbil1,Zc3hav1,Clec4n,Tigar,Apoe,Ceacam1,Il4i1,Trim5,Trim12a,Elmod2,Ccr1,Nono	0.0275476392554524
+BP	GO:0035307	positive regulation of protein dephosphorylation	Ptbp1,Ppp1r12a,Cd300a,Hsp90ab1,Cd33,Ppp1r15a	0.0275476392554524
+BP	GO:0050853	B cell receptor signaling pathway	Gps2,Cd300a,Lpxn,Blnk,Sh2b2,Bax	0.0275476392554524
+BP	GO:0002755	MyD88-dependent toll-like receptor signaling pathway	Hspd1,Cd300a,Tlr13,Tlr7	0.0276223579248173
+BP	GO:0009110	vitamin biosynthetic process	Pnpo,Gsto1,Ubiad1,Cyp2r1	0.0276223579248173
+BP	GO:0030810	positive regulation of nucleotide biosynthetic process	Pid1,Myc,Guca1a,Eno1	0.0276223579248173
+BP	GO:0044321	response to leptin	Pid1,Nr1d1,Ugcg,Ccnd1	0.0276223579248173
+BP	GO:1900373	positive regulation of purine nucleotide biosynthetic process	Pid1,Myc,Guca1a,Eno1	0.0276223579248173
+BP	GO:0032720	negative regulation of tumor necrosis factor production	Lilrb4a,Havcr2,Hsf1,Nfkbil1,Clec4a3,Clec4a2,Cd33	0.0277624049015485
+BP	GO:0051249	regulation of lymphocyte activation	Hspd1,Itpkb,Lilrb4a,Ap3d1,Xbp1,Havcr2,Lgals9,Smarce1,Cd300a,Cd83,Zmiz1,Pnp,Lgals1,Tnfrsf21,Tnfsf9,Msh2,Zeb1,Ifnb1,Slc7a1,Ceacam1,Il4i1,Brd7,Cd276,Sash3	0.0278669133937876
+BP	GO:0006606	protein import into nucleus	Tpr,Pttg1ip,Xbp1,Rpain,Akap1,Psen1,Ipo4,Hsp90ab1,Nolc1,Pkig,Nup62,Hspa8	0.028343243264757
+BP	GO:0032760	positive regulation of tumor necrosis factor production	Hspd1,Fcgr3,Ifngr1,Havcr2,Lgals9,Ccl3,Psen1,Cd14,Sash3	0.028343243264757
+BP	GO:0014002	astrocyte development	Ifngr1,Nr1d1,Gfap,Psen1,C5ar1	0.0284967618946169
+BP	GO:0051973	positive regulation of telomerase activity	Pkib,Cct4,Myc,Tcp1,Hsp90ab1	0.0284967618946169
+BP	GO:0090150	establishment of protein localization to membrane	Pex3,Srp68,Emc2,Hspa5,Emc4,Snap23,Kcnb1,Sec62,Emc1,Bax,Pak1,Vps37a,Rab8a,Mmgt1,Gdi1	0.0284967618946169
+BP	GO:1903556	negative regulation of tumor necrosis factor superfamily cytokine production	Lilrb4a,Havcr2,Hsf1,Nfkbil1,Clec4a3,Clec4a2,Cd33	0.0291707410430066
+BP	GO:0006605	protein targeting	Hspd1,Mlph,Pex3,Ap3d1,Srp68,Pik3c3,Hspa5,Kcnb1,Sec62,Fbxw7,Hps4,Pak1,Vps37a,Herpud1,Hspa8,Gdi1	0.0296893299907359
+BP	GO:1903557	positive regulation of tumor necrosis factor superfamily cytokine production	Hspd1,Fcgr3,Ifngr1,Havcr2,Lgals9,Ccl3,Psen1,Cd14,Sash3	0.0310437523962523
+BP	GO:0046638	positive regulation of alpha-beta T cell differentiation	Itpkb,Lilrb4a,Ap3d1,Cd83,Pnp,Sash3	0.0310437523962523
+BP	GO:1901988	negative regulation of cell cycle phase transition	Tpr,Crlf3,Ccl12,Ccar2,Hsf1,Cdc5l,Msh2,Dgkz,Nbn,Syf2,Taok3,Trrap,Ccnd1,Brd7,Rbl2	0.0310437523962523
+BP	GO:0002317	plasma cell differentiation	Lilrb4a,Xbp1,Lgals1	0.0310437523962523
+BP	GO:2001169	regulation of ATP biosynthetic process	Pid1,Myc,Entpd1,Eno1	0.0310437523962523
+BP	GO:0045671	negative regulation of osteoclast differentiation	Lilrb4a,Fbxw7,Ifnb1,Ceacam1,Ubash3b	0.0311970609827024
+BP	GO:0010498	proteasomal protein catabolic process	Rhbdd1,Ubxn4,Ddit3,Ube2b,Ubb,Psmb6,Nr1d1,Dnajb9,Psen1,Ccar2,Nrros,Psmb9,Hsp90ab1,Hspa5,Dnajc10,Rbck1,Fbxw7,Hectd3,Rnf19b,Cul1,Apoe,Psmc4,Herpud1,Fbxl12	0.0312295221048382
+BP	GO:0051170	import into nucleus	Tpr,Pttg1ip,Xbp1,Rpain,Akap1,Psen1,Ipo4,Hsp90ab1,Nolc1,Pkig,Nup62,Hspa8	0.032107132753498
+BP	GO:0007162	negative regulation of cell adhesion	Lilrb4a,Havcr2,Lgals9,Cd300a,Sema4d,Lgals1,Ppm1f,Tnfrsf21,Lpxn,Adam15,Ifnb1,Coro1c,Ceacam1,Il4i1,Ubash3b,Rdx,Cd276	0.0323197962150226
+BP	GO:0046651	lymphocyte proliferation	Hspd1,Lilrb4a,Havcr2,Lgals9,Cd300a,Cd180,Pnp,Myc,Tnfrsf21,Tnfsf9,Ifnb1,Slc7a1,Ceacam1,Il4i1,Bax,Cd151,Cd276,Sash3	0.0323197962150226
+BP	GO:0019058	viral life cycle	Nucks1,Morc2a,Ccl12,Ly6e,Lgals1,Hsp90ab1,Vps18,Nbn,Ifnb1,Srpk2,Zc3hav1,Apoe,Trim5,Trim12a,Hspa8	0.0323197962150226
+BP	GO:1903578	regulation of ATP metabolic process	Pid1,Ncor1,Psen1,Myc,Entpd1,Eno1,Tigar	0.0323197962150226
+BP	GO:0031669	cellular response to nutrient levels	Glul,Xbp1,Ttc5,Rictor,Comt,Pik3c3,Lars,Tcf7l2,Hspa5,Kcnb1,Usp33,Plin2,Map1lc3b	0.0323197962150226
+BP	GO:0042098	T cell proliferation	Lilrb4a,Havcr2,Lgals9,Pnp,Myc,Tnfrsf21,Tnfsf9,Slc7a1,Ceacam1,Il4i1,Bax,Cd151,Cd276,Sash3	0.0323197962150226
+BP	GO:0007339	binding of sperm to zona pellucida	Cct4,Cct5,Cct8,Tcp1,Cct3,Cct7	0.0323197962150226
+BP	GO:0050672	negative regulation of lymphocyte proliferation	Lilrb4a,Havcr2,Lgals9,Cd300a,Tnfrsf21,Ceacam1,Il4i1,Cd276	0.0326188043945467
+BP	GO:1901216	positive regulation of neuron death	Ddit3,Sarm1,Ccl3,Kcnma1,Ralbp1,Fbxw7,Srpk2,Apoe,Bax,Picalm	0.0328507874245138
+BP	GO:0045017	glycerolipid biosynthetic process	Itpkb,Pip5k1c,Plscr3,Pgap3,Ang,Pigp,Pik3c3,Tcf7l2,Dgkz,Pld1,Cept1,Far1,Slc27a1	0.0330769743311521
+BP	GO:0010922	positive regulation of phosphatase activity	Ppp1r12a,Cd300a,Hsp90ab1,Cd33,Ppp1r15a	0.0331218958343318
+BP	GO:0034122	negative regulation of toll-like receptor signaling pathway	Gps2,Sarm1,Nr1d1,Cd300a,Nfkbil1	0.0331218958343318
+BP	GO:0032945	negative regulation of mononuclear cell proliferation	Lilrb4a,Havcr2,Lgals9,Cd300a,Tnfrsf21,Ceacam1,Il4i1,Cd276	0.034170182270323
+BP	GO:0045048	protein insertion into ER membrane	Emc2,Emc4,Emc1,Mmgt1	0.0342076688532393
+BP	GO:0042594	response to starvation	Glul,Ddit3,Xbp1,Ttc5,Comt,Pik3c3,Lars,Tcf7l2,Hspa5,Usp33,Plin2,Map1lc3b	0.0343385645004977
+BP	GO:0021536	diencephalon development	Nrp2,Ncor1,Ubb,Tcf7l2,Zeb2,Bax,Ptchd1	0.0359450036194847
+BP	GO:0018208	peptidyl-proline modification	P4ha1,Ppil2,Fkbp5,Ppig,Fkbp4	0.0366503081182735
+BP	GO:0050867	positive regulation of cell activation	Il1rl1,Hspd1,Itpkb,Lilrb4a,Ap3d1,Xbp1,Havcr2,Lgals9,Smarce1,Cd83,Zmiz1,Pnp,Lgals1,Tnfsf9,Msh2,Slc7a1,Il4i1,Brd7,Cd276,Sash3	0.0372211562832091
+BP	GO:0032815	negative regulation of natural killer cell activation	Lilrb4a,Havcr2,Lgals9	0.0372211562832091
+BP	GO:0035672	oligopeptide transmembrane transport	Slc25a39,Abcc1,Slc15a3	0.0372211562832091
+BP	GO:0043653	mitochondrial fragmentation involved in apoptotic process	Ccar2,Bax,Bnip3	0.0372211562832091
+BP	GO:0042130	negative regulation of T cell proliferation	Lilrb4a,Havcr2,Lgals9,Tnfrsf21,Ceacam1,Il4i1,Cd276	0.0378584354183387
+BP	GO:0046474	glycerophospholipid biosynthetic process	Itpkb,Pip5k1c,Plscr3,Pgap3,Pigp,Pik3c3,Dgkz,Pld1,Cept1,Far1,Slc27a1	0.0378949779923282
+BP	GO:0031668	cellular response to extracellular stimulus	Glul,Xbp1,Ttc5,Rictor,Comt,Pik3c3,Lars,Tcf7l2,Hspa5,Kcnb1,Usp33,Plin2,Ldha,Map1lc3b	0.0379268233429677
+BP	GO:1901987	regulation of cell cycle phase transition	Tpr,Cirbp,Ctc1,Crlf3,Ccl12,Smarce1,Ccar2,Hsf1,Crebbp,Cdc5l,Msh2,Dgkz,Larp7,Nbn,Syf2,Taok3,Trrap,Ccnd1,Brd7,Rbl2,Rdx	0.0380789538105253
+BP	GO:0000413	protein peptidyl-prolyl isomerization	Ppil2,Fkbp5,Ppig,Fkbp4	0.0380789538105253
+BP	GO:0048025	negative regulation of mRNA splicing, via spliceosome	Ptbp1,Hnrnpk,Acin1,Srsf10	0.0380789538105253
+BP	GO:1903579	negative regulation of ATP metabolic process	Pid1,Ncor1,Entpd1,Tigar	0.0380789538105253
+BP	GO:0007611	learning or memory	Specc1,Zzef1,Psen1,Ctnnd2,Adcy8,Peg13,Pde1b,Crebbp,Comt,Paip2,Synpo,Arl6ip5,Apoe,Picalm,Pak1,Kmt2a,Ptchd1	0.0385224974853805
+BP	GO:0009267	cellular response to starvation	Glul,Xbp1,Ttc5,Comt,Pik3c3,Lars,Tcf7l2,Hspa5,Usp33,Plin2,Map1lc3b	0.038562363493977
+BP	GO:0002762	negative regulation of myeloid leukocyte differentiation	Lilrb4a,Myc,Fbxw7,Ifnb1,Ceacam1,Ubash3b	0.0385775223127156
+BP	GO:0030522	intracellular receptor signaling pathway	Ncor1,Gps2,Sec14l1,Pum2,Zmiz1,Peg13,Slc15a3,Vps18,Tifa,Dhrs3,Zc3hav1,Fkbp4,Pak1	0.0385775223127156
+BP	GO:0001819	positive regulation of cytokine production	Il1rl1,Hspd1,Fcgr3,Ifngr1,Tbk1,Ddit3,Xbp1,Havcr2,G3bp1,Lgals9,Ccl3,Psen1,Cd83,Pnp,Tnfsf9,Cd14,Il6ra,Zc3hav1,Clec4n,C5ar1,Cd276,Sash3,Tlr7	0.0403845163210549
+BP	GO:0051224	negative regulation of protein transport	Pfkl,Akap1,Ppm1f,Pkig,Kcnb1,Tbc1d1,Psmd9,Apoe,Ucp2,Gdi1	0.0405661493457698
+BP	GO:1903312	negative regulation of mRNA metabolic process	Traf5,Ptbp1,Cirbp,Hnrnpk,Acin1,Thrap3,Srsf10,Fus	0.0406015905677842
+BP	GO:0030003	cellular cation homeostasis	Abcb6,Tmem9,Ap3d1,Ddit3,Ccl12,Psen1,Pacs2,Kcnma1,Slc1a3,Myc,Adcy8,Nubp1,Gsto1,Casq2,Iscu,Kctd7,Apoe,Bax,Ftl1,Bnip3,Herpud1,Ubash3b,Ccr1	0.0409023556398125
+BP	GO:0002704	negative regulation of leukocyte mediated immunity	Lilrb4a,Havcr2,Lgals9,Cd300a,Ifnb1,Ceacam1,Il4i1	0.0413743584744392
+CC	GO:0101031	chaperone complex	Cct4,Cct5,Hsf1,Cct8,Tcp1,Hsp90ab1,Stip1,Cct3,Cct7,Hspa8	2.75917216934594E-06
+CC	GO:0005832	chaperonin-containing T-complex	Cct4,Cct5,Cct8,Tcp1,Cct3,Cct7	9.44010596730927E-06
+CC	GO:0043209	myelin sheath	Hspd1,Glul,Ubb,Gfap,Cct5,Tuba1a,Tcp1,Stip1,Actr1a,Gsto1,Hspa5,Cct3,Phgdh,Eno1,Cycs,Hspa8,Rdx,Gdi1	0.000677239027063423
+CC	GO:0002199	zona pellucida receptor complex	Cct4,Cct8,Tcp1,Cct3	0.0091323354451739
+CC	GO:0072546	EMC complex	Emc2,Emc4,Emc1,Mmgt1	0.0091323354451739
+CC	GO:0090575	RNA polymerase II transcription regulator complex	Tcea1,Ddit3,Xbp1,Med11,Hlf,Myc,Crebbp,Gtf2f1,Tcf4,Tcf7l2,Med22,Hltf,Rfx5,Lmo4,Trrap,Dbp,Nono	0.0091323354451739
+CC	GO:0016234	inclusion body	Tpr,Psen1,Pabpn1,Hsp90ab1,Nxf1,Nbn,Psmc4,Picalm,Herpud1	0.0091323354451739
+CC	GO:0042405	nuclear inclusion body	Tpr,Pabpn1,Nxf1,Nbn	0.0117487552918948
+CC	GO:0005775	vacuolar lumen	Naglu,Gaa,Gusb,Hspa8,Hexa	0.0117487552918948
+CC	GO:0016607	nuclear speck	Bclaf1,Nsrp1,Hbp1,Srsf5,Acin1,Nrip1,Srsf3,U2af1,Akap8l,Cdc5l,Nxf1,Lpxn,Ppig,Dgkz,Sf3a3,Thrap3,Syf2,Srsf10,Srpk2,Fam76b	0.0117487552918948
+CC	GO:0044754	autolysosome	Gaa,Pik3c3,Ftl1,Map1lc3b	0.0118865304348039
+CC	GO:0019867	outer membrane	Abcb6,Ltc4s,Ubb,Sarm1,Rhot1,Akap1,Psen1,Synj2,Eno1,Retsat,Tigar,Bax,Ppp1r15a,Bnip3	0.0144916256604795
+CC	GO:0031968	organelle outer membrane	Abcb6,Ltc4s,Ubb,Sarm1,Rhot1,Akap1,Psen1,Synj2,Eno1,Retsat,Tigar,Bax,Ppp1r15a,Bnip3	0.0144916256604795
+CC	GO:0005767	secondary lysosome	Gaa,Pik3c3,Ftl1,Map1lc3b	0.026370817842239
+CC	GO:0005925	focal adhesion	Dst,Il1rl1,Srp68,Itgb7,Itgb5,Lpxn,Arl14ep,Hck,Usp33,Vasp,Pak1,Rdx	0.0281991096447641
+CC	GO:0005874	microtubule	Dst,Katna1,Cct4,Sarm1,Cct5,Kif21a,Tuba1a,Cct8,Synj2,Tcp1,Haus1,Eml3,Odf2,Snph,Cct3,Bod1l,Cct7,Fkbp4,Apoe,Tubgcp2,Map1lc3b,Hspa8	0.0281991096447641
+CC	GO:0072686	mitotic spindle	Tmem9,Tpr,Katna1,Ncor1,Cd180,Hsf1,Haus1,Eml3,Smc3,Cntrl,Nup62,Sgf29	0.0281991096447641
+CC	GO:0005640	nuclear outer membrane	Ltc4s,Psen1,Eno1,Retsat	0.0281991096447641
+CC	GO:0043202	lysosomal lumen	Naglu,Gusb,Hspa8,Hexa	0.0281991096447641
+CC	GO:0016363	nuclear matrix	Morc2a,Smarce1,Akap8l,Hnrnpm,Smc3,Ppig,Hltf,Brd7,Nono	0.0281991096447641
+CC	GO:0034399	nuclear periphery	Tpr,Morc2a,Smarce1,Akap8l,Hnrnpm,Smc3,Ppig,Hltf,Brd7,Nono	0.0333520248424012
+CC	GO:0005635	nuclear envelope	Dst,Unc50,Tpr,Cacybp,Ccar1,Ltc4s,Tmc6,Pum2,Psen1,Nxf1,Tmem109,Gsto1,Eno1,Osbpl3,Retsat,Apoe,Nup62,Bax,Pak1,Bnip3,Agpat5	0.0345509633568623
+CC	GO:0071013	catalytic step 2 spliceosome	Ddx41,Hnrnpk,Ppil2,U2af1,Hnrnpm,Cdc5l,Sf3a3,Syf2	0.0358787628407103
+CC	GO:0030055	cell-substrate junction	Dst,Il1rl1,Srp68,Itgb7,Itgb5,Lpxn,Arl14ep,Hck,Usp33,Vasp,Pak1,Rdx	0.0370379741720127
+MF	GO:0016887	ATP hydrolysis activity	Hspd1,Abcb6,Katna1,Morc2a,Cct4,Cct5,Atad2,Kif21a,Nubp1,Abcc1,Eif4a2,Cct8,Tcp1,Hsp90ab1,Msh2,Carns1,Entpd1,Smc3,Hspa5,Cct3,Cct7,Psmc4,Abcb10,Hspa8	1.09068820129436E-05
+MF	GO:0044183	protein folding chaperone	Cct4,Cct5,Cct8,Tcp1,Hsp90ab1,Hspa5,Cct3,Dnajb6,Cct7,Hspa8	1.09068820129436E-05
+MF	GO:0031072	heat shock protein binding	Tpr,Ahsa2,Dnajb9,Ahsa1,Hnrnpk,Hsf1,Fkbp5,Hsp90ab1,Stip1,Hspa5,Dnajc10,Dnajb6,Fkbp4,Nup62,Bax,Chordc1,Hspa8	1.20346897895884E-05
+MF	GO:0051082	unfolded protein binding	Cct4,Tbce,Cct5,Cct8,Tcp1,Hsp90ab1,Hspa5,Cct3,Srsf10,Dnajb6,Cct7,Hspa8	0.000349539410064368
+MF	GO:0003712	transcription coregulator activity	Nucks1,Bclaf1,Ccar1,Ewsr1,Ncor1,Gps2,Med11,Zzef1,Zmiz1,Ccar2,Crebbp,Nrip1,Tcf4,Lpxn,Med22,Rbck1,Lmo4,Thrap3,Eno1,Ski,Psmd9,Trrap,Trim5,Trim12a,Fus,Ccnd1,Ccdc124,Brd7,Irf2bp2	0.00102178160535887
+MF	GO:0031625	ubiquitin protein ligase binding	Hspd1,Cacybp,Traf5,Xbp1,Ube2b,Ubb,Myc,Tcp1,Hsp90ab1,Fzd8,Hspa5,Hltf,Fbxw7,Per3,Ski,Cul1,Map1lc3b,Ubash3b,Hspa8,Usp2	0.00611057509933156
+MF	GO:0003713	transcription coactivator activity	Nucks1,Ccar1,Gps2,Zzef1,Zmiz1,Ccar2,Crebbp,Nrip1,Rbck1,Lmo4,Thrap3,Psmd9,Trrap,Trim5,Trim12a,Fus,Ccdc124,Brd7	0.00611057509933156
+MF	GO:0044389	ubiquitin-like protein ligase binding	Hspd1,Cacybp,Traf5,Xbp1,Ube2b,Ubb,Myc,Tcp1,Hsp90ab1,Fzd8,Hspa5,Hltf,Fbxw7,Per3,Ski,Cul1,Map1lc3b,Ubash3b,Hspa8,Usp2	0.0107009968974022
+MF	GO:0060090	molecular adaptor activity	Mlph,Pex3,Sarm1,Akap1,Blnk,Nolc1,Vti1a,Vps18,Snap23,Fbxw7,Dlgap3,Akap9,Iscu,Sh2b2,Cul1,Nup62,Trim5,Trim12a,Herpud1,Hspa8,Gab3	0.0135980335540897
+MF	GO:0051087	chaperone binding	Hspd1,Ahsa2,Dnajb9,Ahsa1,Slc25a17,Stip1,Dnajc10,Dnajb6,Bax,Hspa8	0.0186428898998425
+MF	GO:0001091	RNA polymerase II general transcription initiation factor binding	Crebbp,Gtf2f1,Tcf4,Nolc1,Ercc1	0.0186428898998425
+MF	GO:0032977	membrane insertase activity	Emc2,Emc4,Emc1,Mmgt1	0.0217101421208454
+MF	GO:0140597	protein carrier chaperone	Emc2,Emc4,Emc1,Mmgt1	0.0335966746311138
+MF	GO:0051020	GTPase binding	Dock10,Mlph,Mical1,Ipo4,Mycbp2,Ralbp1,Odf2,Rin2,Usp33,Eno1,Hps4,Coro1c,Git2,Arhgdib,Picalm,Pak1,Bnip3,Gdi1	0.03616259636254

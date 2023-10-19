@@ -1,0 +1,189 @@
+Category	ID	Term	Genes	adj_pval
+BP	GO:0048709	oligodendrocyte differentiation	Cntn2,Kcnj10,Aspa,Omg,Cnp,Tppp,Clu,Enpp2,Sox10,Cntn1,Olig1,Sox8,Il33,Opalin,Mal,Tspan2,Hes5,Mag,Fa2h,Plp1	1.42790271103467E-15
+BP	GO:0010001	glial cell differentiation	Cntn2,Kcnj10,Ifngr1,Aspa,Omg,Nr1d1,Cnp,Tppp,Clu,Enpp2,Sox10,Cntn1,Nrros,Olig1,Sox8,Il33,Opalin,Mal,Tspan2,Plpp3,Hes5,Mag,Fa2h,Cspg5,Plp1	2.44104298580787E-14
+BP	GO:0021782	glial cell development	Cntn2,Kcnj10,Ifngr1,Omg,Nr1d1,Tppp,Clu,Sox10,Cntn1,Nrros,Olig1,Mal,Tspan2,Hes5,Mag,Fa2h,Cspg5,Plp1	2.78515330661672E-13
+BP	GO:0014003	oligodendrocyte development	Cntn2,Kcnj10,Omg,Tppp,Clu,Sox10,Cntn1,Olig1,Mal,Hes5,Mag,Fa2h,Plp1	8.65777870228757E-13
+BP	GO:0022010	central nervous system myelination	Cntn2,Kcnj10,Omg,Clu,Sox10,Cntn1,Mal,Hes5,Mag,Fa2h,Plp1	1.28880843789098E-12
+BP	GO:0032291	axon ensheathment in central nervous system	Cntn2,Kcnj10,Omg,Clu,Sox10,Cntn1,Mal,Hes5,Mag,Fa2h,Plp1	1.28880843789098E-12
+BP	GO:0042063	gliogenesis	Cntn2,Kcnj10,Ifngr1,Aspa,Omg,Nr1d1,Cnp,Tppp,Clu,Enpp2,Myc,Sox10,Cntn1,Nrros,Olig1,Sox8,Il33,Opalin,Mal,Tspan2,Plpp3,Hes5,Mag,Fa2h,Cspg5,Plp1	1.90203213736915E-12
+BP	GO:0007272	ensheathment of neurons	Cntn2,Kcnj10,Omg,Tppp,Clu,Sox10,Cntn1,Mal,Cldn11,Tspan2,Ugt8a,Hes5,Mag,Pllp,Fa2h,Plp1	9.58949569093366E-09
+BP	GO:0008366	axon ensheathment	Cntn2,Kcnj10,Omg,Tppp,Clu,Sox10,Cntn1,Mal,Cldn11,Tspan2,Ugt8a,Hes5,Mag,Pllp,Fa2h,Plp1	9.58949569093366E-09
+BP	GO:0042552	myelination	Cntn2,Kcnj10,Omg,Tppp,Clu,Sox10,Cntn1,Mal,Tspan2,Ugt8a,Hes5,Mag,Pllp,Fa2h,Plp1	7.68264888723188E-08
+BP	GO:0050808	synapse organization	Fzd5,Cntn2,Ank3,Nrxn1,Prnp,Nlgn1,Pfn2,Glrb,Bcan,Ptprd,Ptprf,Ctnna2,Lrrn1,Slc6a1,Eef2k,Sez6l2,Fgfr2,Gpm6a,Rab39b,Pak3	4.05057744161205E-05
+BP	GO:0048708	astrocyte differentiation	Cntn2,Ifngr1,Nr1d1,Sox8,Tspan2,Plpp3,Hes5,Mag,Plp1	5.34234188731136E-05
+BP	GO:0051962	positive regulation of nervous system development	Nap1l1,Aspa,Enpp2,Myc,Sox10,Sox8,Nrxn1,Il33,Nlgn1,Ptprd,Ptprf,Gper1,Lrrn1,Mag,Eef2k,Pak3	0.000228567023664862
+BP	GO:0097090	presynaptic membrane organization	Cntn2,Nrxn1,Nlgn1,Ptprd	0.000589457735181164
+BP	GO:0099612	protein localization to axon	Cntn2,Ank3,Mal,Ugt8a	0.000589457735181164
+BP	GO:0031644	regulation of nervous system process	Adora1,Kcnj10,Tppp,Ednrb,Sox10,Nrxn1,Il33,Nlgn1,Grm3,Mag,Ncam1	0.000589457735181164
+BP	GO:0032228	regulation of synaptic transmission, GABAergic	Adora1,Nrxn1,Car2,Nlgn1,Cnr1,Slc6a1	0.000746057028624427
+BP	GO:0050767	regulation of neurogenesis	Nap1l1,Efnb3,Aspa,Nr1d1,Enpp2,Myc,Sox10,Sox8,Ctnna1,Il33,Ptprd,Ptprf,Hes5,Gper1,Mag,Eef2k,Pak3	0.000797842411386361
+BP	GO:0045685	regulation of glial cell differentiation	Cntn2,Aspa,Nr1d1,Enpp2,Il33,Opalin,Hes5,Mag	0.000835822984822222
+BP	GO:0006457	protein folding	Clu,Ppil2,Fkbp5,Hspa1a,Cdc37l1,Ppid,Dnaja1,Hsph1,Dnajb1,Cryab	0.00100738011700037
+BP	GO:0010720	positive regulation of cell development	Nap1l1,Aspa,Fermt2,Enpp2,Myc,Sox10,Sox8,Il33,Ptprd,Ptprf,Gper1,Mag,Eef2k,Cspg5,Pak3	0.00117168695477236
+BP	GO:0014013	regulation of gliogenesis	Aspa,Nr1d1,Enpp2,Myc,Sox10,Sox8,Il33,Hes5,Mag	0.00128680321647327
+BP	GO:0021700	developmental maturation	Fzd5,Ptprn,Cntn2,Gja1,Ank3,Ednrb,Sox10,Sox8,Nrxn1,Nlgn1,Bcan,Hes5,Sez6l2,Bfsp2	0.00142504066385614
+BP	GO:0050769	positive regulation of neurogenesis	Nap1l1,Aspa,Enpp2,Myc,Sox10,Sox8,Il33,Ptprd,Ptprf,Gper1,Mag,Eef2k,Pak3	0.00165634403943954
+BP	GO:0051930	regulation of sensory perception of pain	Adora1,Kcnj10,Ednrb,Il33,Grm3,Ncam1	0.00217862314287428
+BP	GO:0051931	regulation of sensory perception	Adora1,Kcnj10,Ednrb,Il33,Grm3,Ncam1	0.00228358197016289
+BP	GO:0031589	cell-substrate adhesion	Tmeff2,Cntn2,Epdr1,Spock1,Edil3,Fermt2,Enpp2,Apod,Ddr1,Fermt3,Itga6,Bcan,Tmem8b,Cspg5	0.00228358197016289
+BP	GO:0018212	peptidyl-tyrosine modification	Adora1,Enpp2,Cntn1,Ddr1,Prnp,Hck,Il6ra,Plpp3,Hes5,Tpst2,Gprc5b,Fgfr2,Clk3	0.0024403150308427
+BP	GO:0010769	regulation of cell morphogenesis involved in differentiation	Cntn2,Fermt2,Enpp2,Ptprd,Ptprf,Eef2k,Cspg5,Pak3	0.00253620395869667
+BP	GO:0014015	positive regulation of gliogenesis	Aspa,Enpp2,Myc,Sox10,Sox8,Il33,Mag	0.0025607225606036
+BP	GO:0044091	membrane biogenesis	Ank3,Nrxn1,Nlgn1,Syt11,Ptprd,Clip3	0.0029081845524017
+BP	GO:0031346	positive regulation of cell projection organization	Enpp2,Cntn1,Nrxn1,Itga6,Nlgn1,Cnr1,Ptprd,Ptprf,Espn,Ccp110,Gprc5b,Eef2k,Gpm6a,Fez1,Pak3	0.00315829900315922
+BP	GO:0061077	chaperone-mediated protein folding	Clu,Fkbp5,Hspa1a,Ppid,Hsph1,Dnajb1	0.00361461044463643
+BP	GO:0051932	synaptic transmission, GABAergic	Adora1,Nrxn1,Car2,Nlgn1,Cnr1,Slc6a1	0.00419323901853286
+BP	GO:0001774	microglial cell activation	Ifngr1,Nr1d1,Clu,Il33,Syt11	0.00453768997375798
+BP	GO:0031345	negative regulation of cell projection organization	Efnb3,Spock1,Nrxn1,Prnp,Nlgn1,Pfn2,Ptprf,Cd38,Mag,Ccp110	0.00457512372006509
+BP	GO:0048469	cell maturation	Fzd5,Cntn2,Gja1,Ank3,Ednrb,Sox10,Sox8,Nrxn1,Hes5,Bfsp2	0.00457512372006509
+BP	GO:0010770	positive regulation of cell morphogenesis involved in differentiation	Fermt2,Enpp2,Ptprd,Ptprf,Eef2k,Cspg5,Pak3	0.00533920980451613
+BP	GO:0050795	regulation of behavior	Adora1,Gja1,Nr1d1,Nrxn1,Ptgds,Nlgn1,Cnr1	0.00589928900623064
+BP	GO:0043254	regulation of protein-containing complex assembly	Tppp,Fermt2,Clu,Slain1,Tubb4a,Gsn,Hck,Pfn2,Clip3,Bax,Tppp3,Ncam1,Cryab,Pak3	0.00591209422987884
+BP	GO:0002269	leukocyte activation involved in inflammatory response	Ifngr1,Nr1d1,Clu,Il33,Syt11	0.0061094939090157
+BP	GO:0032288	myelin assembly	Tppp,Cntn1,Ugt8a,Mag	0.00614775542607864
+BP	GO:1901888	regulation of cell junction assembly	Fzd5,Gja1,Fermt2,Enpp2,Apod,Nrxn1,Nlgn1,Ptprd,Lrrn1,Eef2k	0.00624755700390394
+BP	GO:0018108	peptidyl-tyrosine phosphorylation	Adora1,Enpp2,Cntn1,Ddr1,Prnp,Hck,Il6ra,Plpp3,Hes5,Gprc5b,Fgfr2,Clk3	0.00642985002130457
+BP	GO:0007160	cell-matrix adhesion	Cntn2,Epdr1,Fermt2,Enpp2,Apod,Ddr1,Fermt3,Itga6,Bcan,Tmem8b	0.00743375429133019
+BP	GO:0061900	glial cell activation	Ifngr1,Nr1d1,Clu,Il33,Syt11	0.00744465878222213
+BP	GO:0099175	regulation of postsynapse organization	Nrxn1,Prnp,Nlgn1,Ptprd,Ptprf,Eef2k,Pak3	0.00771090414209967
+BP	GO:1905477	positive regulation of protein localization to membrane	Ank3,Nrxn1,Tnfaip6,Prnp,Gper1,Clip3,Pls1	0.00771090414209967
+BP	GO:0099545	trans-synaptic signaling by trans-synaptic complex	Efnb3,Nlgn1,Ptprd	0.00898233174557017
+BP	GO:0034329	cell junction assembly	Fzd5,Gja1,Fermt2,Enpp2,Apod,Nrxn1,Ctnna1,Nlgn1,Cldn11,Ugt8a,Ptprd,Lrrn1,Eef2k,Gpm6a	0.00920361437977958
+BP	GO:2000310	regulation of NMDA receptor activity	Ifngr1,Nrxn1,Nlgn1,Slc6a9	0.00937883985231093
+BP	GO:2001235	positive regulation of apoptotic signaling pathway	Unc5b,Clu,Myc,Ctnna1,Mal,Gper1,Dedd2,Bax	0.00937883985231093
+BP	GO:0045664	regulation of neuron differentiation	Cntn2,Ednrb,Sox8,Hspa1a,Nlgn1,Hes5,Mmd2,Mag,Gprc5b,Fez1	0.0101978479680519
+BP	GO:0071709	membrane assembly	Ank3,Nrxn1,Nlgn1,Syt11,Ptprd	0.0101978479680519
+BP	GO:0042749	regulation of circadian sleep/wake cycle	Adora1,Nr1d1,Ptgds,Nlgn1	0.0113394785777289
+BP	GO:0031109	microtubule polymerization or depolymerization	Tppp,Stmn4,Slain1,Tubb4a,Clip3,Tppp3,Cryab	0.0113394785777289
+BP	GO:0048713	regulation of oligodendrocyte differentiation	Aspa,Enpp2,Il33,Opalin,Hes5	0.0124147861775273
+BP	GO:0031647	regulation of protein stability	Nr1d1,Clu,Cdc37l1,Gsn,Prnp,Pfn2,Plpp3,Hps4,Insc,Bag3,Cryab	0.0124147861775273
+BP	GO:0042391	regulation of membrane potential	Adora1,Kcnj10,Gja1,Ank3,Kcnh6,Myc,Slc25a27,Nrxn1,Nlgn1,Pex5l,Ppid,Glrb,Cnr1,Bax	0.0125244704386237
+BP	GO:0099550	trans-synaptic signaling, modulating synaptic transmission	Efnb3,Cnr1,Cspg5	0.0125244704386237
+BP	GO:1901890	positive regulation of cell junction assembly	Fermt2,Enpp2,Nrxn1,Nlgn1,Ptprd,Lrrn1,Eef2k	0.0133686964038612
+BP	GO:0051258	protein polymerization	Gas7,Tppp,Slain1,Tubb4a,Gsn,Ube2c,Pfn2,Clip3,Tppp3,Pak3	0.0144584536047608
+BP	GO:2001238	positive regulation of extrinsic apoptotic signaling pathway	Unc5b,Ctnna1,Mal,Gper1,Dedd2	0.0144584536047608
+BP	GO:0060074	synapse maturation	Nrxn1,Nlgn1,Bcan,Sez6l2	0.0144584536047608
+BP	GO:0007626	locomotory behavior	Cntn2,Kcnj10,Efnb3,Cnp,Cntn1,Glrb,Espn,Gpr37,Gprc5b,Sez6l2	0.0150780758408189
+BP	GO:1902904	negative regulation of supramolecular fiber organization	Tmeff2,Clu,Tubb4a,Gsn,Pfn2,Ctnna2,Clip3,Cryab	0.0150780758408189
+BP	GO:0050807	regulation of synapse organization	Nrxn1,Prnp,Nlgn1,Ptprd,Ptprf,Ctnna2,Lrrn1,Eef2k,Gpm6a,Pak3	0.0150780758408189
+BP	GO:0014002	astrocyte development	Ifngr1,Nr1d1,Tspan2,Plp1	0.0150780758408189
+BP	GO:0099560	synaptic membrane adhesion	Nrxn1,Nlgn1,Ptprd,Ptprf	0.0150780758408189
+BP	GO:1903078	positive regulation of protein localization to plasma membrane	Nrxn1,Prnp,Gper1,Clip3,Pls1	0.0164693248270696
+BP	GO:1903829	positive regulation of protein localization	Gja1,Ank3,Fermt2,Nrxn1,Tnfaip6,Prnp,Nlgn1,Ppid,Syt11,Cd38,Gper1,Clip3,Bag3,Pls1	0.0174506929558249
+BP	GO:0050803	regulation of synapse structure or activity	Nrxn1,Prnp,Nlgn1,Ptprd,Ptprf,Ctnna2,Lrrn1,Eef2k,Gpm6a,Pak3	0.0175750500323847
+BP	GO:0010976	positive regulation of neuron projection development	Cntn1,Nrxn1,Itga6,Nlgn1,Cnr1,Gprc5b,Eef2k,Fez1,Pak3	0.0175750500323847
+BP	GO:0048710	regulation of astrocyte differentiation	Cntn2,Nr1d1,Hes5,Mag	0.0175750500323847
+BP	GO:0007409	axonogenesis	Cntn2,Unc5b,Ank3,Efnb3,Omg,Cnp,Cntn1,Dclk1,Ctnna2,Aplp1,Mag,Fgfr2,Ncam1,Pak3	0.0182915638686558
+BP	GO:0042745	circadian sleep/wake cycle	Adora1,Nr1d1,Ptgds,Nlgn1	0.01903449490154
+BP	GO:0150076	neuroinflammatory response	Ifngr1,Nr1d1,Clu,Il33,Syt11	0.0200069445904798
+BP	GO:0022604	regulation of cell morphogenesis	Cntn2,Gas7,Fermt2,Enpp2,Ermn,Hck,Ptprd,Ptprf,Eef2k,Cspg5,Pak3	0.0211488743122746
+BP	GO:1904377	positive regulation of protein localization to cell periphery	Nrxn1,Prnp,Gper1,Clip3,Pls1	0.0235482663291442
+BP	GO:0019233	sensory perception of pain	Adora1,Kcnj10,Ednrb,Il33,Cnr1,Grm3,Ncam1	0.0235482663291442
+BP	GO:0050731	positive regulation of peptidyl-tyrosine phosphorylation	Adora1,Enpp2,Cntn1,Prnp,Il6ra,Plpp3,Hes5,Gprc5b	0.0235482663291442
+BP	GO:0097191	extrinsic apoptotic signaling pathway	Unc5b,Ctnna1,Il33,Itga6,Mal,Gper1,Dedd2,Bax,Bag3	0.0235482663291442
+BP	GO:1900181	negative regulation of protein localization to nucleus	Apod,Ctnna1,Pkig,Dclk1	0.0235482663291442
+BP	GO:0071695	anatomical structure maturation	Fzd5,Cntn2,Gja1,Ank3,Ednrb,Sox10,Sox8,Nrxn1,Hes5,Bfsp2	0.0240312628888589
+BP	GO:2001257	regulation of cation channel activity	Ifngr1,Ank3,Nrxn1,Nlgn1,Gstm7,Slc6a9,Gper1,P2ry6	0.0252839074034788
+BP	GO:0006633	fatty acid biosynthetic process	Scd2,Ptgds,Gstm7,Prkab1,Fa2h,Elovl4,Plp1	0.0257989139655491
+BP	GO:1900180	regulation of protein localization to nucleus	Fermt2,Apod,Ctnna1,Pkig,Dclk1,Gper1,Bag3	0.0257989139655491
+BP	GO:0048678	response to axon injury	Omg,Matn4,Ptprf,Mag,Bax	0.0260863004156966
+BP	GO:0048484	enteric nervous system development	Ednrb,Sox10,Sox8	0.0271577576580548
+BP	GO:0046847	filopodium assembly	Nrxn1,Itga6,Nlgn1,Espn,Gpm6a	0.0271577576580548
+BP	GO:0008344	adult locomotory behavior	Cntn2,Kcnj10,Efnb3,Cnp,Glrb,Sez6l2	0.0274153842542541
+BP	GO:0032271	regulation of protein polymerization	Tppp,Slain1,Tubb4a,Gsn,Pfn2,Clip3,Tppp3,Pak3	0.0274153842542541
+BP	GO:0022898	regulation of transmembrane transporter activity	Ifngr1,Gja1,Ank3,Nrxn1,Prnp,Nlgn1,Gstm7,Slc6a9,Gper1,P2ry6	0.0274153842542541
+BP	GO:0051281	positive regulation of release of sequestered calcium ion into cytosol	Gstm7,Gper1,Bax,P2ry6	0.0274153842542541
+BP	GO:0098656	anion transmembrane transport	Kcnj10,Myc,Mpc1,Prnp,Glrb,Slc35a1,Slc6a9,Slc6a1	0.0276362469594679
+BP	GO:1905475	regulation of protein localization to membrane	Ank3,Nrxn1,Gsn,Tnfaip6,Prnp,Gper1,Clip3,Pls1	0.0281115170035863
+BP	GO:0007009	plasma membrane organization	Tmeff2,Ank3,Clu,Gsn,Syt11,Tpst2,Fa2h	0.0281115170035863
+BP	GO:0007422	peripheral nervous system development	Ednrb,Sox10,Sox8,Hapln2,Fa2h	0.0281911850979715
+BP	GO:0032230	positive regulation of synaptic transmission, GABAergic	Nrxn1,Car2,Nlgn1	0.028702251511244
+BP	GO:0043113	receptor clustering	Nrxn1,Gsn,Tnfaip6,Nlgn1,Glrb	0.0291201110463151
+BP	GO:0070507	regulation of microtubule cytoskeleton organization	Tppp,Stmn4,Slain1,Hspa1a,Tubb4a,Hsph1,Clip3	0.0291201110463151
+BP	GO:0072330	monocarboxylic acid biosynthetic process	Nr1d1,Scd2,Ptgds,Gstm7,Prkab1,Fa2h,Elovl4,Plp1	0.0302343536485882
+BP	GO:0099173	postsynapse organization	Nrxn1,Prnp,Nlgn1,Glrb,Ptprd,Ptprf,Eef2k,Pak3	0.0318861405445227
+BP	GO:0002686	negative regulation of leukocyte migration	Adora1,Apod,Il33,Tnfaip6	0.0319935490176488
+BP	GO:0046785	microtubule polymerization	Tppp,Slain1,Tubb4a,Clip3,Tppp3	0.0332472034198844
+BP	GO:0007628	adult walking behavior	Cntn2,Kcnj10,Efnb3,Glrb	0.0333690930169252
+BP	GO:0010332	response to gamma radiation	Pnp,Myc,Bax,Cryab	0.0333690930169252
+BP	GO:0032409	regulation of transporter activity	Ifngr1,Gja1,Ank3,Nrxn1,Prnp,Nlgn1,Gstm7,Slc6a9,Gper1,P2ry6	0.0333690930169252
+BP	GO:0009636	response to toxic substance	Prdx6,Ddc,Cnp,Gstm7,Slc6a1,Bax	0.0333690930169252
+BP	GO:0051965	positive regulation of synapse assembly	Nrxn1,Nlgn1,Ptprd,Lrrn1,Eef2k	0.033574819681289
+BP	GO:0072578	neurotransmitter-gated ion channel clustering	Nrxn1,Nlgn1,Glrb	0.0340282524132309
+BP	GO:1902903	regulation of supramolecular fiber organization	Tmeff2,Fermt2,Clu,Slain1,Tubb4a,Gsn,Pfn2,Ctnna2,Clip3,Cryab,Pak3	0.0340282524132309
+BP	GO:0033002	muscle cell proliferation	Gja1,Myc,Apod,Il6ra,Hes5,Gper1,P2ry6,Fgfr2,Ncam1	0.0340282524132309
+BP	GO:0002673	regulation of acute inflammatory response	Adora1,Fcgr3,Ednrb,Cnr1	0.0342539261145625
+BP	GO:0034764	positive regulation of transmembrane transport	Ifngr1,Ank3,Car2,Gstm7,Gper1,Clip3,Bax,P2ry6,Plp1	0.0361914009235505
+BP	GO:0000413	protein peptidyl-prolyl isomerization	Ppil2,Fkbp5,Ppid	0.0368883673266725
+BP	GO:0031643	positive regulation of myelination	Tppp,Sox10,Mag	0.0368883673266725
+BP	GO:0051494	negative regulation of cytoskeleton organization	Tmeff2,Tubb4a,Gsn,Pfn2,Espn,Ctnna2,Clip3	0.0376199538104557
+BP	GO:0071248	cellular response to metal ion	Kcnj10,Ank3,Nrxn1,Gsn,Prnp,Nlgn1,Syt11	0.0376199538104557
+BP	GO:0090659	walking behavior	Cntn2,Kcnj10,Efnb3,Glrb	0.0376199538104557
+BP	GO:0034109	homotypic cell-cell adhesion	Ank3,Fermt3,Il6ra,Plpp3,Ncam1	0.0376199538104557
+BP	GO:0051966	regulation of synaptic transmission, glutamatergic	Adora1,Nrxn1,Nlgn1,Cnr1,Grm3	0.0376199538104557
+BP	GO:0042026	protein refolding	Hspa1a,Dnaja1,Cryab	0.038866330923974
+BP	GO:1990000	amyloid fibril formation	Clu,Gsn,Cryab	0.038866330923974
+BP	GO:0008038	neuron recognition	Cntn2,Efnb3,Cnr1,Ncam1	0.038866330923974
+BP	GO:0048066	developmental pigmentation	Ednrb,Sox10,Hps4,Bax	0.038866330923974
+CC	GO:0043209	myelin sheath	Cntn2,Omg,Cnp,Tppp,Cntn1,Mog,Tubb4a,Gsn,Ermn,Car2,Cldn11,Tspan2,Mag,Pllp,Ncam1,Cryab,Plp1	1.40183416970472E-08
+CC	GO:0097060	synaptic membrane	Cntn2,Adora1,Ank3,Efnb3,Cntn1,Nrxn1,Nlgn1,Glrb,Syt11,Cnr1,Ptprd,Slc6a9,Ptprf,Grm3,Gper1,Ctnna2,Slc6a1,Gpm6a,Ncam1,Cryab,Cspg5	1.65820870945223E-06
+CC	GO:0042734	presynaptic membrane	Adora1,Efnb3,Cntn1,Nrxn1,Syt11,Cnr1,Ptprd,Slc6a9,Grm3,Gper1,Ctnna2,Slc6a1,Gpm6a,Ncam1	1.65820870945223E-06
+CC	GO:0099240	intrinsic component of synaptic membrane	Cntn2,Efnb3,Cntn1,Nrxn1,Nlgn1,Syt11,Cnr1,Ptprd,Slc6a9,Ptprf,Grm3,Slc6a1,Gpm6a,Ncam1,Cspg5	2.64279848417089E-06
+CC	GO:0098889	intrinsic component of presynaptic membrane	Efnb3,Cntn1,Nrxn1,Syt11,Cnr1,Ptprd,Slc6a9,Grm3,Slc6a1,Gpm6a,Ncam1	4.67335091919515E-06
+CC	GO:0044304	main axon	Cntn2,Adora1,Ank3,Spock1,Tubb4a,Ermn,Bcan,Hapln2,Mag	6.42741233487738E-06
+CC	GO:0099056	integral component of presynaptic membrane	Efnb3,Nrxn1,Syt11,Cnr1,Ptprd,Slc6a9,Grm3,Slc6a1,Gpm6a,Ncam1	1.15737512561266E-05
+CC	GO:0098984	neuron to neuron synapse	Adora1,Ifngr1,Anks1b,Efnb3,Nrxn1,Prnp,Nlgn1,Dclk1,Syt11,Ptprd,Slc6a9,Ptprf,Grm3,Gper1,Ctnna2,Eef2k,Cryab,Pak3	1.84528058896373E-05
+CC	GO:0099699	integral component of synaptic membrane	Efnb3,Nrxn1,Nlgn1,Syt11,Cnr1,Ptprd,Slc6a9,Ptprf,Grm3,Slc6a1,Gpm6a,Ncam1,Cspg5	1.84528058896373E-05
+CC	GO:0033268	node of Ranvier	Cntn2,Ank3,Spock1,Bcan,Hapln2	2.12108507377903E-05
+CC	GO:0045211	postsynaptic membrane	Cntn2,Adora1,Ank3,Efnb3,Cntn1,Nlgn1,Glrb,Slc6a9,Ptprf,Grm3,Gper1,Ctnna2,Slc6a1,Ncam1,Cspg5	3.32414945772923E-05
+CC	GO:0150034	distal axon	Ptprn,Adora1,Clu,Pcdh9,Nrxn1,Mapk8ip1,Prnp,Dclk1,Syt11,Cnr1,Ptprf,Gper1,Kcna6,Gpm6a,Fez1,Ncam1	3.561803974007E-05
+CC	GO:0045121	membrane raft	Gja1,Unc5b,Ednrb,Cntn1,Hspa1a,Mog,Ctnna1,Mal,Prnp,Hck,Rgs19,Cnr1,Plpp3,Clip3,Gprc5b,Pllp	4.92069420181089E-05
+CC	GO:0098857	membrane microdomain	Gja1,Unc5b,Ednrb,Cntn1,Hspa1a,Mog,Ctnna1,Mal,Prnp,Hck,Rgs19,Cnr1,Plpp3,Clip3,Gprc5b,Pllp	4.92069420181089E-05
+CC	GO:0098686	hippocampal mossy fiber to CA3 synapse	Anks1b,Efnb3,Ptprd,Slc6a9,Gper1,Ctnna2	0.000178369276838201
+CC	GO:0099572	postsynaptic specialization	Adora1,Ifngr1,Anks1b,Efnb3,Prnp,Nlgn1,Dclk1,Syt11,Slc6a9,Ptprf,Grm3,Gper1,Ctnna2,Eef2k,Cryab,Pak3	0.000178369276838201
+CC	GO:0060076	excitatory synapse	Nrxn1,Nlgn1,Syt11,Slc6a9,Ptprf,Ctnna2,Fgfr2	0.000215510104394266
+CC	GO:0014069	postsynaptic density	Adora1,Ifngr1,Anks1b,Efnb3,Prnp,Dclk1,Syt11,Slc6a9,Ptprf,Grm3,Gper1,Ctnna2,Eef2k,Cryab,Pak3	0.000222839194706359
+CC	GO:0098936	intrinsic component of postsynaptic membrane	Cntn2,Efnb3,Cntn1,Nlgn1,Slc6a9,Ptprf,Grm3,Slc6a1,Ncam1,Cspg5	0.000231998450175165
+CC	GO:0032279	asymmetric synapse	Adora1,Ifngr1,Anks1b,Efnb3,Prnp,Dclk1,Syt11,Slc6a9,Ptprf,Grm3,Gper1,Ctnna2,Eef2k,Cryab,Pak3	0.000253491823897557
+CC	GO:0016323	basolateral plasma membrane	Adora1,Kcnj10,Ank3,Ddr1,Itga6,Car2,Plpp3,Slc6a9,Cd38,Ctnna2,P2ry6	0.000503253193071425
+CC	GO:0030426	growth cone	Clu,Pcdh9,Nrxn1,Mapk8ip1,Dclk1,Cnr1,Ptprf,Gpm6a,Fez1,Ncam1	0.000517307588341255
+CC	GO:0045178	basal part of cell	Adora1,Kcnj10,Ank3,Ddr1,Itga6,Car2,Cldn11,Plpp3,Slc6a9,Cd38,Ctnna2,P2ry6	0.000633232355386856
+CC	GO:0030427	site of polarized growth	Clu,Pcdh9,Nrxn1,Mapk8ip1,Dclk1,Cnr1,Ptprf,Gpm6a,Fez1,Ncam1	0.000633232355386856
+CC	GO:0048786	presynaptic active zone	Adora1,Nrxn1,Syt11,Grm3,Gper1,Ctnna2,Gpm6a	0.000701768743054332
+CC	GO:0009925	basal plasma membrane	Adora1,Kcnj10,Ank3,Ddr1,Itga6,Car2,Plpp3,Slc6a9,Cd38,Ctnna2,P2ry6	0.00112668470187622
+CC	GO:0098982	GABA-ergic synapse	Nrxn1,Nlgn1,Glrb,Bcan,Cnr1,Slc6a1,Cspg5	0.00113232650337185
+CC	GO:0043197	dendritic spine	Adora1,Nr1d1,Nlgn1,Syt11,Grm3,Gper1,Eef2k,Dnajb1,Cryab	0.0019947573600732
+CC	GO:0044309	neuron spine	Adora1,Nr1d1,Nlgn1,Syt11,Grm3,Gper1,Eef2k,Dnajb1,Cryab	0.00231667957546974
+CC	GO:0099055	integral component of postsynaptic membrane	Efnb3,Nlgn1,Slc6a9,Ptprf,Grm3,Slc6a1,Ncam1,Cspg5	0.00315696664165073
+CC	GO:0033270	paranode region of axon	Ank3,Ermn,Mag	0.0035630275690476
+CC	GO:0098858	actin-based cell projection	Kcnj10,Cnp,Ermn,Car2,Nlgn1,Espn,Gpm6a,Cib2,Pls1	0.00390250695463574
+CC	GO:0015629	actin cytoskeleton	Gas7,Tax1bp3,Fermt2,Ctnna1,Fermt3,Gsn,Hck,Cnr1,Espn,Ctnna2,Bag3,Cryab,Cib2,Pls1	0.00475410365543148
+CC	GO:0098685	Schaffer collateral - CA1 synapse	Anks1b,Nrxn1,Pfn2,Syt11,Ptprd,Ncam1	0.00866430936473761
+CC	GO:0043194	axon initial segment	Cntn2,Ank3,Bcan	0.0147810195550585
+CC	GO:0044291	cell-cell contact zone	Gja1,Ank3,Pcdh9,Ctnna1,Opalin	0.0149826827296573
+CC	GO:0098636	protein complex involved in cell adhesion	Nrxn1,Itga6,Nlgn1,Plp1	0.0165748698433646
+CC	GO:0030055	cell-substrate junction	Fermt2,Fermt3,Gsn,Itga6,Arl14ep,Hck,Cib2	0.0180062554964234
+CC	GO:0060077	inhibitory synapse	Nrxn1,Nlgn1,Syt11	0.0180062554964234
+CC	GO:0099059	integral component of presynaptic active zone membrane	Nrxn1,Syt11,Gpm6a	0.0180062554964234
+CC	GO:0031594	neuromuscular junction	Ank3,Spock1,Nrxn1,Nlgn1,Cib2	0.0209881182755719
+CC	GO:0099025	anchored component of postsynaptic membrane	Cntn2,Cntn1	0.026315087990034
+CC	GO:0098945	intrinsic component of presynaptic active zone membrane	Nrxn1,Syt11,Gpm6a	0.0268578050559247
+CC	GO:0016328	lateral plasma membrane	Gja1,Ank3,Slc6a9,Gjb1	0.0284507258068184
+CC	GO:0044306	neuron projection terminus	Ptprn,Adora1,Prnp,Syt11,Gper1,Kcna6,Scrg1	0.0328102005695662
+MF	GO:0050839	cell adhesion molecule binding	Cntn2,Ank3,Fermt2,Cntn1,Nrxn1,Ctnna1,Fermt3,Itga6,Nlgn1,Ptprd,Plpp3,Ptprf,Ctnna2,Tspan4,Cib2	0.000140870055449007
+MF	GO:0031072	heat shock protein binding	Adora1,Fkbp5,Hspa1a,Cdc37l1,Ppid,Dnaja1,Gpr37,Bax,Dnajb1	0.002296083756329
+MF	GO:0097001	ceramide binding	Epdr1,Laptm4b,Clip3,Mag	0.00356040949923833
+MF	GO:0051082	unfolded protein binding	Clu,Hspa1a,Cdc37l1,Scg5,Dnaja1,Dnajb1,Cryab	0.00356040949923833
+MF	GO:0033218	amide binding	Fzd5,Epdr1,Clu,Ednrb,Laptm4b,Fkbp5,Prnp,Pex5l,Ppid,Gstm7,Gpr37,Clip3,Mag,Cryab	0.00650307482286886
+MF	GO:0044389	ubiquitin-like protein ligase binding	Fzd5,Ptprn,Prdx6,Clu,Laptm4b,Myc,Hspa1a,Ube2c,Syt11,Dnaja1,Gpr37,Cul1	0.00650307482286886
+MF	GO:0019911	structural constituent of myelin sheath	Mal,Pllp,Plp1	0.00656688411487949
+MF	GO:0043208	glycosphingolipid binding	Epdr1,Clip3,Mag	0.00784188657887155
+MF	GO:0001882	nucleoside binding	Adora1,Pnp,Polr2b	0.00897426713246112
+MF	GO:0046625	sphingolipid binding	Epdr1,Laptm4b,Clip3,Mag	0.00897426713246112
+MF	GO:0015631	tubulin binding	Gja1,Tppp,Stmn4,Ncald,Prnp,Syt11,Kif1b,Hsph1,Clip3,Tppp3,Fez1,Cryab	0.0133144901659287
+MF	GO:0005539	glycosaminoglycan binding	Tnfaip6,Prnp,Bcan,Hapln2,Ptprf,Aplp1,Fgfr2,Spock3,Ncam1	0.0138238874665474
+MF	GO:0051087	chaperone binding	Cdc37l1,Prnp,Dnaja1,Bax,Bag3,Dnajb1	0.0223561143423639
+MF	GO:0031625	ubiquitin protein ligase binding	Fzd5,Prdx6,Clu,Laptm4b,Myc,Hspa1a,Syt11,Dnaja1,Gpr37,Cul1	0.0289824337771339
+MF	GO:0030544	Hsp70 protein binding	Dnaja1,Gpr37,Bax,Dnajb1	0.0395275474923174
+MF	GO:0051015	actin filament binding	Gas7,Fermt2,Ctnna1,Gsn,Ermn,Espn,Ctnna2,Pls1	0.0395275474923174
+MF	GO:0005540	hyaluronic acid binding	Tnfaip6,Bcan,Hapln2	0.0410851980436954
