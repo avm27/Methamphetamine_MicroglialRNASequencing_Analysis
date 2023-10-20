@@ -1,6 +1,4 @@
-# Methamphetamine Microglial RNASequencing Analysis
-
-## Microglia contribute to methamphetamine reinforcement and reflect persistent transcriptional and morphological adaptations to the drug
+# Microglia contribute to methamphetamine reinforcement and reflect persistent transcriptional and morphological adaptations to the drug
 
 Samara J. Vilca1,2†, Alexander V. Margetts1-3†, Isabella Fleites1-3, Claes Wahlestedt1-3
 & Luis M. Tuesta1-3*
