@@ -345,9 +345,9 @@ kable((head(results_sig3, 20)), caption = "Significant Abstinence vs Maintenance
 ```
 
 ```{r Write Significant Results to CSV, eval=FALSE, include=FALSE}
-write_csv((as.data.frame(results_sig)), "results/Sig_Res_Maintenace_vs_Saline_Final.csv")
-write_csv((as.data.frame(results_sig2)), "results/Sig_Res_Abstinence_vs_Saline_Final.csv")
-write_csv((as.data.frame(results_sig3)), "results/Sig_Res_Abstinence_vs_Maintenance_Final.csv")
+write_csv((as.data.frame(results_sig)), "output/Sig_Res_Maintenace_vs_Saline_Final.csv")
+write_csv((as.data.frame(results_sig2)), "output/Sig_Res_Abstinence_vs_Saline_Final.csv")
+write_csv((as.data.frame(results_sig3)), "output/Sig_Res_Abstinence_vs_Maintenance_Final.csv")
 ```
 
 ## Visualize Shrinkage Estimations
@@ -854,24 +854,23 @@ ddsMat_rlog <- DESeq2::rlog(dds, blind = FALSE)
 
 # Plot PCA by column variable (dds)
 
-# pdf(file = "plots/PCA_MIVSA_Final.pdf", width = 12, height = 12);
+#pdf(file = "output/PCA_MIVSA_Final.pdf", width = 12, height = 12);
 
-# pcaData2 <- plotPCA(ddsMat_rlog, intgroup = "condition", returnData = TRUE, ntop = 500)
-# pcaData2$condition <- factor(pcaData2$condition, levels = c("Saline", "Maintenance", "Abstinence"))
-# percentVar2 <- round(100 * attr(pcaData2, "percentVar"))
-# ggplot(pcaData2, aes(PC1, PC2, color=condition, label = colnames(dds))) +
+#pcaData2 <- plotPCA(ddsMat_rlog, intgroup = "condition", returnData = TRUE, ntop = 500)
+#pcaData2$condition <- factor(pcaData2$condition, levels = c("Saline", "Maintenance", "Abstinence"))
+#percentVar2 <- round(100 * attr(pcaData2, "percentVar"))
+#ggplot(pcaData2, aes(PC1, PC2, color=condition, label = colnames(dds))) +
 #  theme_bw() + # remove default ggplot2 theme
 #  geom_point(size = 2) + # Increase point size
-# scale_y_continuous(limits = c(-60, 60)) +# change limits to fix figure dimensions
-# scale_x_continuous(limits = c(-80, 50)) +# change limits to fix figure dimensions
-#  xlab(paste0("PC2: ",percentVar2[1],"% variance")) +
-#  ylab(paste0("PC3: ",percentVar2[2],"% variance")) +
+#  scale_y_continuous(limits = c(-60, 60)) +# change limits to fix figure dimensions
+#  scale_x_continuous(limits = c(-80, 50)) +# change limits to fix figure dimensions
+#  xlab(paste0("PC1: ",percentVar2[1],"% variance")) +
+#  ylab(paste0("PC2: ",percentVar2[2],"% variance")) +
 #  ggrepel::geom_label_repel(box.padding = 1, max.overlaps = Inf) +
 #  coord_fixed() +
-#  ggtitle(label = "Principal Component Analysis (PCA)",
-#          subtitle = "All Genes (rlog transformed)")
+#  ggtitle(label = "Principal Component Analysis (PCA)")
 
-# dev.off()
+#dev.off()
 
 
 pcaData2 <- plotPCA(ddsMat_rlog, intgroup = "condition", returnData = TRUE, ntop = 500)
@@ -882,13 +881,12 @@ ggplot(pcaData2, aes(PC1, PC2, color = condition, label = colnames(dds))) +
   geom_point(size = 2) + # Increase point size
   # scale_y_continuous(limits = c(-60, 60)) +# change limits to fix figure dimensions
   # scale_x_continuous(limits = c(-80, 50)) +# change limits to fix figure dimensions
-  xlab(paste0("PC2: ", percentVar2[1], "% variance")) +
-  ylab(paste0("PC3: ", percentVar2[2], "% variance")) +
+  xlab(paste0("PC1: ", percentVar2[1], "% variance")) +
+  ylab(paste0("PC2: ", percentVar2[2], "% variance")) +
   ggrepel::geom_label_repel(box.padding = 1, max.overlaps = Inf) +
   coord_fixed() +
   ggtitle(
-    label = "Principal Component Analysis (PCA)",
-    subtitle = "All Genes (rlog transformed)"
+    label = "Principal Component Analysis (PCA)"
   )
 ```
 
