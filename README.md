@@ -17,4 +17,4 @@ Methamphetamine use disorder (MUD) is a chronic, relapsing disease that is chara
 
 [Manuscript]
 
-[Manuscript]: https:
+[Manuscript]: https://www.sciencedirect.com/science/article/pii/S0889159124004380
